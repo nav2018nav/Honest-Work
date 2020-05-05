@@ -17,21 +17,46 @@
     <div class="col-lg-9 order-lg-2 mb-9 mb-lg-0">
       {{ range .Params.sections}}
       <article class="row mb-7">
+
         {{ if (eq .template "block-heading") }}
         <div class="col-12">
           <h2>{{.heading}}</h2>
         </div>
         {{end}}
+
         {{ if (eq .template "block-text") }}
         <div class="col-12">
           <p>{{.content | markdownify}}</p>
         </div>
         {{end}}
+
         {{ if (eq .template "block-image") }}
         <div class="col-12">
           <img src="{{.image}}" class="img-fluid w-100 rounded" alt="{{.Params.title}}">
         </div>
         {{end}}
+
+        {{ if (eq .template "block-table") }}
+        <div class="col-12 table-responsive">
+          <table class="table table-borderless">
+            <thead>
+              <tr>
+                {{ range $index, $element := .table.header.columns }}
+                <th scope="col">{{.column}}</th>
+                {{end}}
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                {{ range $index, $element := .table.header.columns }}
+                <td>@mdo</td>
+                {{end}}
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        {{end}}
+
         {{ if (eq .template "block-faq") }}
         <div class="col-lg-9">
           <div id="basics" class="u-space-2-bottom">
@@ -67,9 +92,11 @@
           </div>
         </div>
         {{end}}
+
         {{ if (eq .template "block-registration") }}
         <!-- TODO -->
         {{end}}
+
       </article>
       {{ end }}
       <div class="u-space-2-bottom"></div>
