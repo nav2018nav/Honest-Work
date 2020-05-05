@@ -18,6 +18,11 @@ fields:
 - name: rows
   type: field_group_list
   fields:
+  - name: label
+    type: text
+    config:
+      required: false
+    label: Label
   - name: columns
     type: field_group_list
     fields:
@@ -31,11 +36,6 @@ fields:
       max: 
       labelField: column
     label: Columns
-  - name: label
-    type: text
-    config:
-      required: false
-    label: Label
   config:
     min: 
     max: 
