@@ -5,3 +5,8 @@ theme = "honestwork"
 
 [markup.goldmark.renderer]
 unsafe= true
+
+menu:
+  main:
+  - name: about
+    url: /about/
