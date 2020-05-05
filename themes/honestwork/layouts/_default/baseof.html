@@ -1,11 +1,18 @@
 <!DOCTYPE html>
-<html>
-    {{- partial "head.html" . -}}
-    <body>
-        {{- partial "header.html" . -}}
-        <div id="content">
-        {{- block "main" . }}{{- end }}
+<html lang="en">
+{{- partial "head.html" . -}}
+
+<body>
+    <a id="skippy" class="sr-only sr-only-focusable u-skippy" href="#content">
+        <div class="container">
+            <span class="u-skiplink-text">Skip to main content</span>
         </div>
-        {{- partial "footer.html" . -}}
-    </body>
+    </a>
+    {{- partial "header.html" . -}}
+    <main id="content" role="main">
+        {{- block "main" . }}{{- end }}
+    </main>
+    {{- partial "footer.html" . -}}
+</body>
+
 </html>

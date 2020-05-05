@@ -1,0 +1,103 @@
+<footer className="container">
+  <div className="row justify-content-lg-between u-space-1-top u-space-2-bottom">
+    {{ range .Site.Menus.footer }}
+    <div className="col-6 col-sm-4 col-lg-2 mb-7 mb-lg-0" key={n.title}>
+      <h3 className="h6">
+        <strong>{{ .Name }}</strong>
+      </h3>
+      {{ if .HasChildren }}
+      <ul className="list-unstyled u-list">
+        {{ range .Site.Menus.main }}
+        <li>
+          <a href="{{ .URL }}" className="u-list__link">{{ .Name }}</a>
+        </li>
+        {{end}}
+      </ul>
+      {{end}}
+    </div>
+    {{end}}
+    <div className="col-md-7 col-lg-5 mb-4 mb-md-0">
+      <div className="mb-4">
+        <h3 className="h6">
+          <strong>Get latest news in your box!</strong>
+        </h3>
+        <p className="font-size-14">Get special offers and deals. Never spam.</p>
+      </div>
+      <form className="js-validate js-form-message">
+        <div className="js-focus-state input-group u-form">
+          <input type="email" className="form-control u-form__input" name="email" required
+            placeholder="Enter your email address" aria-label="Enter your email address" />
+          <span className="input-group-append u-form__append">
+            <button type="submit" className="btn btn-primary u-btn-primary">Subscribe</button>
+          </span>
+        </div>
+      </form>
+    </div>
+  </div>
+  <hr className="my-0" />
+  <div className="text-center py-7">
+    <p className="small text-muted mb-0">&copy; Honest Work</p>
+  </div>
+</footer>
+
+<a class="js-go-to u-go-to" href="#" data-position='{"bottom": 15, "right": 15 }' data-type="fixed"
+  data-offset-top="400" data-compensation="#header" data-show-effect="slideInUp" data-hide-effect="slideOutDown">
+  <span class="fa fa-arrow-up u-go-to__inner"></span>
+</a>
+
+<script src="/assets/vendor/jquery/dist/jquery.min.js"></script>
+<script src="/assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+<script src="/assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+<script src="/assets/vendor/bootstrap/bootstrap.min.js"></script>
+
+<script src="/assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+<script src="/assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="/assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="/assets/vendor/fancybox/jquery.fancybox.min.js"></script>
+<script src="/assets/vendor/typed.js/lib/typed.min.js"></script>
+<script src="/assets/vendor/slick-carousel/slick/slick.js"></script>
+<script src="/assets/vendor/dzsparallaxer/dzsparallaxer.js"></script>
+
+<script src="/assets/js/hs.core.js"></script>
+<script src="/assets/js/components/hs.header.js"></script>
+<script src="/assets/js/components/hs.unfold.js"></script>
+<script src="/assets/js/helpers/hs.focus-state.js"></script>
+<script src="/assets/js/components/hs.malihu-scrollbar.js"></script>
+<script src="/assets/js/components/hs.validation.js"></script>
+<script src="/assets/js/components/hs.fancybox.js"></script>
+<script src="/assets/js/components/hs.slick-carousel.js"></script>
+<script src="/assets/js/components/hs.sticky-block.js"></script>
+<script src="/assets/js/components/hs.show-animation.js"></script>
+<script src="/assets/js/components/hs.scroll-nav.js"></script>
+<script src="/assets/js/components/hs.go-to.js"></script>
+
+<script>
+  $(window).on('load', function () {
+  });
+
+  $(document).on('ready', function () {
+    // initialization of header
+    $.HSCore.components.HSHeader.init($('#header'));
+
+    // initialization of malihu scrollbar
+    $.HSCore.components.HSMalihuScrollBar.init($('.js-scrollbar'));
+
+    // initialization of forms
+    $.HSCore.helpers.HSFocusState.init();
+
+    // initialization of show animations
+    $.HSCore.components.HSShowAnimation.init('.js-animation-link');
+
+    // initialization of sticky blocks
+    setTimeout(function () {
+      $.HSCore.components.HSStickyBlock.init('.js-sticky-block');
+    }, 300);
+
+    // initialization of go to
+    $.HSCore.components.HSGoTo.init('.js-go-to');
+    // initialization of HSScrollNav component
+    $.HSCore.components.HSScrollNav.init($('#scrollNav'), {
+      duration: 700
+    });
+  });
+</script>

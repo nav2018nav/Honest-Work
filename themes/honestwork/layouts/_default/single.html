@@ -1,1 +1,121 @@
-<p>Default single layout</p>
+{{ define "main" }}
+
+<div class="dzsparallaxer auto-init height-is-based-on-content use-loading mode-scroll"
+  data-options='{direction: "normal"}'>
+  <div class="divimage dzsparallaxer--target" style="height: 130%; background-image: url({{.Params.header_image}});">
+  </div>
+  <div class="container text-center u-space-4">
+    <div class="w-lg-50 mx-auto mb-3">
+      <h1 class="display-3 font-size-48--md-down text-white font-weight-bold">{{.Params.title}}</h1>
+    </div>
+  </div>
+</div>
+
+<div class="container u-space-1-top u-space-2-top--md u-space-1-top--lg u-space-3-bottom">
+
+  <div class="row">
+    <div class="col-lg-9 order-lg-2 mb-9 mb-lg-0">
+      {{ range .Params.sections}}
+      <article class="row mb-7">
+        {{ if (eq .template "block-heading") }}
+        <div class="col-12">
+          <h2>{{.heading}}</h2>
+        </div>
+        {{end}}
+        {{ if (eq .template "block-text") }}
+        <div class="col-12">
+          <p>{{.content | markdownify}}</p>
+        </div>
+        {{end}}
+        {{ if (eq .template "block-image") }}
+        <div class="col-12">
+          <img src="{{.image}}" class="img-fluid w-100 rounded" alt="{{.Params.title}}">
+        </div>
+        {{end}}
+        {{ if (eq .template "block-faq") }}
+        <div class="col-lg-9">
+          <div id="basics" class="u-space-2-bottom">
+            {{ with .title}}
+            <div class="mb-3">
+              <h3 class="text-primary font-weight-bold">{{.}}</h3>
+            </div>
+            {{end}}
+            <div id="basicsAccordion">
+              {{ range $index, $element := .faq }}
+              <div class="card mb-3">
+                <div class="card-header u-card-header" id="basicsHeading{{$index}}">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link btn-block d-flex justify-content-between u-card-btn p-3 collapsed"
+                      data-toggle="collapse" data-target="#basicsCollapse{{$index}}" aria-expanded="true"
+                      aria-controls="basicsCollapse{{$index}}">
+                      {{.question}}
+                      <span class="u-card-btn__arrow">
+                        <span class="fa fa-arrow-down small"></span>
+                      </span>
+                    </button>
+                  </h5>
+                </div>
+                <div id="basicsCollapse{{$index}}" class="collapse" aria-labelledby="basicsHeading{{$index}}"
+                  data-parent="#basicsAccordion">
+                  <div class="card-body u-card-body">
+                    {{.answer | markdownify}}
+                  </div>
+                </div>
+              </div>
+              {{end}}
+            </div>
+          </div>
+        </div>
+        {{end}}
+        {{ if (eq .template "block-registration") }}
+        <!-- TODO -->
+        {{end}}
+      </article>
+      {{ end }}
+      <div class="u-space-2-bottom"></div>
+    </div>
+    <div id="stickyBlockStartPoint" class="col-lg-3 order-lg-1">
+      <div class="js-sticky-block" data-has-sticky-header="true" data-offset-target="#logoAndNav" data-sticky-view="lg"
+        data-start-point="#stickyBlockStartPoint" data-end-point="#stickyBlockEndPoint" data-offset-top="32"
+        data-offset-bottom="170">
+        <ul class="list-unstyled mb-0">
+          {{ $currentPage := . }}
+          {{ range .Site.Menus.main }}
+          {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
+          <li class="mb-4">
+            <a class="u-info-v1 p-4" href="{{ .URL }}">
+              <span class="row justify-content-sm-between align-items-sm-center">
+                <span class="col-9 mb-2 mb-sm-0 {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+                  {{ .Name }}
+                </span>
+                <span class="col-3 text-primary text-sm-right">
+                  <span class="fa fa-arrow-right small ml-2"></span>
+                </span>
+              </span>
+            </a>
+          </li>
+          {{ range .Children }}
+          <li class="mb-4">
+            <a class="u-info-v1 p-4" href="{{ .URL }}">
+              <span class="row justify-content-sm-between align-items-sm-center">
+                <span class="col-9 mb-2 mb-sm-0 {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+                  {{ .Name }}
+                </span>
+                <span class="col-3 text-primary text-sm-right">
+                  <span class="fa fa-arrow-right small ml-2"></span>
+                </span>
+              </span>
+            </a>
+          </li>
+          {{ end }}
+          {{ end }}
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="stickyBlockEndPoint"></div>
+
+{{ end }}
