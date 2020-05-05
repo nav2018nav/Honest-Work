@@ -28,6 +28,10 @@ sections:
     columns:
     - column: '1'
     - column: '2'
+  - label: '2'
+    columns:
+    - column: '3'
+    - column: '4'
 menu:
   footer:
     name: About
