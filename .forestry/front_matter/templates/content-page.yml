@@ -37,3 +37,5 @@ fields:
     max: 
   label: Sections
   description: The page content sections
+pages:
+- content/about/how-it-works.md
