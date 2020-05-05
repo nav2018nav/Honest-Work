@@ -1,4 +1,54 @@
 ---
 label: 'Block: Table'
 hide_body: true
-fields: []
+fields:
+- name: table
+  type: field_group_list
+  fields:
+  - name: header
+    type: field_group_list
+    fields:
+    - name: columns
+      type: field_group_list
+      fields:
+      - name: column
+        type: text
+        config:
+          required: false
+        label: Column
+      config:
+        min: 
+        max: 
+        labelField: value
+      label: Columns
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Header
+  - name: body
+    type: field_group_list
+    fields:
+    - name: columns
+      type: field_group_list
+      fields:
+      - name: column
+        type: text
+        config:
+          required: false
+        label: Column
+      config:
+        min: 
+        max: 
+        labelField: column
+      label: Columns
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Body
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Table
