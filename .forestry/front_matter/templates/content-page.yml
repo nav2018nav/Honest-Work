@@ -31,6 +31,7 @@ fields:
   - block-heading
   - block-text
   - block-image
+  - block-faq
   - block-registration
   config:
     min: 
