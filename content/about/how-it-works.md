@@ -48,5 +48,9 @@ sections:
   image: "/content/images/About - How - 10 green shoots.png"
 - template: block-text
   content: 'Finally: you make a change. You help build a better world.'
+menu:
+  main:
+    weight: 1
+    parent: About
 
 ---

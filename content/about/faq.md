@@ -3,7 +3,7 @@ title: FAQ
 sections: []
 menu:
   main:
-    weight: 1
+    weight: 2
     parent: About
 
 ---

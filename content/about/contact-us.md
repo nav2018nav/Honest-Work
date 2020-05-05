@@ -3,7 +3,7 @@ title: Contact us
 sections: []
 menu:
   main:
-    weight: 2
+    weight: 3
     parent: About
 
 ---
