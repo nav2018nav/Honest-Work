@@ -19,6 +19,12 @@ sections:
     Our platform is designed to help you change your company in a safe way. First it’s a hub of relevant information and resources around how your company might be contributing to some of the problems in the world today - check out the “What to change” pages \[link\]. If you click on the “Get started” \[link\] button you’ll be able to connect anonymously with other workers at your company and plan how to make change at your company.
 
     When you’re just one worker at a company that employs thousands, it can seem impossible to change things. But chances are you’re not alone, and together you can make your company, and the world, a better place.
+- template: block-table
+  table:
+  - header:
+    - columns:
+      - column: a
+    body: []
 menu:
   footer:
     name: About
