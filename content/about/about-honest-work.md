@@ -27,6 +27,8 @@ sections:
     body:
     - columns:
       - column: aaa
+  header_row:
+  - columns: a
 menu:
   footer:
     name: About
