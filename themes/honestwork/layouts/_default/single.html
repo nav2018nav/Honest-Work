@@ -82,7 +82,7 @@
           {{ $currentPage := . }}
           {{ range .Site.Menus.main }}
           {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
-          <li class="mb-4">
+          <li class="mb-3">
             <a class="u-info-v1 p-4" href="{{ .URL }}">
               <span class="row justify-content-sm-between align-items-sm-center">
                 <span class="col-9 mb-2 mb-sm-0 {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
@@ -95,7 +95,7 @@
             </a>
           </li>
           {{ range .Children }}
-          <li class="mb-4">
+          <li class="mb-3">
             <a class="u-info-v1 p-4" href="{{ .URL }}">
               <span class="row justify-content-sm-between align-items-sm-center">
                 <span class="col-9 mb-2 mb-sm-0 {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">

@@ -1,42 +1,42 @@
-<footer className="container">
-  <div className="row justify-content-lg-between u-space-1-top u-space-2-bottom">
+<footer class="container">
+  <div class="row justify-content-lg-between u-space-1-top u-space-2-bottom">
     {{ range .Site.Menus.footer }}
-    <div className="col-6 col-sm-4 col-lg-2 mb-7 mb-lg-0" key={n.title}>
-      <h3 className="h6">
+    <div class="col-6 col-sm-4 col-lg-2 mb-7 mb-lg-0">
+      <h3 class="h6">
         <strong>{{ .Name }}</strong>
       </h3>
       {{ if .HasChildren }}
-      <ul className="list-unstyled u-list">
-        {{ range .Site.Menus.main }}
+      <ul class="list-unstyled u-list">
+        {{ range .Children }}
         <li>
-          <a href="{{ .URL }}" className="u-list__link">{{ .Name }}</a>
+          <a href="{{ .URL }}" class="u-list__link">{{ .Name }}</a>
         </li>
         {{end}}
       </ul>
       {{end}}
     </div>
     {{end}}
-    <div className="col-md-7 col-lg-5 mb-4 mb-md-0">
-      <div className="mb-4">
-        <h3 className="h6">
+    <div class="col-md-7 col-lg-5 mb-4 mb-md-0">
+      <div class="mb-4">
+        <h3 class="h6">
           <strong>Get latest news in your box!</strong>
         </h3>
-        <p className="font-size-14">Get special offers and deals. Never spam.</p>
+        <p class="font-size-14">Get special offers and deals. Never spam.</p>
       </div>
-      <form className="js-validate js-form-message">
-        <div className="js-focus-state input-group u-form">
-          <input type="email" className="form-control u-form__input" name="email" required
+      <form class="js-validate js-form-message">
+        <div class="js-focus-state input-group u-form">
+          <input type="email" class="form-control u-form__input" name="email" required
             placeholder="Enter your email address" aria-label="Enter your email address" />
-          <span className="input-group-append u-form__append">
-            <button type="submit" className="btn btn-primary u-btn-primary">Subscribe</button>
+          <span class="input-group-append u-form__append">
+            <button type="submit" class="btn btn-primary u-btn-primary">Subscribe</button>
           </span>
         </div>
       </form>
     </div>
   </div>
-  <hr className="my-0" />
-  <div className="text-center py-7">
-    <p className="small text-muted mb-0">&copy; Honest Work</p>
+  <hr class="my-0" />
+  <div class="text-center py-7">
+    <p class="small text-muted mb-0">&copy; Honest Work</p>
   </div>
 </footer>
 
