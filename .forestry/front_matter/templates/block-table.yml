@@ -26,18 +26,18 @@ fields:
       config:
         required: false
       label: Column
-    - name: label
-      type: text
-      config:
-        required: true
-      label: Label
     config:
       min: 
       max: 
       labelField: column
     label: Columns
+  - name: label
+    type: text
+    config:
+      required: false
+    label: Label
   config:
     min: 
     max: 
-    labelField: 
+    labelField: label
   label: Rows
