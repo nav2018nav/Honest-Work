@@ -3,6 +3,8 @@ title: FAQ
 sections:
 - template: block-faq
   faq:
+  - question: This is another question?
+    answer: Is it really...
   - question: This is a question
     answer: |-
       This is an answer.
