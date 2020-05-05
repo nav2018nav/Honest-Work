@@ -3,39 +3,51 @@ label: Content page
 hide_body: true
 display_field: title
 fields:
-- name: header_image
-  type: file
-  config:
-    maxSize: 5
-  label: Header image
-  description: The page header image
-- name: title
-  type: text
-  config:
-    required: true
-  label: Title
-  description: The page title
-- name: content
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: html-blocks
-  label: Content
-  description: The page header content
-- name: sections
-  type: blocks
-  template_types:
-  - block-heading
-  - block-text
-  - block-image
-  - block-registration
-  config:
-    min: 
-    max: 
-  label: Sections
-  description: The page content sections
+  - name: header_image
+    type: file
+    config:
+      maxSize: 5
+    label: Header image
+    description: The page header image
+  - name: title
+    type: text
+    config:
+      required: true
+    label: Title
+    description: The page title
+  - name: content
+    type: textarea
+    default: ""
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: html-blocks
+    label: Content
+    description: The page header content
+  - name: sections
+    type: blocks
+    template_types:
+      - block-heading
+      - block-text
+      - block-image
+      - block-registration
+    config:
+      min:
+      max:
+    label: Sections
+    description: The page content sections
 pages:
-- content/about/how-it-works.md
+  - content/about/about-honest-work.md
+  - content/about/how-it-works.md
+  - content/about/contact-us.md
+  - content/about/faq.md
+  - content/the-risks/how-to-protect-yourself.md
+  - content/the-risks/the-risks.md
+  - content/the-risks/your-rights.md
+  - content/what-to-changes/consumer-goods.md
+  - content/what-to-changes/energy.md
+  - content/what-to-changes/finance.md
+  - content/what-to-changes/healthcare.md
+  - content/what-to-changes/technology.md
+  - content/get-started.md
