@@ -4,7 +4,7 @@ sections:
 - template: block-registration
   thank_you_message: Thank you, we will be in touch soon.
 header_image: ''
-content: ''
+content: Some getting started content
 show_sub_navigation: false
 
 ---
