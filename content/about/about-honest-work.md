@@ -24,7 +24,9 @@ sections:
   - header:
     - columns:
       - column: a
-    body: []
+    body:
+    - columns:
+      - column: aaa
 menu:
   footer:
     name: About
