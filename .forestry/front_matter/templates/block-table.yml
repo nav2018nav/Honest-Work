@@ -2,7 +2,7 @@
 label: 'Block: Table'
 hide_body: true
 fields:
-- name: header_row
+- name: header_columns
   type: field_group_list
   fields:
   - name: columns
@@ -14,4 +14,4 @@ fields:
     min: 
     max: 
     labelField: 
-  label: Header row
+  label: Header columns
