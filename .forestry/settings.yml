@@ -14,9 +14,6 @@ sections:
   templates:
   - homepage
   - content-page
-- type: document
-  path: data/navigation.yaml
-  label: Navigation
 upload_dir: static/uploads
 public_path: "/static/images"
 front_matter_path: ''
