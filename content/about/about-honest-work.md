@@ -29,6 +29,8 @@ sections:
       - column: aaa
   header_row:
   - columns: a
+  header_columns:
+  - columns: '123'
 menu:
   footer:
     name: About
