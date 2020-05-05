@@ -19,7 +19,7 @@ fields:
       config:
         min: 
         max: 
-        labelField: value
+        labelField: column
       label: Columns
     config:
       min: 
