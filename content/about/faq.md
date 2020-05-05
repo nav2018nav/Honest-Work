@@ -5,7 +5,7 @@ sections:
   faq:
   - question: This is another question?
     answer: Is it really...
-  - question: This is a question
+  - question: This is a question?
     answer: |-
       This is an answer.
 
