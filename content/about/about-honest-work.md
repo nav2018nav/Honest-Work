@@ -21,9 +21,13 @@ sections:
     When you’re just one worker at a company that employs thousands, it can seem impossible to change things. But chances are you’re not alone, and together you can make your company, and the world, a better place.
 - template: block-table
   header_columns:
-  - columns: '2'
   - columns: '1'
-  rows: []
+  - columns: '2'
+  rows:
+  - label: '1'
+    columns:
+    - column: '2'
+    - column: '1'
 menu:
   footer:
     name: About
