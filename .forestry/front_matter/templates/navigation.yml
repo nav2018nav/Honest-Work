@@ -1,0 +1,21 @@
+---
+label: Navigation
+hide_body: true
+fields:
+- name: items
+  type: field_group_list
+  fields:
+  - name: item
+    type: include
+    config: {}
+    template: navigation-item
+    label: Item
+    description: The navigation item
+  config:
+    min: 
+    max: 
+    labelField: title
+  label: Items
+  description: The navigation items
+pages:
+- content/navigation/navigation.yaml

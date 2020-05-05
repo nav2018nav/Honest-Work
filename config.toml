@@ -1,0 +1,7 @@
+baseURL = "http://honestwork.org/"
+languageCode = "en-us"
+title = "Honest Work"
+theme = "honestwork"
+
+[markup.goldmark.renderer]
+unsafe= true

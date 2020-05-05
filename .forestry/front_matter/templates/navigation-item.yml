@@ -1,0 +1,38 @@
+---
+label: Navigation item
+hide_body: true
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+  description: The navigation item title
+- name: page
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: about
+      file: 
+      path: 
+  label: Page
+  description: The page to link to
+- name: children
+  type: field_group_list
+  fields:
+  - name: item
+    type: include
+    config: {}
+    template: navigation-item
+    label: Item
+    description: The navigation child item
+  config:
+    min: 
+    max: 
+    labelField: title
+  label: Children
+  description: The navigation item children

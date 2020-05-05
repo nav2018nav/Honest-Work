@@ -1,0 +1,15 @@
+---
+label: 'Block: Text'
+hide_body: true
+display_field: content
+fields:
+- name: content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Content
+  description: The text content

@@ -1,0 +1,21 @@
+---
+label: Homepage
+hide_body: true
+fields:
+- name: hero_image
+  type: file
+  config:
+    maxSize: 5
+  label: Hero image
+- name: hero_title
+  type: text
+  config:
+    required: false
+  label: Hero title
+- name: hero_sub_title
+  type: text
+  config:
+    required: false
+  label: Hero sub title
+pages:
+- content/pages/Homepage.md

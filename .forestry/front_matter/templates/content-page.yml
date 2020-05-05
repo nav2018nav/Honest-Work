@@ -1,0 +1,44 @@
+---
+label: Content page
+hide_body: true
+display_field: title
+fields:
+- name: header_image
+  type: file
+  config:
+    maxSize: 5
+  label: Header image
+  description: The page header image
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+  description: The page title
+- name: content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: html-blocks
+  label: Content
+  description: The page header content
+- name: sections
+  type: blocks
+  template_types:
+  - block-heading
+  - block-text
+  - block-image
+  - block-registration
+  config:
+    min: 
+    max: 
+  label: Sections
+  description: The page content sections
+pages:
+- content/pages/About/about-honest-work-1.md
+- content/pages/The risks/the-risks.md
+- content/pages/get-started.md
+- content/pages/how-it-works.md

@@ -1,0 +1,9 @@
+---
+label: 'Block: Image'
+hide_body: false
+fields:
+- name: image
+  type: file
+  config:
+    maxSize: 1
+  label: Image
