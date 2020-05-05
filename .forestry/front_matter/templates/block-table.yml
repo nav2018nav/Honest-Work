@@ -3,52 +3,33 @@ label: 'Block: Table'
 hide_body: true
 fields:
 - name: table
-  type: field_group_list
+  type: field_group
+  config: {}
   fields:
   - name: header
     type: field_group_list
     fields:
-    - name: columns
-      type: field_group_list
-      fields:
-      - name: column
-        type: text
-        config:
-          required: false
-        label: Column
+    - name: column
+      type: text
       config:
-        min: 
-        max: 
-        labelField: column
-      label: Columns
+        required: false
+      label: Column
     config:
       min: 
       max: 
-      labelField: 
+      labelField: column
     label: Header
   - name: body
     type: field_group_list
     fields:
-    - name: columns
-      type: field_group_list
-      fields:
-      - name: column
-        type: text
-        config:
-          required: false
-        label: Column
+    - name: column
+      type: text
       config:
-        min: 
-        max: 
-        labelField: column
-      label: Columns
+        required: false
+      label: Column
     config:
       min: 
       max: 
-      labelField: 
+      labelField: column
     label: Body
-  config:
-    min: 
-    max: 
-    labelField: 
   label: Table
