@@ -33,6 +33,8 @@ sections:
   - columns: '123'
   rows:
   - columns:
+    - column: '456'
+  - columns:
     - column: '123'
 menu:
   footer:
