@@ -4,5 +4,6 @@ hero_title: Honest Work encourages employees to become activists for sustainabil
   & ethics issues
 hero_sub_title: Honest Work encourages employees to become activists for sustainability
   & ethics issues
+title: Homepage
 
 ---
