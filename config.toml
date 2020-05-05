@@ -1,14 +1,6 @@
 baseURL = "http://honestwork.org/"
 languageCode = "en-us"
-title = "Honest Work"
 theme = "honestwork"
-
+title = "Honest Work"
 [markup.goldmark.renderer]
-unsafe= true
-
-[menu]
-  [[menu.main]]
-    identifier = "about"
-    name = "about hugo"
-    url = "/about/"
-    weight = -110
+unsafe = true

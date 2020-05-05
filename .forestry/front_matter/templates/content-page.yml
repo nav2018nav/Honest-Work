@@ -37,6 +37,3 @@ fields:
     max: 
   label: Sections
   description: The page content sections
-pages:
-- content/pages/The risks/the-risks.md
-- content/pages/get-started.md
