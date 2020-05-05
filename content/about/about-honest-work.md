@@ -26,8 +26,8 @@ sections:
   rows:
   - label: '1'
     columns:
-    - column: '2'
     - column: '1'
+    - column: '2'
 menu:
   footer:
     name: About
