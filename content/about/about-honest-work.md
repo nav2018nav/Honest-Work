@@ -34,8 +34,10 @@ sections:
   rows:
   - columns:
     - column: '456'
+    label: First
   - columns:
     - column: '123'
+    label: Second
 menu:
   footer:
     name: About
