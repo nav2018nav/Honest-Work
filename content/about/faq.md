@@ -10,6 +10,7 @@ sections:
       This is an answer.
 
       It really is!
+  title: FAQ title
 header_image: ''
 content: ''
 menu:
