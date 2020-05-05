@@ -9,10 +9,10 @@ sections:
 - template: block-image
   image: "/content/images/sharon-mccutcheon-Th_WZMUPnO4-unsplash.jpg"
 menu:
-  footer:
+  main:
     name: What to change
     weight: 2
-  main:
+  footer:
     name: What to change
     weight: 2
 
