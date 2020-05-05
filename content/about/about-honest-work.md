@@ -31,6 +31,9 @@ sections:
   - columns: a
   header_columns:
   - columns: '123'
+  rows:
+  - columns:
+    - column: '123'
 menu:
   footer:
     name: About
