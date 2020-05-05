@@ -15,7 +15,7 @@ fields:
         required: false
       label: Column
     config:
-      min: 
+      min: 1
       max: 
       labelField: column
     label: Header
@@ -28,7 +28,7 @@ fields:
         required: false
       label: Column
     config:
-      min: 
+      min: 1
       max: 
       labelField: column
     label: Body
