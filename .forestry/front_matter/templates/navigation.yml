@@ -17,5 +17,3 @@ fields:
     labelField: title
   label: Items
   description: The navigation items
-pages:
-- content/navigation/navigation.yaml

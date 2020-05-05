@@ -38,7 +38,5 @@ fields:
   label: Sections
   description: The page content sections
 pages:
-- content/pages/About/about-honest-work-1.md
 - content/pages/The risks/the-risks.md
 - content/pages/get-started.md
-- content/pages/how-it-works.md
