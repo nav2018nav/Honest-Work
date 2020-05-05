@@ -26,6 +26,11 @@ fields:
       config:
         required: false
       label: Column
+    - name: label
+      type: text
+      config:
+        required: true
+      label: Label
     config:
       min: 
       max: 
