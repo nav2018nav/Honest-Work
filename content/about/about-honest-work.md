@@ -20,16 +20,7 @@ sections:
 
     When you’re just one worker at a company that employs thousands, it can seem impossible to change things. But chances are you’re not alone, and together you can make your company, and the world, a better place.
 - template: block-text
-  content: |
-    ABCDEFGH
-
-    ### Table title
-
-    | Header | Header | Header |
-    | --- | --- | --- |
-    | Cell | Cell | Cell |
-    | Cell | Cell | Cell |
-    | Cell | Cell | Cell |
+  content: ''
 menu:
   footer:
     name: About
