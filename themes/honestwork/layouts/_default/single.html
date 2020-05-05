@@ -39,19 +39,21 @@
         {{ if (eq .template "block-table") }}
         <div class="col-12 table-responsive">
           <table class="table table-borderless">
-            <thead>
+            <thead class="thead-light">
               <tr>
-                {{ range $index, $element := .table.header.columns }}
+                {{ range $index, $element := .header_columns }}
                 <th scope="col">{{.column}}</th>
                 {{end}}
               </tr>
             </thead>
             <tbody>
+              {{ range $index, $element := .rows }}
               <tr>
-                {{ range $index, $element := .table.header.columns }}
-                <td>@mdo</td>
+                {{ range $index, $element := .columns }}
+                <td>{{.column}}</td>
                 {{end}}
               </tr>
+              {{end}}
             </tbody>
           </table>
         </div>
