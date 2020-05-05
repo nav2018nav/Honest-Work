@@ -1,5 +1,6 @@
 ---
 title: Contact us
+show_sub_navigation: true
 sections: []
 menu:
   footer:
@@ -8,5 +9,4 @@ menu:
   main:
     weight: 3
     parent: About
-
 ---

@@ -2,6 +2,7 @@
 header_image: ""
 title: About Honest Work
 content: About Honest Work
+show_sub_navigation: true
 sections:
   - template: block-heading
     heading:
