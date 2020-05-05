@@ -20,6 +20,11 @@ sections:
 
     When you’re just one worker at a company that employs thousands, it can seem impossible to change things. But chances are you’re not alone, and together you can make your company, and the world, a better place.
 menu:
+  footer:
+    identifier: blog
+    name: About
+    title: blog section
+    weight: 1
   main:
     name: About
     weight: 1

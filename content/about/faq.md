@@ -14,6 +14,9 @@ sections:
 header_image: ''
 content: ''
 menu:
+  footer:
+    weight: 2
+    parent: blog section
   main:
     weight: 2
     parent: About

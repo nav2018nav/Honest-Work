@@ -4,11 +4,3 @@ theme = "honestwork"
 title = "Honest Work"
 [markup.goldmark.renderer]
 unsafe = true
-
-[menu]
-  [[menu.footer]]
-    identifier = "blog"
-    name = "This is the blog section"
-    title = "blog section"
-    url = "/blog/"
-    weight = -110
