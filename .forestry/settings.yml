@@ -17,7 +17,6 @@ sections:
 - type: document
   path: data/navigation.yaml
   label: Navigation
-  match: "**/*"
 upload_dir: static/uploads
 public_path: "/static/images"
 front_matter_path: ''
