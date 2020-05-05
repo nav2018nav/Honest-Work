@@ -6,7 +6,9 @@ theme = "honestwork"
 [markup.goldmark.renderer]
 unsafe= true
 
-menu:
-  main:
-  - name: about
-    url: /about/
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "about hugo"
+    url = "/about/"
+    weight = -110
