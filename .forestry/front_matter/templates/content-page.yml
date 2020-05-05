@@ -25,6 +25,10 @@ fields:
       format: html-blocks
   label: Content
   description: The page header content
+- name: show_sub_navigation
+  type: boolean
+  label: Show sub navigation
+  default: true
 - name: sections
   type: blocks
   template_types:
