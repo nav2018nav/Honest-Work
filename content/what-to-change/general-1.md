@@ -3,12 +3,12 @@ content = ""
 draft = true
 header_image = ""
 show_sub_navigation = true
-title = "Consumer goods 2"
+title = "Consumer goods"
 [[sections]]
 heading = "Supply Chains"
 template = "block-heading"
 [[sections]]
-content = "Climate change is one of the biggest collective threats our planet has faced, and virtually all companies contribute to it in some way, primarily through their own emissions but also by, for example, providing finance to fossil fuel projects. While companies are beginning to wake up to the need to reduce their emissions, this is not happening at nearly the pace necessary / the commitments being made to cut their emissions is not nearly ambitious enough to avert high levels of warming and the disasters that will accompany it.\n\nAll companies should aim to become carbon neutral; this can limit the effects of global warming while driving down the costs of renewables for everyone, saving companies money over time. That said, 100 companies are responsible for 71% of global emissions since 1988. Is your company one of them? Perhaps one of their suppliers? Maybe you can help find a solution."
+content = "People should never have to work in inhumane conditions just so we can have cheaper clothes, food or gadgets, but this is happening every single day. 1 in 185 people live in modern slavery today, and nothing will change unless the indifference of companies, workers and consumers changes. Looked at another way, all those who participate in the production of goods should have a share in the wealth they generate.\n\nThere are many consumer goods with long supply chains which are known to be significant contributors to human rights abuses or very poor working conditions. Many also contribute to environmental issues such as deforestation. Low-cost clothing, fish and lithium ion batteries for phones and laptops are just some examples of goods with particular high risks."
 template = "block-text"
 [[sections]]
 template = "block-faq"
