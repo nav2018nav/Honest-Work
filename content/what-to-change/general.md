@@ -1,6 +1,6 @@
 +++
 content = ""
-header_image = ""
+header_image = "/static/images/What - General.png"
 show_sub_navigation = true
 title = "General"
 [menu.footer]
