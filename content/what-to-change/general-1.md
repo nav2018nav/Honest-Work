@@ -1,6 +1,6 @@
 +++
 content = ""
-header_image = ""
+header_image = "/static/images/What - Consumer goods.jpg"
 show_sub_navigation = true
 title = "Consumer goods"
 [menu.footer]
