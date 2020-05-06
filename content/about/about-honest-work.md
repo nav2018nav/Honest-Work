@@ -1,7 +1,7 @@
 ---
-header_image: ''
+header_image: "/static/images/About - We need a change.jpg"
 title: About Honest Work
-content: About Honest Work
+content: ''
 show_sub_navigation: true
 sections:
 - template: block-heading
