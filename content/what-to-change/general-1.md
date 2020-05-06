@@ -3,12 +3,9 @@ content = ""
 draft = true
 header_image = ""
 show_sub_navigation = true
-title = "General"
+title = "Consumer goods 2"
 [[sections]]
-content = "In today’s hyperconnected world, decisions made by companies and their workers can have major effects on communities at home and around the globe.\n\nBelow are some issues that are common to many large multinational companies today, with resources that can help you understand how your company is performing. On the bar to the left you can find some more tips based on specific sectors."
-template = "block-text"
-[[sections]]
-heading = "Climate Change"
+heading = "Supply Chains"
 template = "block-heading"
 [[sections]]
 content = "Climate change is one of the biggest collective threats our planet has faced, and virtually all companies contribute to it in some way, primarily through their own emissions but also by, for example, providing finance to fossil fuel projects. While companies are beginning to wake up to the need to reduce their emissions, this is not happening at nearly the pace necessary / the commitments being made to cut their emissions is not nearly ambitious enough to avert high levels of warming and the disasters that will accompany it.\n\nAll companies should aim to become carbon neutral; this can limit the effects of global warming while driving down the costs of renewables for everyone, saving companies money over time. That said, 100 companies are responsible for 71% of global emissions since 1988. Is your company one of them? Perhaps one of their suppliers? Maybe you can help find a solution."
