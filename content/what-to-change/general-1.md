@@ -1,6 +1,5 @@
 +++
 content = ""
-draft = true
 header_image = ""
 show_sub_navigation = true
 title = "Consumer goods"
