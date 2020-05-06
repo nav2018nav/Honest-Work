@@ -3,6 +3,9 @@ content = ""
 header_image = ""
 show_sub_navigation = true
 title = "Consumer goods"
+[menu.footer]
+parent = "What to change"
+weight = 1
 [[sections]]
 heading = "Supply Chains"
 template = "block-heading"
