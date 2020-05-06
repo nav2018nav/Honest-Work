@@ -6,6 +6,9 @@ title = "General"
 [menu.footer]
 name = "What to change"
 weight = 2
+[menu.main]
+name = "What to change"
+weight = 2
 [[sections]]
 content = "In today’s hyperconnected world, decisions made by companies and their workers can have major effects on communities at home and around the globe.\n\nBelow are some issues that are common to many large multinational companies today, with resources that can help you understand how your company is performing. On the bar to the left you can find some more tips based on specific sectors."
 template = "block-text"
