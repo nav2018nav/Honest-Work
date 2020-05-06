@@ -2,7 +2,7 @@
 content = ""
 header_image = "/static/images/What - General.png"
 show_sub_navigation = true
-title = "General"
+title = "The change you can make"
 [menu.footer]
 name = "What to change"
 weight = 2
