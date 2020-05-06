@@ -6,6 +6,9 @@ title = "Consumer goods"
 [menu.footer]
 parent = "What to change"
 weight = 1
+[menu.main]
+parent = "What to change"
+weight = 1
 [[sections]]
 heading = "Supply Chains"
 template = "block-heading"
