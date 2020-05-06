@@ -1,5 +1,5 @@
 +++
-content = "What you can change"
+content = ""
 header_image = ""
 show_sub_navigation = true
 title = "General"
@@ -57,5 +57,15 @@ label = ""
 [[sections]]
 content = "Source: Carbon Disclosure Project, 2017"
 template = "block-text"
+[[sections]]
+heading = "Human Rights"
+template = "block-heading"
+[[sections]]
+content = ""
+template = "block-text"
+[[sections]]
+faq = []
+template = "block-faq"
+title = ""
 
 +++
