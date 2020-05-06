@@ -50,6 +50,9 @@ sections:
 - template: block-text
   content: 'Finally: you make a change. You help build a better world.'
 menu:
+  footer:
+    weight: 1
+    parent: About
   main:
     weight: 1
     parent: About

@@ -7,7 +7,7 @@ menu:
     weight: 3
     parent: About
   footer:
-    weight: 2
+    weight: 3
     parent: About
 
 ---
