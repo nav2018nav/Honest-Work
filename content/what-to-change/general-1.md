@@ -55,19 +55,19 @@ label = ""
 content = "Source: Carbon Disclosure Project, 2017"
 template = "block-text"
 [[sections]]
-heading = "Human Rights"
+heading = "Durability and Waste"
 template = "block-heading"
 [[sections]]
-content = "We live in a globalised world, where the products we buy, or our employers buy, have often travelled a long way before they make it to you. Along the way, they may have caused or contributed to human rights abuses, environmental degradation and other negative outcomes, either directly or through their suppliers.\n\nRespecting and protecting human rights needs to be a minimum expectation of the companies we work for. To do this, companies should be able to trace the origins of each component part of their products and assure that no human rights breaches took place at any point during the production process."
+content = "The generally desired goal of a circular economy is some way off, but some product cycles are particularly short-lived, contributing to environmental degradation (not to mention poor consumer outcomes). “Fast fashion” is a particular example of this, while on the other end of the spectrum is the common practice of high-end fashion producers burning unsold stock to preserve their brand value.\n\nFood waste is one of the most urgent problems in this area; around one-third of food produced is thrown away, including by supermarkets and retailers, at a time when so many go hungry.\n\nIn addition to the main product itself, so many products are wrapped in unnecessary packaging, which ends up in landfill or shipped around the world. Our planet is choking on plastics; let’s not use them unless we have to."
 template = "block-text"
 [[sections]]
 template = "block-faq"
 title = ""
 [[sections.faq]]
-answer = "* Does your company undertake due diligence to ensure that there are no human rights breaches throughout its supply chain (i.e. beyond its direct suppliers)?\n* Where a human rights breach is found to have taken place, does your company provide remedy and compensation that is satisfactory to the victim?"
+answer = "* Is the life cycle of my company’s products shorter than that of its peers?\n* How does my company dispose of waste and unsold products?\n* How much packaging is used for my company’s products? Could it be reduced?\n* Does my company use recycled materials in the production of its products and packaging?"
 question = "Some questions to start with"
 [[sections.faq]]
-answer = "_What you need to know -_ The [UN Guiding Principles on Business and Human Rights](https://www.ohchr.org/documents/publications/guidingprinciplesbusinesshr_en.pdf) set out a framework for companies to prevent, address and remedy human rights abuses committed in business operations. The Business and Human Rights Resource Centre has some [resources](https://www.business-humanrights.org/en/un-guiding-principles/implementation-tools-examples/implementation-by-companies) on how companies have gone about implementing the UNGPs.\n\n_The big contributors_ - 200 of the biggest publicly-traded companies are [ranked](https://www.corporatebenchmark.org/) annually on their human rights performance; see how your company fares. Companies based in Asia and companies in the ICT manufacturing sector tend to score lowest on their human rights performance."
+answer = "_What you need to know_ - The Plastic Pollution Coalition has a number of different [resources ](https://www.plasticpollutioncoalition.org/latestresources)related to the problem of plastic and solutions. For clothing, a [Sustainable Clothing Action Plan](https://www.wrap.org.uk/sustainable-textiles/scap) sets out how to design clothing for longevity and how companies can facilitate consumer recycling."
 question = "Further information"
 [[sections]]
 heading = "Tax"
