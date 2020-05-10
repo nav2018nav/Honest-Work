@@ -1,6 +1,5 @@
 +++
 content = ""
-draft = true
 header_image = "/static/images/What - Consumer goods.jpg"
 show_sub_navigation = true
 title = "Finance"
@@ -56,16 +55,16 @@ template = "block-text"
 heading = "Bank lending practices"
 template = "block-heading"
 [[sections]]
-content = "The generally desired goal of a circular economy is some way off, but some product cycles are particularly short-lived, contributing to environmental degradation (not to mention poor consumer outcomes). “Fast fashion” is a particular example of this, while on the other end of the spectrum is the common practice of high-end fashion producers burning unsold stock to preserve their brand value.\n\nFood waste is one of the most urgent problems in this area; around one-third of food produced is thrown away, including by supermarkets and retailers, at a time when so many go hungry.\n\nIn addition to the main product itself, so many products are wrapped in unnecessary packaging, which ends up in landfill or shipped around the world. Our planet is choking on plastics; let’s not use them unless we have to."
+content = "Many projects can’t take place without bank financing. Many fossil fuel exploration projects in particular depend on bank financing, and thus banks have a much more direct and contributing role to fossil fuel projects than other actors.\n\n35 global banks have granted $2.7 trillion in financing to fossil fuel companies since the Paris Agreement, which seeks to limit global warming. Few banks assess whether they are causing or contributing to human rights breaches. If banks were less indifferent to how their money was used, companies and projects that threatened to harm the public good would struggle to get off the ground."
 template = "block-text"
 [[sections]]
 template = "block-faq"
 title = ""
 [[sections.faq]]
-answer = "* Is the life cycle of my company’s products shorter than that of its peers?\n* How does my company dispose of waste and unsold products?\n* How much packaging is used for my company’s products? Could it be reduced?\n* Does my company use recycled materials in the production of its products and packaging?"
+answer = "* Does your bank continue to permit lending to fossil fuel expansion?\n* Does your bank have a plan in place to rapidly scale down its financing for existing fossil fuel projects?\n* Does your bank have a rigorous due diligence process to ensure there is no risk faced to human rights by the projects they finance?"
 question = "Some questions to start with"
 [[sections.faq]]
-answer = "_What you need to know_ - The Plastic Pollution Coalition has a number of different [resources ](https://www.plasticpollutioncoalition.org/latestresources)related to the problem of plastic and solutions. For clothing, a [Sustainable Clothing Action Plan](https://www.wrap.org.uk/sustainable-textiles/scap) sets out how to design clothing for longevity and how companies can facilitate consumer recycling."
+answer = "_What you need to know -_ RAN [tracks](https://www.ran.org/bankingonclimatechange2020/) bank finance for fossil fuel over time. [Greenpeace](https://www.greenpeace.org/international/press-release/28243/greenpeace-report-davos-financial-players-pump-us1-4-trillion-into-fossil-fuels/) has shown how many of the world’s biggest banks continue to funnel money into fossil fuels despite public statements that they will help combat climate change. BankTrack has also produced [research](https://www.banktrack.org/campaign/banks_and_human_rights) on the role of banks in relation to human rights.\n\n_The most urgent issue -_ If the world was to only burn all known fossil fuel reserves, that would already take the planet beyond 2 degrees of global warming, well beyond the [1.5 degrees](https://www.ipcc.ch/sr15/) limit needed to avoid some catastrophic consequences. Despite this, fossil fuel expansion continues. Banks should not finance the expansion of fossil fuel extraction or infrastructure, whether via project finance (direct financing for a fossil fuel asset) or general corporate support (financing provided to a company overall), for companies expanding fossil fuels."
 question = "Further information"
 [[sections]]
 heading = "Tax"
