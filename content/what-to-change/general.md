@@ -51,9 +51,6 @@ label = "Gazprom OAO"
 column = "Gazprom OAO"
 [[sections.rows.columns]]
 column = "35,221"
-[[sections.rows]]
-columns = []
-label = ""
 [[sections]]
 content = "Source: Carbon Disclosure Project, 2017"
 template = "block-text"
