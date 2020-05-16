@@ -1,6 +1,6 @@
 +++
 content = ""
-header_image = "/static/images/What - General.png"
+header_image = "/uploads/What - General.png"
 show_sub_navigation = true
 title = "The change you can make"
 [menu.footer]

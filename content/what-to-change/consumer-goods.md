@@ -1,6 +1,6 @@
 +++
 content = ""
-header_image = "/static/images/What - Consumer goods.jpg"
+header_image = "/uploads/What - Consumer goods.jpg"
 show_sub_navigation = true
 title = "Finance"
 [menu.footer]

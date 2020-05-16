@@ -2,7 +2,7 @@
 
 <div class="dzsparallaxer auto-init height-is-based-on-content use-loading mode-scroll"
   data-options='{direction: "normal"}'>
-  <div class="divimage dzsparallaxer--target" style="height: 130%; background-image: url({{.Params.header_image}});">
+  <div class="divimage dzsparallaxer--target" style="height: 130%; background-image: url('{{.Params.header_image}}');">
   </div>
   <div class="container text-center u-space-4">
     <div class="w-lg-50 mx-auto mb-3">
@@ -16,14 +16,16 @@
   <div class="row">
     <div class="col-lg-{{ if .Params.show_sub_navigation }}9{{else}}12{{end}} order-lg-2 mb-9 mb-lg-0">
 
-      <article class="row mb-7">
+      {{ if .Params.content }}
+      <article class="row mb-5">
         <div class="col-12">
           {{.Params.content | markdownify}}
         </div>
       </article>
+      {{end}}
 
       {{ range .Params.sections}}
-      <article class="row mb-7">
+      <article class="row mb-5">
 
         {{ if (eq .template "block-heading") }}
         <div class="col-12">
