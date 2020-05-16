@@ -28,6 +28,7 @@ question = "Some questions to start with"
 answer = "_What you need to know -_ For a basic introduction to climate change and answers to some FAQs, TED has put together a list of [resources](https://countdown.ted.com/get-informed/) and some of their famous talks which can provide you with information and inspiration.\n\n_The most urgent issue -_ While we need to start rapidly reducing our reliance on all fossil fuels, this is most urgent for coal - inefficient, heavily polluting, heavy emitting. No new coal is a prerequisite, and accelerating getting rid of coal is priority\n\n_The big contributors_ - Energy companies are obviously the most significant [contributors](https://b8f65cb373b1b7b15feb-c70d8ead6ced550b4d987d7c03fcdd1d.ssl.cf3.rackcdn.com/cms/reports/documents/000/002/327/original/Carbon-Majors-Report-2017.pdf) to climate change \\[link\\]. Banks and investors have a strong enabling role in the activities in which energy companies can engage \\[link to Finance\\]. Beyond these, several technology solutions that have emerged in recent years emit high levels of emissions, such as data centres for cloud computing, blockchain services, and [ride-hailing apps](https://www.ucsusa.org/resources/ride-hailing-climate-risks) like Uber. Supply chains that contribute to deforestation also play a role, such as those for palm oil (found in around [50%](https://www.wwf.org.uk/updates/8-things-know-about-palm-oil) of packaged products in supermarkets).\n\n_Looking out for vulnerable workers_ - Abandoning coal (and other fossil fuels) should not mean abandoning coal workers - companies and governments need to have plans for a just transition for workers to ensure they are guaranteed good jobs that don’t rely on fossil fuels."
 question = "Further information"
 [[sections]]
+footer = "Source: Carbon Disclosure Project, 2017"
 template = "block-table"
 [[sections.header_columns]]
 column = "Producer"
@@ -51,9 +52,6 @@ label = "Gazprom OAO"
 column = "Gazprom OAO"
 [[sections.rows.columns]]
 column = "35,221"
-[[sections]]
-content = "Source: Carbon Disclosure Project, 2017"
-template = "block-text"
 [[sections]]
 heading = "Human Rights"
 template = "block-heading"
