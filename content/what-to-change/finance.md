@@ -3,7 +3,13 @@ content = ""
 draft = true
 header_image = "/uploads/What - Consumer goods.jpg"
 show_sub_navigation = true
-title = "Healthcare"
+title = "Finance"
+[menu.footer]
+parent = "What to change"
+weight = 2
+[menu.main]
+parent = "What to change"
+weight = 2
 [[sections]]
 content = "Finance powers the entire economy; banks, through their lending, and investors, through their holdings, have major influence over how companies act and what projects get financed. Choose any issue from any of these pages; financial sector companies can help fix it, if they choose.\n\nMost of these companies see addressing societal issues as someone else’s responsibility. Banks say it is not their job to dictate outcomes. Passive investors, stock exchanges, index providers and other financial services companies believe their role is to replicate the market and reflect the investable universe rather than enabling money to flow towards companies that contribute to the general good (and tend to lobby against regulatory measures that would encourage this). When it’s no one’s job to prevent negative outcomes, negative outcomes is what you get."
 template = "block-text"
