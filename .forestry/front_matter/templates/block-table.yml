@@ -41,3 +41,9 @@ fields:
     max: 
     labelField: label
   label: Rows
+- name: footer
+  type: text
+  config:
+    required: false
+  label: Footer
+  description: Table footer text - for example, the data source
