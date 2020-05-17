@@ -14,7 +14,7 @@ weight = 1
 heading = "Supply Chains"
 template = "block-heading"
 [[sections]]
-images = ["/uploads/about-how-7-letter-cropped-1.png", "/uploads/about-how-10-green-shoots-1.png", "/uploads/home_team.jpg"]
+images = ["/uploads/About - We need a change.jpg", "/uploads/What - Consumer goods.jpg", "/uploads/about-how-9-petition-transparent-1.png", "/uploads/about-how-8-strike-1.png", "/uploads/about-how-7-letter-cropped-1.png", "/uploads/about-how-10-green-shoots-1.png", "/uploads/home_team.jpg"]
 template = "block-image-gallery"
 [[sections]]
 content = "People should never have to work in inhumane conditions just so we can have cheaper clothes, food or gadgets, but this is happening every single day. 1 in 185 people live in modern slavery today, and nothing will change unless the indifference of companies, workers and consumers changes. Looked at another way, all those who participate in the production of goods should have a share in the wealth they generate.\n\nThere are many consumer goods with long supply chains which are known to be significant contributors to human rights abuses or very poor working conditions. Many also contribute to environmental issues such as deforestation. Low-cost clothing, fish and lithium ion batteries for phones and laptops are just some examples of goods with particular high risks."
