@@ -35,7 +35,7 @@ sections:
     to change, General\] for some of the most pressing problems many companies are
     contributing to, and some rankings of the worst performers.
 - template: block-image
-  image: "/images/About - How - 7 letter cropped.png"
+  image: "/static/uploads/about-how-7-letter-cropped-1.png"
 - template: block-image
   image: "/images/About - How - 8 strike.png"
 - template: block-image
