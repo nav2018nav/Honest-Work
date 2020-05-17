@@ -1,7 +1,7 @@
 +++
 content = ""
 header_image = "/uploads/What - Consumer goods.jpg"
-password_protected = false
+password_protected = true
 show_sub_navigation = true
 title = "Consumer goods"
 [menu.footer]
