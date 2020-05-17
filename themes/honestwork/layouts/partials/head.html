@@ -1,4 +1,27 @@
 <head>
+  <script>
+    function getCookie(name) {
+      var v = document.cookie.match('(^|;) ?' + name + '=([^;]*)(;|$)');
+      return v ? v[2] : null;
+    }
+
+    function setCookie(name, value, days) {
+      var d = new Date();
+      d.setTime(d.getTime() + 24 * 60 * 60 * 1000 * days);
+      document.cookie = name + "=" + value + ";path=/;expires=" + d.toGMTString();
+    }
+
+    let cookie = getCookie('honestwork');
+    if (cookie) {
+      return
+    }
+    const password = window.prompt("What's the password?");
+    if (password === 'emmet2020') {
+      setCookie('honestwork', true, 7);
+    } else {
+      window.location = '/unathorised';
+    }
+  </script>
   <title>Honest Work</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">

@@ -1,12 +1,17 @@
 {{ define "main" }}
 
+{{ $sectionNumber := 0 }}
+
 <div class="dzsparallaxer auto-init height-is-based-on-content use-loading mode-scroll"
   data-options='{direction: "normal"}'>
   <div class="divimage dzsparallaxer--target" style="height: 130%; background-image: url('{{.Params.header_image}}');">
   </div>
   <div class="container text-center u-space-4">
     <div class="w-lg-50 mx-auto mb-3">
-      <h1 class="display-3 font-size-48--md-down text-white font-weight-bold">{{.Params.title}}</h1>
+      <h1 class="display-3 font-size-48--md-down text-white font-weight-bold"
+        style="text-shadow: 0px 0px 15px rgba(0,0,0,1);">
+        {{.Params.title}}
+      </h1>
     </div>
   </div>
 </div>
@@ -17,7 +22,7 @@
     <div class="col-lg-{{ if .Params.show_sub_navigation }}9{{else}}12{{end}} order-lg-2 mb-9 mb-lg-0">
 
       {{ if .Params.content }}
-      <article class="row mb-5">
+      <article class="row mb-4">
         <div class="col-12">
           {{.Params.content | markdownify}}
         </div>
@@ -25,29 +30,31 @@
       {{end}}
 
       {{ range .Params.sections}}
-      <article class="row mb-5">
+      <article class="row mb-4">
+
+        {{$sectionNumber = add $sectionNumber 1}}
 
         {{ if (eq .template "block-heading") }}
-        <div class="col-12">
+        <div class="col-12 {{.template}}">
           <h2>{{.heading}}</h2>
         </div>
         {{end}}
 
         {{ if (eq .template "block-text") }}
-        <div class="col-12">
-          <p>{{.content | markdownify}}</p>
+        <div class="col-12 {{.template}}">
+          {{.content | markdownify}}
         </div>
         {{end}}
 
         {{ if (eq .template "block-image") }}
-        <div class="col-12">
+        <div class="col-12 {{.template}}">
           <img src="{{.image}}" class="img-fluid w-100 rounded" alt="{{.Params.title}}">
         </div>
         {{end}}
 
         {{ if (eq .template "block-table") }}
-        <div class="col-12 table-responsive">
-          <table class="table table-borderless">
+        <div class="col-12 table-responsive {{.template}}">
+          <table class="table">
             <thead class="thead-light">
               <tr>
                 {{ range $index, $element := .header_columns }}
@@ -65,25 +72,29 @@
               {{end}}
             </tbody>
           </table>
+          {{if .footer}}
+          <p style="font-size:75%">{{.footer}}</p>
+          {{end}}
         </div>
         {{end}}
 
         {{ if (eq .template "block-faq") }}
-        <div class="col-lg-9">
-          <div id="basics" class="u-space-2-bottom">
+        <div class="col-12 {{.template}}">
+          <div id="basics">
             {{ with .title}}
             <div class="mb-3">
               <h3 class="text-primary font-weight-bold">{{.}}</h3>
             </div>
             {{end}}
-            <div id="basicsAccordion">
+            <div id="basicsAccordion-{{$sectionNumber}}">
               {{ range $index, $element := .faq }}
+              {{ $faqPointer := printf "%d-%d" $sectionNumber $index }}
               <div class="card mb-3">
-                <div class="card-header u-card-header" id="basicsHeading{{$index}}">
+                <div class="card-header u-card-header" id="basicsHeading{{$faqPointer}}">
                   <h5 class="mb-0">
                     <button class="btn btn-link btn-block d-flex justify-content-between u-card-btn p-3 collapsed"
-                      data-toggle="collapse" data-target="#basicsCollapse{{$index}}" aria-expanded="true"
-                      aria-controls="basicsCollapse{{$index}}">
+                      data-toggle="collapse" data-target="#basicsCollapse{{$faqPointer}}" aria-expanded="true"
+                      aria-controls="basicsCollapse{{$faqPointer}}">
                       {{.question}}
                       <span class="u-card-btn__arrow">
                         <span class="fa fa-arrow-down small"></span>
@@ -91,8 +102,8 @@
                     </button>
                   </h5>
                 </div>
-                <div id="basicsCollapse{{$index}}" class="collapse" aria-labelledby="basicsHeading{{$index}}"
-                  data-parent="#basicsAccordion">
+                <div id="basicsCollapse{{$faqPointer}}" class="collapse" aria-labelledby="basicsHeading{{$faqPointer}}"
+                  data-parent="#basicsAccordion-{{$sectionNumber}}">
                   <div class="card-body u-card-body">
                     {{.answer | markdownify}}
                   </div>
@@ -105,8 +116,9 @@
         {{end}}
 
         {{ if (eq .template "block-registration") }}
-        <div class="w-40 mx-auto">
-          <form id="blockForm" class="js-validate js-form-message" action="https://formspree.io/xjvabvek" method="POST">
+        <div class="w-40 mx-auto {{.template}}">
+          <form id="blockForm-{{$sectionNumber}}" class="js-validate js-form-message"
+            action="https://formspree.io/xjvabvek" method="POST">
             {{ range $index, $element := .fields }}
             <div class="form-group text-center">
               <label class="h6 small d-block text-uppercase" for="exampleInputEmail1">{{.}}</label>
@@ -117,10 +129,10 @@
               <button type="submit" class="btn btn-block btn-primary u-btn-primary transition-3d-hover">Submit</button>
             </div>
           </form>
-          <div id="blockFormThankYou" class="alert alert-success d-none" role="alert">
+          <div id="blockFormThankYou-{{$sectionNumber}}" class="alert alert-success d-none" role="alert">
             {{ .thank_you_message }}
           </div>
-          <div id="blockFormError" class="alert alert-danger d-none" role="alert">
+          <div id="blockFormError-{{$sectionNumber}}" class="alert alert-danger d-none" role="alert">
             An error occurred, please try again
           </div>
           <script type="text/javascript">
@@ -137,15 +149,15 @@
                   return;
                 }
                 if (xhr.status === 200) {
-                  $('#blockForm').hide();
-                  $('#blockFormThankYou').removeClass('d-none');
+                  $('#blockForm-{{$sectionNumber}}').hide();
+                  $('#blockFormThankYou-{{$sectionNumber}}').removeClass('d-none');
                 } else {
-                  $('#blockFormError').removeClass('d-none');
+                  $('#blockFormError-{{$sectionNumber}}').removeClass('d-none');
                 }
               };
               xhr.send(data);
             }
-            const form = document.getElementById('blockForm');
+            const form = document.getElementById('blockForm-{{$sectionNumber}}');
             form.onsubmit = submit;
           </script>
         </div>
