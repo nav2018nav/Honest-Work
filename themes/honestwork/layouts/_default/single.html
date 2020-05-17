@@ -37,6 +37,7 @@
         {{ if (eq .template "block-heading") }}
         <div class="col-12 {{.template}}">
           <h2>{{.heading}}</h2>
+          <div style="width:100px; height:2px; background-color:#42b9f4;"></div>
         </div>
         {{end}}
 
@@ -54,7 +55,7 @@
 
         {{ if (eq .template "block-table") }}
         <div class="col-12 table-responsive {{.template}}">
-          <table class="table">
+          <table class="table table-bordered">
             <thead class="thead-light">
               <tr>
                 {{ range $index, $element := .header_columns }}
@@ -165,7 +166,6 @@
 
       </article>
       {{ end }}
-      <div class="u-space-2-bottom"></div>
     </div>
 
     {{ if .Params.show_sub_navigation }}
