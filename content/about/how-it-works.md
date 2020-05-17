@@ -1,5 +1,5 @@
 ---
-header_image: "/images/home_team.jpeg"
+header_image: "/static/uploads/home_team.jpg"
 show_sub_navigation: true
 title: How it works
 content: Enter text here
