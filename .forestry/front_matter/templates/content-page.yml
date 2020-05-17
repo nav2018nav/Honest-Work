@@ -43,6 +43,9 @@ fields:
     max: 
   label: Sections
   description: The page content sections
+- name: password_protected
+  type: boolean
+  label: Password protected
 pages:
 - content/about/about-honest-work.md
 - content/about/contact-us.md
