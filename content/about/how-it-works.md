@@ -16,7 +16,7 @@ sections:
   content: But you’re just one person in a company that employs hundreds, or thousands.
     You don’t know where to begin, and you don’t want to risk your job.
 - template: block-image
-  image: "/images/About - How - 3 org chart multiple.PNG"
+  image: "/static/uploads/about-how-3-org-chart-multiple.png"
 - template: block-text
   content: Chances are you’re not alone. Plenty of people care about the world and
     want to help make it better. The hard part is finding them.
