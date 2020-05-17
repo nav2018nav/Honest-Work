@@ -12,14 +12,13 @@
     }
 
     let cookie = getCookie('honestwork');
-    if (cookie) {
-      return
-    }
-    const password = window.prompt("What's the password?");
-    if (password === 'emmet2020') {
-      setCookie('honestwork', true, 7);
-    } else {
-      window.location = '/unathorised';
+    if (!cookie) {
+      const password = window.prompt("What's the password?");
+      if (password === 'emmet2020') {
+        setCookie('honestwork', true, 7);
+      } else {
+        window.location = '/unathorised';
+      }
     }
   </script>
   <title>Honest Work</title>
@@ -31,7 +30,7 @@
   <link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.css">
   <link rel="stylesheet" href="/assets/vendor/font-awesome/css/fontawesome-all.min.css">
   <link rel="stylesheet" href="/assets/vendor/animate.css/animate.min.css">
-  <link rel="stylesheet" href="/assets/vendor/hs-megamenu/src/hs.megamenu.css">
+  <!-- <link rel="stylesheet" href="/assets/vendor/hs-megamenu/src/hs.megamenu.css"> -->
   <link rel="stylesheet" href="/assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
   <link rel="stylesheet" href="/assets/vendor/fancybox/jquery.fancybox.css">
   <link rel="stylesheet" href="/assets/vendor/slick-carousel/slick/slick.css">
