@@ -15,7 +15,7 @@ sections:
   - homepage
   - content-page
 upload_dir: static/uploads
-public_path: static/uploads
+public_path: "/static/uploads"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
