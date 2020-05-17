@@ -37,7 +37,7 @@ sections:
 - template: block-image
   image: "/static/uploads/about-how-7-letter-cropped-1.png"
 - template: block-image
-  image: "/images/About - How - 8 strike.png"
+  image: "/static/uploads/about-how-8-strike-1.png"
 - template: block-image
   image: "/images/About - How - 9 petition transparent.png"
 - template: block-text
