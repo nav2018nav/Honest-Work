@@ -1,6 +1,7 @@
 +++
 content = ""
 header_image = "/uploads/What - Consumer goods.jpg"
+password_protected = false
 show_sub_navigation = true
 title = "Consumer goods"
 [menu.footer]
@@ -12,6 +13,9 @@ weight = 1
 [[sections]]
 heading = "Supply Chains"
 template = "block-heading"
+[[sections]]
+images = ["/uploads/about-how-7-letter-cropped-1.png", "/uploads/about-how-10-green-shoots-1.png", "/uploads/home_team.jpg"]
+template = "block-image-gallery"
 [[sections]]
 content = "People should never have to work in inhumane conditions just so we can have cheaper clothes, food or gadgets, but this is happening every single day. 1 in 185 people live in modern slavery today, and nothing will change unless the indifference of companies, workers and consumers changes. Looked at another way, all those who participate in the production of goods should have a share in the wealth they generate.\n\nThere are many consumer goods with long supply chains which are known to be significant contributors to human rights abuses or very poor working conditions. Many also contribute to environmental issues such as deforestation. Low-cost clothing, fish and lithium ion batteries for phones and laptops are just some examples of goods with particular high risks."
 template = "block-text"
@@ -25,6 +29,7 @@ question = "Some questions to start with"
 answer = "_Fashion -_ Documentary “[The True Cost](https://www.youtube.com/watch?v=mJUQR2oBJv4)” provides a good introduction to some of the issues within the fashion industry. Fashion Revolution has a [manifesto](https://www.fashionrevolution.org/manifesto/) for how the fashion industry needs to change (which workers can sign), and produces a transparency [ranking](https://www.fashionrevolution.org/about/transparency/) of the world’s 250 largest fashion brands every year. KnowTheChain also produces a [ranking](https://knowthechain.org/benchmarks/comparison_tool/6/), focused on actual company behaviour, rather than transparency alone.\n\n_Food and beverages_ - These supply chains cut across human rights, environmental degradation and animal welfare issues. [Fairtrade](https://www.fairtrade.net/issue) explains these issues within a range of these supply chains, while the [BHRRC](https://www.business-humanrights.org/en/search-topics) tackles issues including fish and wine. BBFAW compares business practices on animal welfare in an annual [report](https://bbfaw.com/publications/)."
 question = "Further information"
 [[sections]]
+footer = ""
 template = "block-table"
 [[sections.header_columns]]
 column = "Producer"
