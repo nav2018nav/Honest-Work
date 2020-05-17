@@ -3,5 +3,10 @@ hero_image: "/uploads/home_team.jpg"
 hero_title: Honest Work
 hero_sub_title: Do you work for a company? Then you can change the world
 title: Homepage
+show_sub_navigation: true
+header_image: "/uploads/home_team.jpg"
+content: ''
+sections: []
+password_protected: false
 
 ---
