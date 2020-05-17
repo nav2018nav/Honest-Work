@@ -22,3 +22,6 @@ fields:
   config:
     required: false
   label: Hero sub title
+- name: password_protected
+  type: boolean
+  label: Password protected
