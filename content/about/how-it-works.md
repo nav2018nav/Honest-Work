@@ -5,7 +5,7 @@ title: How it works
 content: Enter text here
 sections:
 - template: block-image
-  image: "/images/About - How - 1 outline.png"
+  image: "/static/uploads/about-how-1-outline-1.png"
 - template: block-text
   content: You are a person who cares about the state of the world. You work for a
     company; you think maybe they could do a few things better. The company’s leadership
