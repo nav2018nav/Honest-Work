@@ -35,6 +35,7 @@ fields:
   - block-heading
   - block-text
   - block-image
+  - block-image-gallery
   - block-table
   - block-faq
   - block-registration
