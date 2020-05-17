@@ -48,7 +48,6 @@ fields:
   type: boolean
   label: Password protected
 pages:
-- content/_index.md
 - content/about/about-honest-work.md
 - content/about/contact-us.md
 - content/about/faq.md
