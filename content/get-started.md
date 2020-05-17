@@ -9,6 +9,6 @@ sections:
 header_image: ''
 content: Some getting started content
 show_sub_navigation: false
-password_protected: true
+password_protected: false
 
 ---
