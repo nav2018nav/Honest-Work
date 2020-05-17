@@ -46,7 +46,7 @@ sections:
     of directors, prepare a petition, even go on strike. We’ll try and help you find
     the strategy that works for you.
 - template: block-image
-  image: "/images/About - How - 10 green shoots.png"
+  image: "/static/uploads/about-how-10-green-shoots-1.png"
 - template: block-text
   content: 'Finally: you make a change. You help build a better world.'
 menu:
