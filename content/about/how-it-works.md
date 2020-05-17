@@ -11,7 +11,7 @@ sections:
     company; you think maybe they could do a few things better. The company’s leadership
     isn’t taking the issue seriously enough.
 - template: block-image
-  image: "/images/About - How - 2 org chart.PNG"
+  image: "/static/uploads/about-how-2-org-chart.png"
 - template: block-text
   content: But you’re just one person in a company that employs hundreds, or thousands.
     You don’t know where to begin, and you don’t want to risk your job.
