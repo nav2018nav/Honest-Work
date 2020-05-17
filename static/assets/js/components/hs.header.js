@@ -5,8 +5,8 @@
  * @version 1.0
  *
  */
-;(function ($) {
-  'use strict';
+; (function ($) {
+  'use strict'
 
   $.HSCore.components.HSHeader = {
 
@@ -35,16 +35,16 @@
      */
     init: function (element) {
 
-      if (!element || element.length !== 1 || element.data('HSHeader')) return;
+      if (!element || element.length !== 1 || element.data('HSHeader')) return
 
-      var self = this;
+      var self = this
 
-      this.element = element;
-      this.config = $.extend(true, {}, this._baseConfig, element.data());
+      this.element = element
+      this.config = $.extend(true, {}, this._baseConfig, element.data())
 
-      this.observers = this._detectObservers();
-      this.fixMediaDifference(this.element);
-      this.element.data('HSHeader', new HSHeader(this.element, this.config, this.observers));
+      this.observers = this._detectObservers()
+      this.fixMediaDifference(this.element)
+      this.element.data('HSHeader', new HSHeader(this.element, this.config, this.observers))
 
       $(window)
         .on('scroll.uHeader', function (e) {
@@ -54,13 +54,13 @@
               top: -($(window).scrollTop())
             })
               .addClass($(element).data('effect-compensation-start-class'))
-              .removeClass($(element).data('effect-compensation-end-class'));
+              .removeClass($(element).data('effect-compensation-end-class'))
           } else if ($(element).data('effect-compensation') === true) {
             $(element).css({
               top: 0
             })
               .addClass($(element).data('effect-compensation-end-class'))
-              .removeClass($(element).data('effect-compensation-start-class'));
+              .removeClass($(element).data('effect-compensation-start-class'))
           }
 
           if ($(window).scrollTop() > 5 && !$(element).hasClass('.u-scrolled')) {
@@ -71,26 +71,26 @@
 
           element
             .data('HSHeader')
-            .notify();
+            .notify()
 
         })
         .on('resize.uHeader', function (e) {
 
-          if (self.resizeTimeOutId) clearTimeout(self.resizeTimeOutId);
+          if (self.resizeTimeOutId) clearTimeout(self.resizeTimeOutId)
 
           self.resizeTimeOutId = setTimeout(function () {
 
             element
               .data('HSHeader')
               .checkViewport()
-              .update();
+              .update()
 
-          }, 100);
+          }, 100)
 
         })
-        .trigger('scroll.uHeader');
+        .trigger('scroll.uHeader')
 
-      return this.element;
+      return this.element
 
     },
 
@@ -103,7 +103,7 @@
      */
     _detectObservers: function () {
 
-      if (!this.element || !this.element.length) return;
+      if (!this.element || !this.element.length) return
 
       var observers = {
         'xs': [],
@@ -111,7 +111,7 @@
         'md': [],
         'lg': [],
         'xl': []
-      };
+      }
 
       /* ------------------------ xs -------------------------*/
 
@@ -119,7 +119,7 @@
       if (this.element.hasClass('u-header--has-hidden-element')) {
         observers['xs'].push(
           new HSHeaderHasHiddenElement(this.element)
-        );
+        )
       }
 
       // Sticky top
@@ -130,14 +130,14 @@
 
           observers['xs'].push(
             new HSHeaderMomentShowHideObserver(this.element)
-          );
+          )
 
         }
         else if (this.element.hasClass('u-header--toggle-section')) {
 
           observers['xs'].push(
             new HSHeaderHideSectionObserver(this.element)
-          );
+          )
 
         }
 
@@ -145,7 +145,7 @@
 
           observers['xs'].push(
             new HSHeaderChangeLogoObserver(this.element)
-          );
+          )
 
         }
 
@@ -153,7 +153,7 @@
 
           observers['xs'].push(
             new HSHeaderChangeAppearanceObserver(this.element)
-          );
+          )
 
         }
 
@@ -165,14 +165,14 @@
 
         observers['xs'].push(
           new HSHeaderFloatingObserver(this.element)
-        );
+        )
 
       }
 
       if (this.element.hasClass('u-header--invulnerable')) {
         observers['xs'].push(
           new HSHeaderWithoutBehaviorObserver(this.element)
-        );
+        )
       }
 
       // Sticky bottom
@@ -182,14 +182,14 @@
         if (this.element.hasClass('u-header--change-appearance')) {
           observers['xs'].push(
             new HSHeaderChangeAppearanceObserver(this.element)
-          );
+          )
         }
 
         if (this.element.hasClass('u-header--change-logo')) {
 
           observers['xs'].push(
             new HSHeaderChangeLogoObserver(this.element)
-          );
+          )
 
         }
 
@@ -203,7 +203,7 @@
 
           observers['xs'].push(
             new HSHeaderShowHideObserver(this.element)
-          );
+          )
 
         }
 
@@ -211,7 +211,7 @@
 
           observers['xs'].push(
             new HSHeaderChangeLogoObserver(this.element)
-          );
+          )
 
         }
 
@@ -219,7 +219,7 @@
 
           observers['xs'].push(
             new HSHeaderChangeAppearanceObserver(this.element)
-          );
+          )
 
         }
 
@@ -231,7 +231,7 @@
 
         observers['xs'].push(
           new HSHeaderStickObserver(this.element)
-        );
+        )
 
         if (this.element.hasClass('u-header--change-appearance')) {
 
@@ -239,7 +239,7 @@
             new HSHeaderChangeAppearanceObserver(this.element, {
               fixPointSelf: true
             })
-          );
+          )
 
         }
 
@@ -249,7 +249,7 @@
             new HSHeaderChangeLogoObserver(this.element, {
               fixPointSelf: true
             })
-          );
+          )
 
         }
 
@@ -263,7 +263,7 @@
       if (this.element.hasClass('u-header--has-hidden-element-sm')) {
         observers['sm'].push(
           new HSHeaderHasHiddenElement(this.element)
-        );
+        )
       }
 
       if (this.element.hasClass('u-header--sticky-top-sm')) {
@@ -272,14 +272,14 @@
 
           observers['sm'].push(
             new HSHeaderMomentShowHideObserver(this.element)
-          );
+          )
 
         }
         else if (this.element.hasClass('u-header--toggle-section-sm')) {
 
           observers['sm'].push(
             new HSHeaderHideSectionObserver(this.element)
-          );
+          )
 
         }
 
@@ -287,7 +287,7 @@
 
           observers['sm'].push(
             new HSHeaderChangeLogoObserver(this.element)
-          );
+          )
 
         }
 
@@ -295,7 +295,7 @@
 
           observers['sm'].push(
             new HSHeaderChangeAppearanceObserver(this.element)
-          );
+          )
 
         }
 
@@ -307,14 +307,14 @@
 
         observers['sm'].push(
           new HSHeaderFloatingObserver(this.element)
-        );
+        )
 
       }
 
       if (this.element.hasClass('u-header--invulnerable-sm')) {
         observers['sm'].push(
           new HSHeaderWithoutBehaviorObserver(this.element)
-        );
+        )
       }
 
       // Sticky bottom
@@ -324,14 +324,14 @@
         if (this.element.hasClass('u-header--change-appearance-sm')) {
           observers['sm'].push(
             new HSHeaderChangeAppearanceObserver(this.element)
-          );
+          )
         }
 
         if (this.element.hasClass('u-header--change-logo-sm')) {
 
           observers['sm'].push(
             new HSHeaderChangeLogoObserver(this.element)
-          );
+          )
 
         }
 
@@ -345,7 +345,7 @@
 
           observers['sm'].push(
             new HSHeaderShowHideObserver(this.element)
-          );
+          )
 
         }
 
@@ -353,7 +353,7 @@
 
           observers['sm'].push(
             new HSHeaderChangeLogoObserver(this.element)
-          );
+          )
 
         }
 
@@ -361,7 +361,7 @@
 
           observers['sm'].push(
             new HSHeaderChangeAppearanceObserver(this.element)
-          );
+          )
 
         }
 
@@ -373,7 +373,7 @@
 
         observers['sm'].push(
           new HSHeaderStickObserver(this.element)
-        );
+        )
 
         if (this.element.hasClass('u-header--change-appearance-sm')) {
 
@@ -381,7 +381,7 @@
             new HSHeaderChangeAppearanceObserver(this.element, {
               fixPointSelf: true
             })
-          );
+          )
 
         }
 
@@ -391,7 +391,7 @@
             new HSHeaderChangeLogoObserver(this.element, {
               fixPointSelf: true
             })
-          );
+          )
 
         }
 
@@ -403,27 +403,25 @@
       if (this.element.hasClass('u-header--has-hidden-element-md')) {
         observers['md'].push(
           new HSHeaderHasHiddenElement(this.element)
-        );
+        )
       }
 
       // Sticky top
 
       if (this.element.hasClass('u-header--sticky-top-md')) {
 
-        console.log(1);
-
         if (this.element.hasClass('u-header--show-hide-md')) {
 
           observers['md'].push(
             new HSHeaderMomentShowHideObserver(this.element)
-          );
+          )
 
         }
         else if (this.element.hasClass('u-header--toggle-section-md')) {
 
           observers['md'].push(
             new HSHeaderHideSectionObserver(this.element)
-          );
+          )
 
         }
 
@@ -431,7 +429,7 @@
 
           observers['md'].push(
             new HSHeaderChangeLogoObserver(this.element)
-          );
+          )
 
         }
 
@@ -439,7 +437,7 @@
 
           observers['md'].push(
             new HSHeaderChangeAppearanceObserver(this.element)
-          );
+          )
 
         }
 
@@ -451,14 +449,14 @@
 
         observers['md'].push(
           new HSHeaderFloatingObserver(this.element)
-        );
+        )
 
       }
 
       if (this.element.hasClass('u-header--invulnerable-md')) {
         observers['md'].push(
           new HSHeaderWithoutBehaviorObserver(this.element)
-        );
+        )
       }
 
       // Sticky bottom
@@ -468,14 +466,14 @@
         if (this.element.hasClass('u-header--change-appearance-md')) {
           observers['md'].push(
             new HSHeaderChangeAppearanceObserver(this.element)
-          );
+          )
         }
 
         if (this.element.hasClass('u-header--change-logo-md')) {
 
           observers['md'].push(
             new HSHeaderChangeLogoObserver(this.element)
-          );
+          )
 
         }
 
@@ -489,7 +487,7 @@
 
           observers['md'].push(
             new HSHeaderShowHideObserver(this.element)
-          );
+          )
 
         }
 
@@ -497,7 +495,7 @@
 
           observers['md'].push(
             new HSHeaderChangeLogoObserver(this.element)
-          );
+          )
 
         }
 
@@ -505,7 +503,7 @@
 
           observers['md'].push(
             new HSHeaderChangeAppearanceObserver(this.element)
-          );
+          )
 
         }
 
@@ -517,7 +515,7 @@
 
         observers['md'].push(
           new HSHeaderStickObserver(this.element)
-        );
+        )
 
         if (this.element.hasClass('u-header--change-appearance-md')) {
 
@@ -525,7 +523,7 @@
             new HSHeaderChangeAppearanceObserver(this.element, {
               fixPointSelf: true
             })
-          );
+          )
 
         }
 
@@ -535,7 +533,7 @@
             new HSHeaderChangeLogoObserver(this.element, {
               fixPointSelf: true
             })
-          );
+          )
 
         }
 
@@ -548,7 +546,7 @@
       if (this.element.hasClass('u-header--has-hidden-element-lg')) {
         observers['lg'].push(
           new HSHeaderHasHiddenElement(this.element)
-        );
+        )
       }
 
       // Sticky top
@@ -559,14 +557,14 @@
 
           observers['lg'].push(
             new HSHeaderMomentShowHideObserver(this.element)
-          );
+          )
 
         }
         else if (this.element.hasClass('u-header--toggle-section-lg')) {
 
           observers['lg'].push(
             new HSHeaderHideSectionObserver(this.element)
-          );
+          )
 
         }
 
@@ -574,7 +572,7 @@
 
           observers['lg'].push(
             new HSHeaderChangeLogoObserver(this.element)
-          );
+          )
 
         }
 
@@ -582,7 +580,7 @@
 
           observers['lg'].push(
             new HSHeaderChangeAppearanceObserver(this.element)
-          );
+          )
 
         }
 
@@ -594,14 +592,14 @@
 
         observers['lg'].push(
           new HSHeaderFloatingObserver(this.element)
-        );
+        )
 
       }
 
       if (this.element.hasClass('u-header--invulnerable-lg')) {
         observers['lg'].push(
           new HSHeaderWithoutBehaviorObserver(this.element)
-        );
+        )
       }
 
       // Sticky bottom
@@ -611,14 +609,14 @@
         if (this.element.hasClass('u-header--change-appearance-lg')) {
           observers['lg'].push(
             new HSHeaderChangeAppearanceObserver(this.element)
-          );
+          )
         }
 
         if (this.element.hasClass('u-header--change-logo-lg')) {
 
           observers['lg'].push(
             new HSHeaderChangeLogoObserver(this.element)
-          );
+          )
 
         }
 
@@ -632,7 +630,7 @@
 
           observers['lg'].push(
             new HSHeaderShowHideObserver(this.element)
-          );
+          )
 
         }
 
@@ -640,7 +638,7 @@
 
           observers['lg'].push(
             new HSHeaderChangeLogoObserver(this.element)
-          );
+          )
 
         }
 
@@ -648,7 +646,7 @@
 
           observers['lg'].push(
             new HSHeaderChangeAppearanceObserver(this.element)
-          );
+          )
 
         }
 
@@ -660,7 +658,7 @@
 
         observers['lg'].push(
           new HSHeaderStickObserver(this.element)
-        );
+        )
 
         if (this.element.hasClass('u-header--change-appearance-lg')) {
 
@@ -668,7 +666,7 @@
             new HSHeaderChangeAppearanceObserver(this.element, {
               fixPointSelf: true
             })
-          );
+          )
 
         }
 
@@ -678,7 +676,7 @@
             new HSHeaderChangeLogoObserver(this.element, {
               fixPointSelf: true
             })
-          );
+          )
 
         }
 
@@ -690,7 +688,7 @@
       if (this.element.hasClass('u-header--has-hidden-element-xl')) {
         observers['xl'].push(
           new HSHeaderHasHiddenElement(this.element)
-        );
+        )
       }
 
       // Sticky top
@@ -701,14 +699,14 @@
 
           observers['xl'].push(
             new HSHeaderMomentShowHideObserver(this.element)
-          );
+          )
 
         }
         else if (this.element.hasClass('u-header--toggle-section-xl')) {
 
           observers['xl'].push(
             new HSHeaderHideSectionObserver(this.element)
-          );
+          )
 
         }
 
@@ -716,7 +714,7 @@
 
           observers['xl'].push(
             new HSHeaderChangeLogoObserver(this.element)
-          );
+          )
 
         }
 
@@ -724,7 +722,7 @@
 
           observers['xl'].push(
             new HSHeaderChangeAppearanceObserver(this.element)
-          );
+          )
 
         }
 
@@ -736,7 +734,7 @@
 
         observers['xl'].push(
           new HSHeaderFloatingObserver(this.element)
-        );
+        )
 
       }
 
@@ -745,7 +743,7 @@
       if (this.element.hasClass('u-header--invulnerable-xl')) {
         observers['xl'].push(
           new HSHeaderWithoutBehaviorObserver(this.element)
-        );
+        )
       }
 
       // Sticky bottom
@@ -755,14 +753,14 @@
         if (this.element.hasClass('u-header--change-appearance-xl')) {
           observers['xl'].push(
             new HSHeaderChangeAppearanceObserver(this.element)
-          );
+          )
         }
 
         if (this.element.hasClass('u-header--change-logo-xl')) {
 
           observers['xl'].push(
             new HSHeaderChangeLogoObserver(this.element)
-          );
+          )
 
         }
 
@@ -776,7 +774,7 @@
 
           observers['xl'].push(
             new HSHeaderShowHideObserver(this.element)
-          );
+          )
 
         }
 
@@ -784,7 +782,7 @@
 
           observers['xl'].push(
             new HSHeaderChangeLogoObserver(this.element)
-          );
+          )
 
         }
 
@@ -792,7 +790,7 @@
 
           observers['xl'].push(
             new HSHeaderChangeAppearanceObserver(this.element)
-          );
+          )
 
         }
 
@@ -804,7 +802,7 @@
 
         observers['xl'].push(
           new HSHeaderStickObserver(this.element)
-        );
+        )
 
         if (this.element.hasClass('u-header--change-appearance-xl')) {
 
@@ -812,7 +810,7 @@
             new HSHeaderChangeAppearanceObserver(this.element, {
               fixPointSelf: true
             })
-          );
+          )
 
         }
 
@@ -822,14 +820,14 @@
             new HSHeaderChangeLogoObserver(this.element, {
               fixPointSelf: true
             })
-          );
+          )
 
         }
 
       }
 
 
-      return observers;
+      return observers
 
     },
 
@@ -842,58 +840,58 @@
      */
     fixMediaDifference: function (element) {
 
-      if (!element || !element.length || !element.filter('[class*="u-header--side"]').length) return;
+      if (!element || !element.length || !element.filter('[class*="u-header--side"]').length) return
 
-      var toggleable;
+      var toggleable
 
       if (element.hasClass('u-header--side-left-xl') || element.hasClass('u-header--side-right-xl')) {
 
-        toggleable = element.find('.navbar-expand-xl');
+        toggleable = element.find('.navbar-expand-xl')
 
         if (toggleable.length) {
           toggleable
             .removeClass('navbar-expand-xl')
-            .addClass('navbar-expand-lg');
+            .addClass('navbar-expand-lg')
         }
 
       }
       else if (element.hasClass('u-header--side-left-lg') || element.hasClass('u-header--side-right-lg')) {
 
-        toggleable = element.find('.navbar-expand-lg');
+        toggleable = element.find('.navbar-expand-lg')
 
         if (toggleable.length) {
           toggleable
             .removeClass('navbar-expand-lg')
-            .addClass('navbar-expand-md');
+            .addClass('navbar-expand-md')
         }
 
       }
       else if (element.hasClass('u-header--side-left-md') || element.hasClass('u-header--side-right-md')) {
 
-        toggleable = element.find('.navbar-expand-md');
+        toggleable = element.find('.navbar-expand-md')
 
         if (toggleable.length) {
           toggleable
             .removeClass('navbar-expand-md')
-            .addClass('navbar-expand-sm');
+            .addClass('navbar-expand-sm')
         }
 
       }
       else if (element.hasClass('u-header--side-left-sm') || element.hasClass('u-header--side-right-sm')) {
 
-        toggleable = element.find('.navbar-expand-sm');
+        toggleable = element.find('.navbar-expand-sm')
 
         if (toggleable.length) {
           toggleable
             .removeClass('navbar-expand-sm')
-            .addClass('navbar-expand');
+            .addClass('navbar-expand')
         }
 
       }
 
     }
 
-  };
+  }
 
   /**
    * HSHeader constructor function.
@@ -906,15 +904,15 @@
    */
   function HSHeader(element, config, observers) {
 
-    if (!element || !element.length) return;
+    if (!element || !element.length) return
 
-    this.element = element;
-    this.config = config;
+    this.element = element
+    this.config = config
 
-    this.observers = observers && $.isPlainObject(observers) ? observers : {};
+    this.observers = observers && $.isPlainObject(observers) ? observers : {}
 
-    this.viewport = 'xs';
-    this.checkViewport();
+    this.viewport = 'xs'
+    this.checkViewport()
 
   }
 
@@ -925,95 +923,95 @@
    */
   HSHeader.prototype.checkViewport = function () {
 
-    var $w = $(window);
+    var $w = $(window)
 
     if ($w.width() > this.config.breakpointsMap['sm'] && this.observers['sm'].length) {
-      this.prevViewport = this.viewport;
-      this.viewport = 'sm';
+      this.prevViewport = this.viewport
+      this.viewport = 'sm'
 
-      if(this.element[0].dataset.headerFixMoment && $w.scrollTop() > this.element[0].dataset.headerFixMoment) {
+      if (this.element[0].dataset.headerFixMoment && $w.scrollTop() > this.element[0].dataset.headerFixMoment) {
 
-        if(typeof this.config.breakpointsMap['sm'] === 'undefined') {
-          this.element.removeClass('js-header-fix-moment');
+        if (typeof this.config.breakpointsMap['sm'] === 'undefined') {
+          this.element.removeClass('js-header-fix-moment')
         } else {
-          this.element.addClass('js-header-fix-moment');
+          this.element.addClass('js-header-fix-moment')
         }
 
       }
 
-      return this;
+      return this
     }
 
     if ($w.width() > this.config.breakpointsMap['md'] && this.observers['md'].length) {
-      this.prevViewport = this.viewport;
-      this.viewport = 'md';
+      this.prevViewport = this.viewport
+      this.viewport = 'md'
 
-      if(this.element[0].dataset.headerFixMoment && $w.scrollTop() > this.element[0].dataset.headerFixMoment) {
+      if (this.element[0].dataset.headerFixMoment && $w.scrollTop() > this.element[0].dataset.headerFixMoment) {
 
         if (typeof this.config.breakpointsMap['md'] === 'undefined') {
-          this.element.removeClass('js-header-fix-moment');
+          this.element.removeClass('js-header-fix-moment')
         } else {
-          this.element.addClass('js-header-fix-moment');
+          this.element.addClass('js-header-fix-moment')
         }
 
       }
 
-      return this;
+      return this
     }
 
     if ($w.width() > this.config.breakpointsMap['lg'] && this.observers['lg'].length) {
-      this.prevViewport = this.viewport;
-      this.viewport = 'lg';
+      this.prevViewport = this.viewport
+      this.viewport = 'lg'
 
-      if(this.element[0].dataset.headerFixMoment && $w.scrollTop() > this.element[0].dataset.headerFixMoment) {
+      if (this.element[0].dataset.headerFixMoment && $w.scrollTop() > this.element[0].dataset.headerFixMoment) {
 
         if (typeof this.config.breakpointsMap['lg'] === 'undefined') {
-          this.element.removeClass('js-header-fix-moment');
+          this.element.removeClass('js-header-fix-moment')
         } else {
-          this.element.addClass('js-header-fix-moment');
+          this.element.addClass('js-header-fix-moment')
         }
 
       }
 
-      return this;
+      return this
     }
 
     if ($w.width() > this.config.breakpointsMap['xl'] && this.observers['xl'].length) {
-      this.prevViewport = this.viewport;
-      this.viewport = 'xl';
+      this.prevViewport = this.viewport
+      this.viewport = 'xl'
 
-      if(this.element[0].dataset.headerFixMoment && $w.scrollTop() > this.element[0].dataset.headerFixMoment) {
+      if (this.element[0].dataset.headerFixMoment && $w.scrollTop() > this.element[0].dataset.headerFixMoment) {
 
         if (typeof this.config.breakpointsMap['xl'] === 'undefined') {
-          this.element.removeClass('js-header-fix-moment');
+          this.element.removeClass('js-header-fix-moment')
         } else {
-          this.element.addClass('js-header-fix-moment');
+          this.element.addClass('js-header-fix-moment')
         }
 
       }
 
-      return this;
+      return this
     }
 
 
-    if (this.prevViewport) this.prevViewport = this.viewport;
+    if (this.prevViewport) this.prevViewport = this.viewport
 
-    if(this.element[0].dataset.headerFixMoment && $w.scrollTop() > this.element[0].dataset.headerFixMoment) {
+    if (this.element[0].dataset.headerFixMoment && $w.scrollTop() > this.element[0].dataset.headerFixMoment) {
 
       if (typeof this.config.breakpointsMap['xs'] === 'undefined') {
-        this.element.removeClass('js-header-fix-moment');
+        this.element.removeClass('js-header-fix-moment')
       } else {
-        this.element.addClass('js-header-fix-moment');
+        this.element.addClass('js-header-fix-moment')
       }
 
     }
 
-    this.viewport = 'xs';
+    this.viewport = 'xs'
 
 
-    return this;
+    return this
 
-  };
+  }
 
   /**
    * Notifies all observers.
@@ -1024,18 +1022,18 @@
 
     if (this.prevViewport) {
       this.observers[this.prevViewport].forEach(function (observer) {
-        observer.destroy();
-      });
-      this.prevViewport = null;
+        observer.destroy()
+      })
+      this.prevViewport = null
     }
 
     this.observers[this.viewport].forEach(function (observer) {
-      observer.check();
-    });
+      observer.check()
+    })
 
-    return this;
+    return this
 
-  };
+  }
 
   /**
    * Reinit all header's observers.
@@ -1047,20 +1045,20 @@
     for (var viewport in this.observers) {
 
       this.observers[viewport].forEach(function (observer) {
-        observer.destroy();
-      });
+        observer.destroy()
+      })
 
     }
 
-    this.prevViewport = null;
+    this.prevViewport = null
 
     this.observers[this.viewport].forEach(function (observer) {
-      observer.reinit();
-    });
+      observer.reinit()
+    })
 
-    return this;
+    return this
 
-  };
+  }
 
   /**
    * Abstract constructor function for each observer.
@@ -1070,20 +1068,20 @@
    * @return Boolean|undefined
    */
   function HSAbstractObserver(element) {
-    if (!element || !element.length) return;
+    if (!element || !element.length) return
 
-    this.element = element;
-    this.defaultState = true;
+    this.element = element
+    this.defaultState = true
 
     this.reinit = function () {
 
       this
         .destroy()
         .init()
-        .check();
-    };
+        .check()
+    }
 
-    return true;
+    return true
   }
 
   /**
@@ -1092,9 +1090,9 @@
    * @param jQuery element
    */
   function HSHeaderStickObserver(element) {
-    if (!HSAbstractObserver.call(this, element)) return;
+    if (!HSAbstractObserver.call(this, element)) return
 
-    this.init();
+    this.init()
 
   }
 
@@ -1106,11 +1104,11 @@
    * @return
    */
   HSHeaderStickObserver.prototype.init = function () {
-    this.defaultState = true;
-    this.offset = this.element.offset().top;
+    this.defaultState = true
+    this.offset = this.element.offset().top
 
-    return this;
-  };
+    return this
+  }
 
   /**
    *
@@ -1120,10 +1118,10 @@
    * @return
    */
   HSHeaderStickObserver.prototype.destroy = function () {
-    this.toDefaultState();
+    this.toDefaultState()
 
-    return this;
-  };
+    return this
+  }
 
   /**
    *
@@ -1135,18 +1133,18 @@
   HSHeaderStickObserver.prototype.check = function () {
 
     var $w = $(window),
-      docScrolled = $w.scrollTop();
+      docScrolled = $w.scrollTop()
 
     if (docScrolled > this.offset && this.defaultState) {
-      this.changeState();
+      this.changeState()
     }
     else if (docScrolled < this.offset && !this.defaultState) {
-      this.toDefaultState();
+      this.toDefaultState()
     }
 
-    return this;
+    return this
 
-  };
+  }
 
   /**
    *
@@ -1157,12 +1155,12 @@
    */
   HSHeaderStickObserver.prototype.changeState = function () {
 
-    this.element.addClass('js-header-fix-moment');
-    this.defaultState = !this.defaultState;
+    this.element.addClass('js-header-fix-moment')
+    this.defaultState = !this.defaultState
 
-    return this;
+    return this
 
-  };
+  }
 
   /**
    *
@@ -1173,12 +1171,12 @@
    */
   HSHeaderStickObserver.prototype.toDefaultState = function () {
 
-    this.element.removeClass('js-header-fix-moment');
-    this.defaultState = !this.defaultState;
+    this.element.removeClass('js-header-fix-moment')
+    this.defaultState = !this.defaultState
 
-    return this;
+    return this
 
-  };
+  }
 
 
   /**
@@ -1187,9 +1185,9 @@
    * @param jQuery element
    */
   function HSHeaderMomentShowHideObserver(element) {
-    if (!HSAbstractObserver.call(this, element)) return;
+    if (!HSAbstractObserver.call(this, element)) return
 
-    this.init();
+    this.init()
   }
 
   /**
@@ -1198,15 +1196,15 @@
    * @return Object
    */
   HSHeaderMomentShowHideObserver.prototype.init = function () {
-    this.direction = 'down';
-    this.delta = 0;
-    this.defaultState = true;
+    this.direction = 'down'
+    this.delta = 0
+    this.defaultState = true
 
-    this.offset = isFinite(this.element.data('header-fix-moment')) && this.element.data('header-fix-moment') !== 0 ? this.element.data('header-fix-moment') : 5;
-    this.effect = this.element.data('header-fix-effect') ? this.element.data('header-fix-effect') : 'show-hide';
+    this.offset = isFinite(this.element.data('header-fix-moment')) && this.element.data('header-fix-moment') !== 0 ? this.element.data('header-fix-moment') : 5
+    this.effect = this.element.data('header-fix-effect') ? this.element.data('header-fix-effect') : 'show-hide'
 
-    return this;
-  };
+    return this
+  }
 
   /**
    *
@@ -1214,10 +1212,10 @@
    * @return Object
    */
   HSHeaderMomentShowHideObserver.prototype.destroy = function () {
-    this.toDefaultState();
+    this.toDefaultState()
 
-    return this;
-  };
+    return this
+  }
 
   /**
    *
@@ -1229,17 +1227,17 @@
   HSHeaderMomentShowHideObserver.prototype.checkDirection = function () {
 
     if ($(window).scrollTop() > this.delta) {
-      this.direction = 'down';
+      this.direction = 'down'
     }
     else {
-      this.direction = 'up';
+      this.direction = 'up'
     }
 
-    this.delta = $(window).scrollTop();
+    this.delta = $(window).scrollTop()
 
-    return this;
+    return this
 
-  };
+  }
 
   /**
    *
@@ -1249,22 +1247,22 @@
   HSHeaderMomentShowHideObserver.prototype.toDefaultState = function () {
 
     switch (this.effect) {
-      case 'slide' :
-        this.element.removeClass('u-header--moved-up');
-        break;
+      case 'slide':
+        this.element.removeClass('u-header--moved-up')
+        break
 
-      case 'fade' :
-        this.element.removeClass('u-header--faded');
-        break;
+      case 'fade':
+        this.element.removeClass('u-header--faded')
+        break
 
       default:
-        this.element.removeClass('u-header--invisible');
+        this.element.removeClass('u-header--invisible')
     }
 
-    this.defaultState = !this.defaultState;
+    this.defaultState = !this.defaultState
 
-    return this;
-  };
+    return this
+  }
 
   /**
    *
@@ -1274,22 +1272,22 @@
   HSHeaderMomentShowHideObserver.prototype.changeState = function () {
 
     switch (this.effect) {
-      case 'slide' :
-        this.element.addClass('u-header--moved-up');
-        break;
+      case 'slide':
+        this.element.addClass('u-header--moved-up')
+        break
 
-      case 'fade' :
-        this.element.addClass('u-header--faded');
-        break;
+      case 'fade':
+        this.element.addClass('u-header--faded')
+        break
 
       default:
-        this.element.addClass('u-header--invisible');
+        this.element.addClass('u-header--invisible')
     }
 
-    this.defaultState = !this.defaultState;
+    this.defaultState = !this.defaultState
 
-    return this;
-  };
+    return this
+  }
 
   /**
    *
@@ -1298,20 +1296,20 @@
    */
   HSHeaderMomentShowHideObserver.prototype.check = function () {
 
-    var docScrolled = $(window).scrollTop();
-    this.checkDirection();
+    var docScrolled = $(window).scrollTop()
+    this.checkDirection()
 
 
     if (docScrolled >= this.offset && this.defaultState && this.direction === 'down') {
-      this.changeState();
+      this.changeState()
     }
     else if (!this.defaultState && this.direction === 'up') {
-      this.toDefaultState();
+      this.toDefaultState()
     }
 
-    return this;
+    return this
 
-  };
+  }
 
   /**
    *
@@ -1321,9 +1319,9 @@
    * @return
    */
   function HSHeaderShowHideObserver(element) {
-    if (!HSAbstractObserver.call(this, element)) return;
+    if (!HSAbstractObserver.call(this, element)) return
 
-    this.init();
+    this.init()
   }
 
   /**
@@ -1334,16 +1332,16 @@
    * @return Object
    */
   HSHeaderShowHideObserver.prototype.init = function () {
-    if (!this.defaultState && $(window).scrollTop() > this.offset) return this;
+    if (!this.defaultState && $(window).scrollTop() > this.offset) return this
 
-    this.defaultState = true;
-    this.transitionDuration = parseFloat(getComputedStyle(this.element.get(0))['transition-duration'], 10) * 1000;
+    this.defaultState = true
+    this.transitionDuration = parseFloat(getComputedStyle(this.element.get(0))['transition-duration'], 10) * 1000
 
-    this.offset = isFinite(this.element.data('header-fix-moment')) && this.element.data('header-fix-moment') > this.element.outerHeight() ? this.element.data('header-fix-moment') : this.element.outerHeight() + 100;
-    this.effect = this.element.data('header-fix-effect') ? this.element.data('header-fix-effect') : 'show-hide';
+    this.offset = isFinite(this.element.data('header-fix-moment')) && this.element.data('header-fix-moment') > this.element.outerHeight() ? this.element.data('header-fix-moment') : this.element.outerHeight() + 100
+    this.effect = this.element.data('header-fix-effect') ? this.element.data('header-fix-effect') : 'show-hide'
 
-    return this;
-  };
+    return this
+  }
 
   /**
    *
@@ -1353,13 +1351,13 @@
    * @return Object
    */
   HSHeaderShowHideObserver.prototype.destroy = function () {
-    if (!this.defaultState && $(window).scrollTop() > this.offset) return this;
+    if (!this.defaultState && $(window).scrollTop() > this.offset) return this
 
-    this.element.removeClass('u-header--untransitioned');
-    this._removeCap();
+    this.element.removeClass('u-header--untransitioned')
+    this._removeCap()
 
-    return this;
-  };
+    return this
+  }
 
   /**
    *
@@ -1370,30 +1368,30 @@
    */
   HSHeaderShowHideObserver.prototype._insertCap = function () {
 
-    this.element.addClass('js-header-fix-moment u-header--untransitioned');
+    this.element.addClass('js-header-fix-moment u-header--untransitioned')
 
     if (this.element.hasClass('u-header--static')) {
 
-      $('html').css('padding-top', this.element.outerHeight());
+      $('html').css('padding-top', this.element.outerHeight())
 
     }
 
     switch (this.effect) {
-      case 'fade' :
-        this.element.addClass('u-header--faded');
-        break;
+      case 'fade':
+        this.element.addClass('u-header--faded')
+        break
 
-      case 'slide' :
-        this.element.addClass('u-header--moved-up');
-        break;
+      case 'slide':
+        this.element.addClass('u-header--moved-up')
+        break
 
-      default :
+      default:
         this.element.addClass('u-header--invisible')
     }
 
-    this.capInserted = true;
+    this.capInserted = true
 
-  };
+  }
 
   /**
    *
@@ -1404,25 +1402,25 @@
    */
   HSHeaderShowHideObserver.prototype._removeCap = function () {
 
-    var self = this;
+    var self = this
 
-    this.element.removeClass('js-header-fix-moment');
+    this.element.removeClass('js-header-fix-moment')
 
     if (this.element.hasClass('u-header--static')) {
 
-      $('html').css('padding-top', 0);
+      $('html').css('padding-top', 0)
 
     }
 
-    if (this.removeCapTimeOutId) clearTimeout(this.removeCapTimeOutId);
+    if (this.removeCapTimeOutId) clearTimeout(this.removeCapTimeOutId)
 
     this.removeCapTimeOutId = setTimeout(function () {
-      self.element.removeClass('u-header--moved-up u-header--faded u-header--invisible');
-    }, 10);
+      self.element.removeClass('u-header--moved-up u-header--faded u-header--invisible')
+    }, 10)
 
-    this.capInserted = false;
+    this.capInserted = false
 
-  };
+  }
 
 
   /**
@@ -1434,23 +1432,23 @@
    */
   HSHeaderShowHideObserver.prototype.check = function () {
 
-    var $w = $(window);
+    var $w = $(window)
 
     if ($w.scrollTop() > this.element.outerHeight() && !this.capInserted) {
-      this._insertCap();
+      this._insertCap()
     }
     else if ($w.scrollTop() <= this.element.outerHeight() && this.capInserted) {
-      this._removeCap();
+      this._removeCap()
     }
 
     if ($w.scrollTop() > this.offset && this.defaultState) {
-      this.changeState();
+      this.changeState()
     }
     else if ($w.scrollTop() <= this.offset && !this.defaultState) {
-      this.toDefaultState();
+      this.toDefaultState()
     }
 
-  };
+  }
 
   /**
    *
@@ -1461,26 +1459,26 @@
    */
   HSHeaderShowHideObserver.prototype.changeState = function () {
 
-    this.element.removeClass('u-header--untransitioned');
+    this.element.removeClass('u-header--untransitioned')
 
-    if (this.animationTimeoutId) clearTimeout(this.animationTimeoutId);
+    if (this.animationTimeoutId) clearTimeout(this.animationTimeoutId)
 
     switch (this.effect) {
-      case 'fade' :
-        this.element.removeClass('u-header--faded');
-        break;
+      case 'fade':
+        this.element.removeClass('u-header--faded')
+        break
 
-      case 'slide' :
-        this.element.removeClass('u-header--moved-up');
-        break;
+      case 'slide':
+        this.element.removeClass('u-header--moved-up')
+        break
 
       default:
-        this.element.removeClass('u-header--invisible');
+        this.element.removeClass('u-header--invisible')
     }
 
-    this.defaultState = !this.defaultState;
+    this.defaultState = !this.defaultState
 
-  };
+  }
 
   /**
    *
@@ -1491,27 +1489,27 @@
    */
   HSHeaderShowHideObserver.prototype.toDefaultState = function () {
 
-    var self = this;
+    var self = this
 
     this.animationTimeoutId = setTimeout(function () {
-      self.element.addClass('u-header--untransitioned');
-    }, this.transitionDuration);
+      self.element.addClass('u-header--untransitioned')
+    }, this.transitionDuration)
 
 
     switch (this.effect) {
-      case 'fade' :
-        this.element.addClass('u-header--faded');
-        break;
-      case 'slide' :
-        this.element.addClass('u-header--moved-up');
-        break;
+      case 'fade':
+        this.element.addClass('u-header--faded')
+        break
+      case 'slide':
+        this.element.addClass('u-header--moved-up')
+        break
       default:
-        this.element.addClass('u-header--invisible');
+        this.element.addClass('u-header--invisible')
     }
 
-    this.defaultState = !this.defaultState;
+    this.defaultState = !this.defaultState
 
-  };
+  }
 
   /**
    *
@@ -1522,15 +1520,15 @@
    */
   function HSHeaderChangeLogoObserver(element, config) {
 
-    if (!HSAbstractObserver.call(this, element)) return;
+    if (!HSAbstractObserver.call(this, element)) return
 
     this.config = {
       fixPointSelf: false
-    };
+    }
 
-    if (config && $.isPlainObject(config)) this.config = $.extend(true, {}, this.config, config);
+    if (config && $.isPlainObject(config)) this.config = $.extend(true, {}, this.config, config)
 
-    this.init();
+    this.init()
 
   }
 
@@ -1544,30 +1542,30 @@
   HSHeaderChangeLogoObserver.prototype.init = function () {
 
     if (this.element.hasClass('js-header-fix-moment')) {
-      this.hasFixedClass = true;
-      this.element.removeClass('js-header-fix-moment');
+      this.hasFixedClass = true
+      this.element.removeClass('js-header-fix-moment')
     }
     if (this.config.fixPointSelf) {
-      this.offset = this.element.offset().top;
+      this.offset = this.element.offset().top
     }
     else {
-      this.offset = isFinite(this.element.data('header-fix-moment')) ? this.element.data('header-fix-moment') : 0;
+      this.offset = isFinite(this.element.data('header-fix-moment')) ? this.element.data('header-fix-moment') : 0
     }
     if (this.hasFixedClass) {
-      this.hasFixedClass = false;
-      this.element.addClass('js-header-fix-moment');
+      this.hasFixedClass = false
+      this.element.addClass('js-header-fix-moment')
     }
 
-    this.imgs = this.element.find('.u-header__logo-img');
-    this.defaultState = true;
+    this.imgs = this.element.find('.u-header__logo-img')
+    this.defaultState = true
 
-    this.mainLogo = this.imgs.filter('.u-header__logo-img--main');
-    this.additionalLogo = this.imgs.not('.u-header__logo-img--main');
+    this.mainLogo = this.imgs.filter('.u-header__logo-img--main')
+    this.additionalLogo = this.imgs.not('.u-header__logo-img--main')
 
-    if (!this.imgs.length) return this;
+    if (!this.imgs.length) return this
 
-    return this;
-  };
+    return this
+  }
 
   /**
    *
@@ -1577,10 +1575,10 @@
    * @return
    */
   HSHeaderChangeLogoObserver.prototype.destroy = function () {
-    this.toDefaultState();
+    this.toDefaultState()
 
-    return this;
-  };
+    return this
+  }
 
   /**
    *
@@ -1591,20 +1589,20 @@
    */
   HSHeaderChangeLogoObserver.prototype.check = function () {
 
-    var $w = $(window);
+    var $w = $(window)
 
-    if (!this.imgs.length) return this;
+    if (!this.imgs.length) return this
 
     if ($w.scrollTop() > this.offset && this.defaultState) {
-      this.changeState();
+      this.changeState()
     }
     else if ($w.scrollTop() <= this.offset && !this.defaultState) {
-      this.toDefaultState();
+      this.toDefaultState()
     }
 
-    return this;
+    return this
 
-  };
+  }
 
   /**
    *
@@ -1616,16 +1614,16 @@
   HSHeaderChangeLogoObserver.prototype.changeState = function () {
 
     if (this.mainLogo.length) {
-      this.mainLogo.removeClass('u-header__logo-img--main');
+      this.mainLogo.removeClass('u-header__logo-img--main')
     }
     if (this.additionalLogo.length) {
-      this.additionalLogo.addClass('u-header__logo-img--main');
+      this.additionalLogo.addClass('u-header__logo-img--main')
     }
 
-    this.defaultState = !this.defaultState;
+    this.defaultState = !this.defaultState
 
-    return this;
-  };
+    return this
+  }
 
   /**
    *
@@ -1637,16 +1635,16 @@
   HSHeaderChangeLogoObserver.prototype.toDefaultState = function () {
 
     if (this.mainLogo.length) {
-      this.mainLogo.addClass('u-header__logo-img--main');
+      this.mainLogo.addClass('u-header__logo-img--main')
     }
     if (this.additionalLogo.length) {
-      this.additionalLogo.removeClass('u-header__logo-img--main');
+      this.additionalLogo.removeClass('u-header__logo-img--main')
     }
 
-    this.defaultState = !this.defaultState;
+    this.defaultState = !this.defaultState
 
-    return this;
-  };
+    return this
+  }
 
   /**
    *
@@ -1656,9 +1654,9 @@
    * @return
    */
   function HSHeaderHideSectionObserver(element) {
-    if (!HSAbstractObserver.call(this, element)) return;
+    if (!HSAbstractObserver.call(this, element)) return
 
-    this.init();
+    this.init()
   }
 
   /**
@@ -1670,16 +1668,16 @@
    */
   HSHeaderHideSectionObserver.prototype.init = function () {
 
-    this.offset = isFinite(this.element.data('header-fix-moment')) ? this.element.data('header-fix-moment') : 5;
-    this.section = this.element.find('.u-header__section--hidden');
-    this.defaultState = true;
+    this.offset = isFinite(this.element.data('header-fix-moment')) ? this.element.data('header-fix-moment') : 5
+    this.section = this.element.find('.u-header__section--hidden')
+    this.defaultState = true
 
-    this.sectionHeight = this.section.length ? this.section.outerHeight() : 0;
+    this.sectionHeight = this.section.length ? this.section.outerHeight() : 0
 
 
-    return this;
+    return this
 
-  };
+  }
 
   /**
    *
@@ -1694,13 +1692,13 @@
 
       this.element.css({
         'margin-top': 0
-      });
+      })
 
     }
 
-    return this;
+    return this
 
-  };
+  }
 
   /**
    *
@@ -1711,21 +1709,21 @@
    */
   HSHeaderHideSectionObserver.prototype.check = function () {
 
-    if (!this.section.length) return this;
+    if (!this.section.length) return this
 
     var $w = $(window),
-      docScrolled = $w.scrollTop();
+      docScrolled = $w.scrollTop()
 
     if (docScrolled > this.offset && this.defaultState) {
-      this.changeState();
+      this.changeState()
     }
     else if (docScrolled <= this.offset && !this.defaultState) {
-      this.toDefaultState();
+      this.toDefaultState()
     }
 
-    return this;
+    return this
 
-  };
+  }
 
   /**
    *
@@ -1736,16 +1734,16 @@
    */
   HSHeaderHideSectionObserver.prototype.changeState = function () {
 
-    var self = this;
+    var self = this
 
     this.element.stop().animate({
       'margin-top': self.sectionHeight * -1 - 1 // last '-1' is a small fix
-    });
+    })
 
-    this.defaultState = !this.defaultState;
-    return this;
+    this.defaultState = !this.defaultState
+    return this
 
-  };
+  }
 
   /**
    *
@@ -1758,12 +1756,12 @@
 
     this.element.stop().animate({
       'margin-top': 0
-    });
+    })
 
-    this.defaultState = !this.defaultState;
-    return this;
+    this.defaultState = !this.defaultState
+    return this
 
-  };
+  }
 
   /**
    *
@@ -1773,15 +1771,15 @@
    * @return
    */
   function HSHeaderChangeAppearanceObserver(element, config) {
-    if (!HSAbstractObserver.call(this, element)) return;
+    if (!HSAbstractObserver.call(this, element)) return
 
     this.config = {
       fixPointSelf: false
-    };
+    }
 
-    if (config && $.isPlainObject(config)) this.config = $.extend(true, {}, this.config, config);
+    if (config && $.isPlainObject(config)) this.config = $.extend(true, {}, this.config, config)
 
-    this.init();
+    this.init()
   }
 
   /**
@@ -1794,30 +1792,30 @@
   HSHeaderChangeAppearanceObserver.prototype.init = function () {
 
     if (this.element.hasClass('js-header-fix-moment')) {
-      this.hasFixedClass = true;
-      this.element.removeClass('js-header-fix-moment');
+      this.hasFixedClass = true
+      this.element.removeClass('js-header-fix-moment')
     }
 
     if (this.config.fixPointSelf) {
-      this.offset = this.element.offset().top;
+      this.offset = this.element.offset().top
     }
     else {
-      this.offset = isFinite(this.element.data('header-fix-moment')) ? this.element.data('header-fix-moment') : 5;
+      this.offset = isFinite(this.element.data('header-fix-moment')) ? this.element.data('header-fix-moment') : 5
     }
 
     if (this.hasFixedClass) {
-      this.hasFixedClass = false;
-      this.element.addClass('js-header-fix-moment');
+      this.hasFixedClass = false
+      this.element.addClass('js-header-fix-moment')
     }
 
-    this.sections = this.element.find('[data-header-fix-moment-classes]');
+    this.sections = this.element.find('[data-header-fix-moment-classes]')
 
-    this.defaultState = true;
+    this.defaultState = true
 
 
-    return this;
+    return this
 
-  };
+  }
 
   /**
    *
@@ -1828,11 +1826,11 @@
    */
   HSHeaderChangeAppearanceObserver.prototype.destroy = function () {
 
-    this.toDefaultState();
+    this.toDefaultState()
 
-    return this;
+    return this
 
-  };
+  }
 
   /**
    *
@@ -1843,21 +1841,21 @@
    */
   HSHeaderChangeAppearanceObserver.prototype.check = function () {
 
-    if (!this.sections.length) return this;
+    if (!this.sections.length) return this
 
     var $w = $(window),
-      docScrolled = $w.scrollTop();
+      docScrolled = $w.scrollTop()
 
     if (docScrolled > this.offset && this.defaultState) {
-      this.changeState();
+      this.changeState()
     }
     else if (docScrolled <= this.offset && !this.defaultState) {
-      this.toDefaultState();
+      this.toDefaultState()
     }
 
-    return this;
+    return this
 
-  };
+  }
 
   /**
    *
@@ -1872,19 +1870,19 @@
 
       var $this = $(el),
         classes = $this.data('header-fix-moment-classes'),
-        exclude = $this.data('header-fix-moment-exclude');
+        exclude = $this.data('header-fix-moment-exclude')
 
-      if (!classes && !exclude) return;
+      if (!classes && !exclude) return
 
-      $this.addClass(classes + ' js-header-change-moment');
-      $this.removeClass(exclude);
+      $this.addClass(classes + ' js-header-change-moment')
+      $this.removeClass(exclude)
 
-    });
+    })
 
-    this.defaultState = !this.defaultState;
-    return this;
+    this.defaultState = !this.defaultState
+    return this
 
-  };
+  }
 
   /**
    *
@@ -1899,19 +1897,19 @@
 
       var $this = $(el),
         classes = $this.data('header-fix-moment-classes'),
-        exclude = $this.data('header-fix-moment-exclude');
+        exclude = $this.data('header-fix-moment-exclude')
 
-      if (!classes && !exclude) return;
+      if (!classes && !exclude) return
 
-      $this.removeClass(classes + ' js-header-change-moment');
-      $this.addClass(exclude);
+      $this.removeClass(classes + ' js-header-change-moment')
+      $this.addClass(exclude)
 
-    });
+    })
 
-    this.defaultState = !this.defaultState;
-    return this;
+    this.defaultState = !this.defaultState
+    return this
 
-  };
+  }
 
   /**
    *
@@ -1921,15 +1919,15 @@
    * @return
    */
   function HSHeaderHasHiddenElement(element, config) {
-    if (!HSAbstractObserver.call(this, element)) return;
+    if (!HSAbstractObserver.call(this, element)) return
 
     this.config = {
       animated: true
-    };
+    }
 
-    if (config && $.isPlainObject(config)) this.config = $.extend(true, {}, this.config, config);
+    if (config && $.isPlainObject(config)) this.config = $.extend(true, {}, this.config, config)
 
-    this.init();
+    this.init()
   }
 
   /**
@@ -1940,11 +1938,11 @@
    * @return
    */
   HSHeaderHasHiddenElement.prototype.init = function () {
-    this.offset = isFinite(this.element.data('header-fix-moment')) ? this.element.data('header-fix-moment') : 5;
-    this.elements = this.element.find('.u-header--hidden-element');
-    this.defaultState = true;
-    return this;
-  };
+    this.offset = isFinite(this.element.data('header-fix-moment')) ? this.element.data('header-fix-moment') : 5
+    this.elements = this.element.find('.u-header--hidden-element')
+    this.defaultState = true
+    return this
+  }
 
   /**
    *
@@ -1955,11 +1953,11 @@
    */
   HSHeaderHasHiddenElement.prototype.destroy = function () {
 
-    this.toDefaultState();
+    this.toDefaultState()
 
-    return this;
+    return this
 
-  };
+  }
 
   /**
    *
@@ -1970,21 +1968,21 @@
    */
   HSHeaderHasHiddenElement.prototype.check = function () {
 
-    if (!this.elements.length) return this;
+    if (!this.elements.length) return this
 
     var $w = $(window),
-      docScrolled = $w.scrollTop();
+      docScrolled = $w.scrollTop()
 
     if (docScrolled > this.offset && this.defaultState) {
-      this.changeState();
+      this.changeState()
     }
     else if (docScrolled <= this.offset && !this.defaultState) {
-      this.toDefaultState();
+      this.toDefaultState()
     }
 
-    return this;
+    return this
 
-  };
+  }
 
   /**
    *
@@ -1996,16 +1994,16 @@
   HSHeaderHasHiddenElement.prototype.changeState = function () {
 
     if (this.config.animated) {
-      this.elements.stop().slideUp();
+      this.elements.stop().slideUp()
     }
     else {
-      this.elements.hide();
+      this.elements.hide()
     }
 
-    this.defaultState = !this.defaultState;
-    return this;
+    this.defaultState = !this.defaultState
+    return this
 
-  };
+  }
 
   /**
    *
@@ -2017,16 +2015,16 @@
   HSHeaderHasHiddenElement.prototype.toDefaultState = function () {
 
     if (this.config.animated) {
-      this.elements.stop().slideDown();
+      this.elements.stop().slideDown()
     }
     else {
-      this.elements.show();
+      this.elements.show()
     }
 
-    this.defaultState = !this.defaultState;
-    return this;
+    this.defaultState = !this.defaultState
+    return this
 
-  };
+  }
 
   /**
    *
@@ -2036,10 +2034,10 @@
    * @return
    */
   function HSHeaderFloatingObserver(element, config) {
-    if (!HSAbstractObserver.call(this, element)) return;
+    if (!HSAbstractObserver.call(this, element)) return
 
-    this.config = config && $.isPlainObject(config) ? $.extend(true, {}, this.config, config) : {};
-    this.init();
+    this.config = config && $.isPlainObject(config) ? $.extend(true, {}, this.config, config) : {}
+    this.init()
   }
 
   /**
@@ -2051,14 +2049,14 @@
    */
   HSHeaderFloatingObserver.prototype.init = function () {
 
-    this.offset = this.element.offset().top;
-    this.sections = this.element.find('.u-header__section');
+    this.offset = this.element.offset().top
+    this.sections = this.element.find('.u-header__section')
 
-    this.defaultState = true;
+    this.defaultState = true
 
-    return this;
+    return this
 
-  };
+  }
 
   /**
    *
@@ -2069,11 +2067,11 @@
    */
   HSHeaderFloatingObserver.prototype.destroy = function () {
 
-    this.toDefaultState();
+    this.toDefaultState()
 
-    return this;
+    return this
 
-  };
+  }
 
   /**
    *
@@ -2085,18 +2083,18 @@
   HSHeaderFloatingObserver.prototype.check = function () {
 
     var $w = $(window),
-      docScrolled = $w.scrollTop();
+      docScrolled = $w.scrollTop()
 
     if (docScrolled > this.offset && this.defaultState) {
-      this.changeState();
+      this.changeState()
     }
     else if (docScrolled <= this.offset && !this.defaultState) {
-      this.toDefaultState();
+      this.toDefaultState()
     }
 
-    return this;
+    return this
 
-  };
+  }
 
   /**
    *
@@ -2110,23 +2108,23 @@
     this.element
       .addClass('js-header-fix-moment')
       .addClass(this.element.data('header-fix-moment-classes'))
-      .removeClass(this.element.data('header-fix-moment-exclude'));
+      .removeClass(this.element.data('header-fix-moment-exclude'))
 
     if (this.sections.length) {
       this.sections.each(function (i, el) {
 
-        var $section = $(el);
+        var $section = $(el)
 
         $section.addClass($section.data('header-fix-moment-classes'))
-          .removeClass($section.data('header-fix-moment-exclude'));
+          .removeClass($section.data('header-fix-moment-exclude'))
 
-      });
+      })
     }
 
-    this.defaultState = !this.defaultState;
-    return this;
+    this.defaultState = !this.defaultState
+    return this
 
-  };
+  }
 
   /**
    *
@@ -2140,23 +2138,23 @@
     this.element
       .removeClass('js-header-fix-moment')
       .removeClass(this.element.data('header-fix-moment-classes'))
-      .addClass(this.element.data('header-fix-moment-exclude'));
+      .addClass(this.element.data('header-fix-moment-exclude'))
 
     if (this.sections.length) {
       this.sections.each(function (i, el) {
 
-        var $section = $(el);
+        var $section = $(el)
 
         $section.removeClass($section.data('header-fix-moment-classes'))
-          .addClass($section.data('header-fix-moment-exclude'));
+          .addClass($section.data('header-fix-moment-exclude'))
 
-      });
+      })
     }
 
-    this.defaultState = !this.defaultState;
-    return this;
+    this.defaultState = !this.defaultState
+    return this
 
-  };
+  }
 
 
   /**
@@ -2167,28 +2165,28 @@
    * @return
    */
   function HSHeaderWithoutBehaviorObserver(element) {
-    if (!HSAbstractObserver.call(this, element)) return;
+    if (!HSAbstractObserver.call(this, element)) return
   }
 
   HSHeaderWithoutBehaviorObserver.prototype.check = function () {
-    return this;
-  };
+    return this
+  }
 
   HSHeaderWithoutBehaviorObserver.prototype.init = function () {
-    return this;
-  };
+    return this
+  }
 
   HSHeaderWithoutBehaviorObserver.prototype.destroy = function () {
-    return this;
-  };
+    return this
+  }
 
   HSHeaderWithoutBehaviorObserver.prototype.changeState = function () {
-    return this;
-  };
+    return this
+  }
 
   HSHeaderWithoutBehaviorObserver.prototype.toDefaultState = function () {
-    return this;
+    return this
   }
 
 
-})(jQuery);
+})(jQuery)

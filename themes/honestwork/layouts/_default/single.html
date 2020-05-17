@@ -53,6 +53,20 @@
         </div>
         {{end}}
 
+        {{ if (eq .template "block-image-gallery") }}
+        <div class="container">
+          <div class="row mx-gutters-5">
+            {{range .images}}
+            <div class="col-sm-6 col-lg-4 mb-9">
+              <a class="d-block text-dark text-center transition-3d-hover" href="{{.}}" target="_blank">
+                <img class="img-fluid rounded" src="{{.}}" alt="Honest Work">
+              </a>
+            </div>
+            {{end}}
+          </div>
+        </div>
+        {{end}}
+
         {{ if (eq .template "block-table") }}
         <div class="col-12 table-responsive {{.template}}">
           <table class="table table-bordered">
