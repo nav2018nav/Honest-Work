@@ -39,7 +39,7 @@ sections:
 - template: block-image
   image: "/static/uploads/about-how-8-strike-1.png"
 - template: block-image
-  image: "/images/About - How - 9 petition transparent.png"
+  image: "/static/uploads/about-how-9-petition-transparent-1.png"
 - template: block-text
   content: Once you have your idea, you can start collectively pushing for change.
     There are hundreds of ways to do this - you might write to management or the board
