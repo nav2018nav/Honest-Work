@@ -21,7 +21,7 @@ sections:
   content: Chances are you’re not alone. Plenty of people care about the world and
     want to help make it better. The hard part is finding them.
 - template: block-image
-  image: "/images/About - How - 4 org chart connected.png"
+  image: "/static/uploads/about-how-4-org-chart-connected-1.png"
 - template: block-text
   content: 'If you join \[link - Get Started\] Honest Work, you’ll be connected with
     other workers at your company who, like you, have said they want to push management
