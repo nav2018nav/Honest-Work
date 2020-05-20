@@ -4,6 +4,12 @@ header_image = "/uploads/what-tech.jpg"
 password_protected = false
 show_sub_navigation = true
 title = "Technology"
+[menu.footer]
+parent = "What to change"
+weight = 3
+[menu.main]
+parent = "What to change"
+weight = 3
 [[sections]]
 content = "Tech companies operate on the cutting edge of innovation, and often venture into new product areas at a pace with which regulation cannot be expected to keep up. So it frequently falls to the companies themselves to act with care and prudence, and marshall against unforeseen consequences; something they have often failed to do.\n\nThe potential ethical issues that tech companies face are so varied and constantly shifting that they cannot all be listed here; what is most needed is for these companies to develop an approach to innovation with societal welfare at its heart. However, below are some of the big issues already out there that these companies need to work on."
 template = "block-text"
