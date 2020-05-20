@@ -1,6 +1,6 @@
 +++
 content = ""
-header_image = "/uploads/What - General.png"
+header_image = "/uploads/home-change-doorway.png"
 password_protected = false
 show_sub_navigation = true
 title = "The change you can make"
