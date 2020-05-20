@@ -1,11 +1,11 @@
 +++
 content = ""
-draft = true
-header_image = "/uploads/What - Consumer goods.jpg"
+header_image = "/uploads/what-tech.jpg"
+password_protected = false
 show_sub_navigation = true
 title = "Technology"
 [[sections]]
-content = "Finance powers the entire economy; banks, through their lending, and investors, through their holdings, have major influence over how companies act and what projects get financed. Choose any issue from any of these pages; financial sector companies can help fix it, if they choose.\n\nMost of these companies see addressing societal issues as someone else’s responsibility. Banks say it is not their job to dictate outcomes. Passive investors, stock exchanges, index providers and other financial services companies believe their role is to replicate the market and reflect the investable universe rather than enabling money to flow towards companies that contribute to the general good (and tend to lobby against regulatory measures that would encourage this). When it’s no one’s job to prevent negative outcomes, negative outcomes is what you get."
+content = "Tech companies operate on the cutting edge of innovation, and often venture into new product areas at a pace with which regulation cannot be expected to keep up. So it frequently falls to the companies themselves to act with care and prudence, and marshall against unforeseen consequences; something they have often failed to do.\n\nThe potential ethical issues that tech companies face are so varied and constantly shifting that they cannot all be listed here; what is most needed is for these companies to develop an approach to innovation with societal welfare at its heart. However, below are some of the big issues already out there that these companies need to work on."
 template = "block-text"
 [[sections]]
 heading = "Unsustainable investments"
@@ -23,6 +23,7 @@ question = "Some questions to start with"
 answer = "What you need to know - The Financial Times’ [Moral Money](https://www.ft.com/moral-money) newsletter is a good resource for the latest updates on sustainable investing. For shareholder voting, [Majority Action](https://www.majorityaction.us/) sets out the key issues to look out for and how the largest asset managers vote on relevant shareholder proposals.\n\nWhat you can ask for - There are a number of relevant initiatives investors in this space can join. For asset owners, the [Net Zero Asset Owner Alliance](https://www.unepfi.org/net-zero-alliance/) have pledged to decarbonise their portfolios by 2050. [ClimateAction100+](http://www.climateaction100.org/) is a collection of hundreds of investors engaging the world’s most polluting companies to change their practices. Investors can also support needed policy change such as the [EU taxonomy](https://d8g8t13e9vf2o.cloudfront.net/Uploads/d/s/r/taxonomyinvestorbriefingpostdeal_612580.pdf), which requires investors to disclose the sustainability of their portfolios."
 question = "Further information"
 [[sections]]
+footer = ""
 template = "block-table"
 [[sections.header_columns]]
 column = "Producer"
