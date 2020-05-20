@@ -39,12 +39,6 @@ sections:
   - "/uploads/about-how-9-petition-transparent-1.png"
   - "/uploads/about-how-8-strike-1.png"
   - "/uploads/about-how-7-letter-cropped-1.png"
-- template: block-image
-  image: "/uploads/about-how-7-letter-cropped-1.png"
-- template: block-image
-  image: "/uploads/about-how-8-strike-1.png"
-- template: block-image
-  image: "/uploads/about-how-9-petition-transparent-1.png"
 - template: block-text
   content: Once you have your idea, you can start collectively pushing for change.
     There are hundreds of ways to do this - you might write to management or the board
