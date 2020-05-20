@@ -57,9 +57,6 @@ column = "35,221"
 columns = []
 label = ""
 [[sections]]
-content = "Source: Carbon Disclosure Project, 2017"
-template = "block-text"
-[[sections]]
 heading = "Content moderation"
 template = "block-heading"
 [[sections]]
