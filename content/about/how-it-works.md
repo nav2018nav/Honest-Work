@@ -2,7 +2,7 @@
 header_image: "/uploads/home_team.jpg"
 show_sub_navigation: true
 title: How it works
-content: Enter text here
+content: ''
 sections:
 - template: block-image
   image: "/uploads/about-how-1-outline-1.png"
