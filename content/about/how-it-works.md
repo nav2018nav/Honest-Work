@@ -1,5 +1,5 @@
 ---
-header_image: "/uploads/about-how-0-banner.jpg"
+header_image: "/uploads/about-how-0-banner-2.jpg"
 show_sub_navigation: true
 title: How it works
 content: ''
