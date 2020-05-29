@@ -14,6 +14,7 @@ sections:
   title: FAQ title
 header_image: ''
 content: ''
+password_protected: true
 menu:
   footer:
     weight: 2
