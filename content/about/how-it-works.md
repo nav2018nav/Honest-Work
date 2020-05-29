@@ -48,7 +48,7 @@ sections:
   image: "/uploads/about-how-10-green-shoots-1.png"
 - template: block-text
   content: 'Finally: you make a change. You help build a better world.'
-password_protected: false
+password_protected: true
 menu:
   main:
     weight: 1
