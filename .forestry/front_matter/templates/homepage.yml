@@ -27,3 +27,4 @@ fields:
   label: Password protected
 pages:
 - content/_index.md
+- content/honest-work.md
