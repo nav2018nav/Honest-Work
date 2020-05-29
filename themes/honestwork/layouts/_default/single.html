@@ -195,10 +195,10 @@
           <li class="mb-3">
             <a class="u-info-v1 p-4" href="{{ .URL }}">
               <span class="row justify-content-sm-between align-items-sm-center">
-                <span class="col-9 mb-2 mb-sm-0 {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+                <span class="col-9 mb-2 mb-sm-0 {{ if $currentPage.IsMenuCurrent "main" . }}text-primary{{ end }}">
                   {{ .Name }}
                 </span>
-                <span class="col-3 text-primary text-sm-right">
+                <span class="col-3 text-sm-right {{ if $currentPage.IsMenuCurrent "main" . }}text-primary{{ end }}">
                   <span class="fa fa-arrow-right small ml-2"></span>
                 </span>
               </span>
@@ -208,10 +208,10 @@
           <li class="mb-3">
             <a class="u-info-v1 p-4" href="{{ .URL }}">
               <span class="row justify-content-sm-between align-items-sm-center">
-                <span class="col-9 mb-2 mb-sm-0 {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+                <span class="col-9 mb-2 mb-sm-0 {{ if $currentPage.IsMenuCurrent "main" . }}text-primary{{ end }}">
                   {{ .Name }}
                 </span>
-                <span class="col-3 text-primary text-sm-right">
+                <span class="col-3 text-sm-right {{ if $currentPage.IsMenuCurrent "main" . }}text-primary{{ end }}">
                   <span class="fa fa-arrow-right small ml-2"></span>
                 </span>
               </span>
