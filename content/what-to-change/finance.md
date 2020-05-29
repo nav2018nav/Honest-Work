@@ -1,7 +1,7 @@
 +++
 content = ""
-draft = true
 header_image = "/uploads/What - Consumer goods.jpg"
+password_protected = true
 show_sub_navigation = true
 title = "Finance"
 [menu.footer]
@@ -29,6 +29,7 @@ question = "Some questions to start with"
 answer = "What you need to know - The Financial Times’ [Moral Money](https://www.ft.com/moral-money) newsletter is a good resource for the latest updates on sustainable investing. For shareholder voting, [Majority Action](https://www.majorityaction.us/) sets out the key issues to look out for and how the largest asset managers vote on relevant shareholder proposals.\n\nWhat you can ask for - There are a number of relevant initiatives investors in this space can join. For asset owners, the [Net Zero Asset Owner Alliance](https://www.unepfi.org/net-zero-alliance/) have pledged to decarbonise their portfolios by 2050. [ClimateAction100+](http://www.climateaction100.org/) is a collection of hundreds of investors engaging the world’s most polluting companies to change their practices. Investors can also support needed policy change such as the [EU taxonomy](https://d8g8t13e9vf2o.cloudfront.net/Uploads/d/s/r/taxonomyinvestorbriefingpostdeal_612580.pdf), which requires investors to disclose the sustainability of their portfolios."
 question = "Further information"
 [[sections]]
+footer = ""
 template = "block-table"
 [[sections.header_columns]]
 column = "Producer"
@@ -72,21 +73,6 @@ answer = "* Does your bank continue to permit lending to fossil fuel expansion?\
 question = "Some questions to start with"
 [[sections.faq]]
 answer = "_What you need to know -_ RAN [tracks](https://www.ran.org/bankingonclimatechange2020/) bank finance for fossil fuel over time. [Greenpeace](https://www.greenpeace.org/international/press-release/28243/greenpeace-report-davos-financial-players-pump-us1-4-trillion-into-fossil-fuels/) has shown how many of the world’s biggest banks continue to funnel money into fossil fuels despite public statements that they will help combat climate change. BankTrack has also produced [research](https://www.banktrack.org/campaign/banks_and_human_rights) on the role of banks in relation to human rights.\n\n_The most urgent issue -_ If the world was to only burn all known fossil fuel reserves, that would already take the planet beyond 2 degrees of global warming, well beyond the [1.5 degrees](https://www.ipcc.ch/sr15/) limit needed to avoid some catastrophic consequences. Despite this, fossil fuel expansion continues. Banks should not finance the expansion of fossil fuel extraction or infrastructure, whether via project finance (direct financing for a fossil fuel asset) or general corporate support (financing provided to a company overall), for companies expanding fossil fuels."
-question = "Further information"
-[[sections]]
-heading = "Tax"
-template = "block-heading"
-[[sections]]
-content = "It might be a technical and dull concept, but the staggering amount of corporation tax that is stashed in tax havens every year is estimated at up to $600bn a year - an amount that could transform the ability of governments around the world to provide for their citizens and invest in infrastructure and public services. Companies rely on government spending for infrastructure, security, and a healthy and educated workforce, but contribute as little to it as they can.\n\nClosing tax loopholes is undoubtedly governments’ job. Nonetheless, profitable companies spend money on aggressive tax planning (organising their activities intentionally to minimise taxes) rather than contributing to the societies they rely on. They employ armies of accountants and lobbyists to exploit loopholes. They can choose to take a more reasonable approach."
-template = "block-text"
-[[sections]]
-template = "block-faq"
-title = ""
-[[sections.faq]]
-answer = "* How much tax did your company pay in your jurisdiction last year?\n* Does your company declare a significant amount of its profits in a tax haven such as the British Virgin Islands or Bermuda?\n* Does your company do country-by-country reporting?\n* Does your company supply aggressive tax planning services to other businesses?"
-question = "Some questions to start with"
-[[sections.faq]]
-answer = "_What you need to know -_ A great resource with answers to just about everything is [here](https://www.icij.org/investigations/panama-papers/what-is-a-tax-haven-offshore-finance-explained/). The Tax Justice Network has prepared answers to some FAQs [here](https://www.taxjustice.net/faq/), including why this isn’t an issue just for governments. They also have some suggested actions [here](https://www.taxjustice.net/take-action/).\n\n_The most urgent issue_ - Countries across the globe are damaged by the reduced tax revenues they are able to collect from companies. Yet this is a particular problem for developing countries, who are [estimated](https://www.imf.org/external/pubs/ft/fandd/2019/09/tackling-global-tax-havens-shaxon.htm) to miss out on around $200bn in corporate tax revenues per year - that’s greater than the amount they receive in development assistance.\n\n_The big contributors to the problem_ - Some media outlets prepare lists of the biggest tax dodgers in their country, including: [Australia](https://www.michaelwest.com.au/top-40-tax-dodgers-2019/), [UK](https://www.thisismoney.co.uk/money/news/article-6522913/Almost-1-5-biggest-firms-paid-year-5-got-handout-taxman.html), [US]( https://itep.org/corporate-tax-avoidance-in-the-first-year-of-the-trump-tax-law/). A ranking of global corporate tax havens is [here](https://www.corporatetaxhavenindex.org/introduction/cthi-2019-results).\n\n_What can you ask for -_ An important yet basic step a company can take is [country-by-country reporting](https://www.taxjustice.net/topics/corporate-tax/country-by-country/), where it sets out how much tax it pays in each jurisdiction. This simple transparency allows scrutiny of the company’s tax bill. In the UK, businesses can also get certified with a [Fair Tax Mark](https://fairtaxmark.net/) to indicate they’re paying a reasonable rate of tax."
 question = "Further information"
 
 +++
