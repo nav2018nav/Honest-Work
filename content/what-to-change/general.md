@@ -1,7 +1,7 @@
 +++
 content = ""
 header_image = "/uploads/home-change-doorway.png"
-password_protected = false
+password_protected = true
 show_sub_navigation = true
 title = "The change you can make"
 [menu.footer]
