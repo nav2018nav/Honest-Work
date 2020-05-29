@@ -15,10 +15,10 @@ sections:
 header_image: ''
 content: ''
 menu:
-  main:
+  footer:
     weight: 2
     parent: About
-  footer:
+  main:
     weight: 2
     parent: About
 

@@ -1,8 +1,8 @@
 ---
-header_image: "/uploads/home_team.jpg"
+header_image: "/uploads/about-how-0-banner-2.jpg"
 show_sub_navigation: true
 title: How it works
-content: Enter text here
+content: ''
 sections:
 - template: block-image
   image: "/uploads/about-how-1-outline-1.png"
@@ -34,12 +34,11 @@ sections:
   content: If you need some ideas, you can check out our Issues page \[link - What
     to change, General\] for some of the most pressing problems many companies are
     contributing to, and some rankings of the worst performers.
-- template: block-image
-  image: "/uploads/about-how-7-letter-cropped-1.png"
-- template: block-image
-  image: "/uploads/about-how-8-strike-1.png"
-- template: block-image
-  image: "/uploads/about-how-9-petition-transparent-1.png"
+- template: block-image-gallery
+  images:
+  - "/uploads/about-how-9-petition-transparent-1.png"
+  - "/uploads/about-how-8-strike-1.png"
+  - "/uploads/about-how-7-letter-cropped-1.png"
 - template: block-text
   content: Once you have your idea, you can start collectively pushing for change.
     There are hundreds of ways to do this - you might write to management or the board
@@ -49,11 +48,12 @@ sections:
   image: "/uploads/about-how-10-green-shoots-1.png"
 - template: block-text
   content: 'Finally: you make a change. You help build a better world.'
+password_protected: false
 menu:
-  footer:
+  main:
     weight: 1
     parent: About
-  main:
+  footer:
     weight: 1
     parent: About
 
