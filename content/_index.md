@@ -7,6 +7,6 @@ show_sub_navigation: false
 header_image: "/uploads/home_team.jpg"
 content: ''
 sections: []
-password_protected: false
+password_protected: true
 
 ---
