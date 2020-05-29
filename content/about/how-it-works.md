@@ -5,7 +5,7 @@ title: How it works
 content: ''
 sections:
 - template: block-image
-  image: "/uploads/about-how-1-outline-1.png"
+  image: "/uploads/how-it-works-you.jpg"
 - template: block-text
   content: You are a person who cares about the state of the world. You work for a
     company; you think maybe they could do a few things better. The company’s leadership
