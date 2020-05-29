@@ -86,5 +86,20 @@ question = "Some questions to start with"
 [[sections.faq]]
 answer = "_What you need to know -_ Tristan Harris and his organisation Center for Humane Technology are developing a range of [resources](https://humanetech.com/resources) on this issue and how to design in a more ethical way. There is also a [ledger](https://ledger.humanetech.com/) of research on the harms caused by manipulative tech. For a quick primer on the topic, there is this 1843 [article](https://www.1843magazine.com/features/the-scientists-who-make-apps-addictive) or a [TED talk](https://www.ted.com/talks/tristan_harris_how_a_handful_of_tech_companies_control_billions_of_minds_every_day?language=en) by Harris.\n\n_The most urgent issue -_ [Young people](https://www.commonsensemedia.org/technology-addiction) are particularly vulnerable to these techniques which companies increasingly rely upon. While it ultimately falls to parents to ensure their children use products responsibly, it is companies’ choice whether they enable or hinder parents’ efforts."
 question = "Further information"
+[[sections]]
+heading = "Anti-competitive practices"
+template = "block-heading"
+[[sections]]
+content = "Big tech companies occupy a dominant position in many markets, with search, shopping and social media obvious examples. While that position has enabled them to deliver savings to consumers, it has also enabled them to undermine competition by using their platforms to favour their products over others’; collect and hoard data that, were it more freely available, could be used by other companies to deliver improved services and public goods; and ape or acquire start-ups that pose the smallest threat to their dominance.\n\nThis is primarily an issue that regulation should be stepping in to handle, and some tech companies have received 10-figure fines for anti-competitive behaviour. But by the time policymakers step in irreparable damage has already been done, smaller competitors have been put out of business. Tech companies need to keep their greed in check and not act like a [rapacious AI](https://www.buzzfeednews.com/article/tedchiang/the-real-danger-to-civilization-isnt-ai-its-runaway) programme bent on taking over the world."
+template = "block-text"
+[[sections]]
+template = "block-faq"
+title = ""
+[[sections.faq]]
+answer = "* Has your company erected barriers to customers switching to competing services? For example, is it straightforward for users to move their data to another service provider?\n* Does your company prioritise its own goods on platforms it operates over that of potential competitors?"
+question = "Some questions to start with"
+[[sections.faq]]
+answer = "_What you need to know -_ This is a multi-faceted problem; the form it takes can depend on the type of company involved. For the very biggest companies, Scott Galloway has [set out](https://www.esquire.com/news-politics/a15895746/bust-big-tech-silicon-valley/) many of these reasons and has called for them to be broken up. Specific practices include companies’ approaches to gathering and hoarding [data](https://www.economist.com/briefing/2017/05/06/data-is-giving-rise-to-a-new-economy); copying competitors’ products and then [privileging](https://www.nytimes.com/2019/12/15/technology/amazon-aws-cloud-competition.html) the new product on their platform; introducing [switching costs](https://www.investopedia.com/terms/s/switchingcosts.asp) to prevent customers from easily changing service providers.\n\n_What you can ask for_ - Where it would not interfere with users’ privacy, openly sharing data can both create a more level playing field and lead to much more innovation, as knowledge flowing from data would not be restricted to those companies that generate the data. Allowing data portability, such that users can easily export their playlists, social network connections, etc to another service would similarly encourage competition and improve consumer welfare."
+question = "Further information"
 
 +++
