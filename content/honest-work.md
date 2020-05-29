@@ -7,6 +7,6 @@ hero_title = "Honest Work"
 password_protected = true
 sections = []
 show_sub_navigation = false
-title = "Honest Work"
+title = "Honest Work (new)"
 
 +++
