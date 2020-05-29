@@ -9,7 +9,7 @@
         <div class="col-12 container text-center u-space-2">
           <img src="/logo.png" alt="Honest Work" width="300" />
         </div>
-        <div class="col-12 container text-center u-space-1">
+        <div class="col-12 container text-center u-space-1" style="max-width:600px">
           <p>
             Workers around the world want to work for companies that do right by people and planet. Honest Work is a
             platform that will help these workers find each other and change their companies together.
@@ -22,7 +22,7 @@
           </p>
         </div>
         <div class="col-12 container text-center u-space-1">
-          <div class="col-6 mx-auto">
+          <div class="mx-auto" style="max-width:400px">
             <div class="mb-4">
               <h3 class="h6">
                 <strong>HonestWork updates</strong>
@@ -64,6 +64,18 @@
               form.onsubmit = subscribeformSubmit;
             </script>
           </div>
+        </div>
+        <div class="col-12 container text-center">
+          <p>
+            <a href="https://www.facebook.com/Honest-Work-106775901054948/" target="_blank"
+              style="display:inline-block; width: 32px; margin-right:12px;" title="HonestWork Facebook">
+              {{- partial "facebook.html" -}}
+            </a>
+            <a href="https://twitter.com/honestwork4all" target="_blank" style="display:inline-block; width: 32px;"
+              title="HonestWork Twitter">
+              {{- partial "twitter.html" -}}
+            </a>
+          </p>
         </div>
       </div>
     </div>
