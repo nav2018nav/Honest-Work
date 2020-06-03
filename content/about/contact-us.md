@@ -3,10 +3,10 @@ title: Contact us
 show_sub_navigation: true
 sections: []
 menu:
-  footer:
+  main:
     weight: 3
     parent: About
-  main:
+  footer:
     weight: 3
     parent: About
 

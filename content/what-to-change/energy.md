@@ -4,6 +4,12 @@ header_image = "/uploads/what-energy.jpg"
 password_protected = false
 show_sub_navigation = true
 title = "Energy"
+[menu.footer]
+parent = "What to change"
+weight = 2
+[menu.main]
+parent = "What to change"
+weight = 2
 [[sections]]
 content = "Energy companies have often found themselves embroiled in controversial practices during recent decades which continue to have damaging effects on people and planet. While there is increasing awareness of the role energy companies have played in hindering progress on climate change, their broader impacts on communities are still under-appreciated. While renewable energy is our best hope for the future these companies too must urgently improve their human rights practices if they are to retain their moral legitimacy and social licence."
 template = "block-text"
