@@ -1,7 +1,7 @@
 +++
 content = ""
 draft = true
-header_image = "/uploads/What - Consumer goods.jpg"
+header_image = "/uploads/what-healthcare.jpg"
 password_protected = true
 show_sub_navigation = true
 title = "Healthcare"
