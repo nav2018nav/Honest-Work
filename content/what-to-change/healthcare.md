@@ -4,6 +4,12 @@ header_image = "/uploads/what-healthcare.jpg"
 password_protected = true
 show_sub_navigation = true
 title = "Healthcare"
+[menu.footer]
+parent = "What to change"
+weight = 4
+[menu.main]
+parent = "What to change"
+weight = 4
 [[sections]]
 heading = "Pricing and access"
 template = "block-heading"
