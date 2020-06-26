@@ -2,9 +2,6 @@ $(document).on('ready', function () {
   // initialization of header
   $.HSCore.components.HSHeader.init($('#header'))
 
-  // initialization of malihu scrollbar
-  $.HSCore.components.HSMalihuScrollBar.init($('.js-scrollbar'))
-
   // initialization of forms
   $.HSCore.helpers.HSFocusState.init()
 
