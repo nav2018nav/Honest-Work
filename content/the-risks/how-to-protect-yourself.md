@@ -5,5 +5,9 @@ sections: []
 header_image: ''
 content: ''
 password_protected: true
+menu:
+  footer:
+    weight: 2
+    parent: The risks
 
 ---

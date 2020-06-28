@@ -17,5 +17,9 @@ sections:
 header_image: ''
 content: ''
 password_protected: true
+menu:
+  footer:
+    weight: 1
+    parent: The risks
 
 ---
