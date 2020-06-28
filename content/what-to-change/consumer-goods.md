@@ -26,7 +26,7 @@ question = "Some questions to start with"
 answer = "_Fashion -_ Documentary “[The True Cost](https://www.youtube.com/watch?v=mJUQR2oBJv4)” provides a good introduction to some of the issues within the fashion industry. Fashion Revolution has a [manifesto](https://www.fashionrevolution.org/manifesto/) for how the fashion industry needs to change (which workers can sign), and produces a transparency [ranking](https://www.fashionrevolution.org/about/transparency/) of the world’s 250 largest fashion brands every year. KnowTheChain also produces a [ranking](https://knowthechain.org/benchmarks/comparison_tool/6/), focused on actual company behaviour, rather than transparency alone.\n\n_Food and beverages_ - These supply chains cut across human rights, environmental degradation and animal welfare issues. [Fairtrade](https://www.fairtrade.net/issue) explains these issues within a range of these supply chains, while the [BHRRC](https://www.business-humanrights.org/en/search-topics) tackles issues including fish and wine. BBFAW compares business practices on animal welfare in an annual [report](https://bbfaw.com/publications/)."
 question = "Further information"
 [[sections]]
-footer = ""
+footer = "Source: Carbon Disclosure Project, 2017"
 template = "block-table"
 [[sections.header_columns]]
 column = "Producer"
@@ -54,7 +54,7 @@ column = "35,221"
 columns = []
 label = ""
 [[sections]]
-content = "Source: Carbon Disclosure Project, 2017"
+content = ""
 template = "block-text"
 [[sections]]
 heading = "Durability and Waste"
