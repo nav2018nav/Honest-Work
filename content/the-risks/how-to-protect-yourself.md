@@ -6,6 +6,9 @@ header_image: ''
 content: ''
 password_protected: true
 menu:
+  main:
+    weight: 2
+    parent: The risks
   footer:
     weight: 2
     parent: The risks
