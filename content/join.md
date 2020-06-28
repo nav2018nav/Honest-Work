@@ -6,6 +6,8 @@ sections:
   fields:
   - Name
   - Email address
+- template: block-text
+  content: Text about joining Honest Work.
 header_image: "/uploads/about-how-0-banner-2.jpg"
 content: Some getting started content
 show_sub_navigation: false
