@@ -1,3 +1,23 @@
 .u-info-v1 {
   border: 1px solid #42b9f6;
 }
+
+#navBar > ul > li > a {
+  color:#42b9f6;
+  transition: color .5s;
+}
+#navBar > ul > li > a:hover {
+  color:rgb(22, 69, 116)
+}
+#navBar > ul > li > a.btn {
+  color:#fff
+}
+
+.js-sticky-block > ul > li > a > span > span {
+  font-size:85%;
+}
+
+.img-fluid {
+    margin: 0 auto;
+    display: block;
+}

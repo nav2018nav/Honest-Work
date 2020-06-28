@@ -1,5 +1,5 @@
 ---
-title: Get started
+title: Join
 sections:
 - template: block-registration
   thank_you_message: Thank you, we will be in touch soon.
