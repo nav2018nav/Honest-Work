@@ -54,9 +54,6 @@ column = "35,221"
 columns = []
 label = ""
 [[sections]]
-content = ""
-template = "block-text"
-[[sections]]
 heading = "Durability and Waste"
 template = "block-heading"
 [[sections]]
