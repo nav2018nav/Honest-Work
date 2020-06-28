@@ -13,3 +13,18 @@ fields:
       format: markdown
   label: Content
   description: The text content
+- name: alignment
+  type: select
+  default: Left
+  config:
+    required: false
+    options:
+    - Left
+    - Center
+    - Right
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Alignment
