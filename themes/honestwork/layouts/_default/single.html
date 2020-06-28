@@ -131,7 +131,7 @@
         {{end}}
 
         {{ if (eq .template "block-registration") }}
-        <div class="w-40 mx-auto {{.template}}">
+        <div class="w-60 mx-auto {{.template}}">
           <form id="blockForm-{{$sectionNumber}}" class="js-validate js-form-message"
             action="https://formspree.io/xjvabvek" method="POST">
             {{ range $index, $element := .fields }}
