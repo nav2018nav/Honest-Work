@@ -47,6 +47,21 @@ fields:
 - name: password_protected
   type: boolean
   label: Password protected
+- name: text_alignment
+  type: select
+  default: Left
+  config:
+    required: false
+    options:
+    - Left
+    - Center
+    - Right
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Text alignment
 pages:
 - content/about/about-honest-work.md
 - content/about/contact-us.md
