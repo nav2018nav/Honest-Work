@@ -3,6 +3,7 @@ content = ""
 header_image = "/uploads/What - Consumer goods.jpg"
 password_protected = true
 show_sub_navigation = true
+text_alignment = ""
 title = "Finance"
 [menu.footer]
 parent = "What to change"
@@ -28,37 +29,6 @@ question = "Some questions to start with"
 [[sections.faq]]
 answer = "What you need to know - The Financial Times’ [Moral Money](https://www.ft.com/moral-money) newsletter is a good resource for the latest updates on sustainable investing. For shareholder voting, [Majority Action](https://www.majorityaction.us/) sets out the key issues to look out for and how the largest asset managers vote on relevant shareholder proposals.\n\nWhat you can ask for - There are a number of relevant initiatives investors in this space can join. For asset owners, the [Net Zero Asset Owner Alliance](https://www.unepfi.org/net-zero-alliance/) have pledged to decarbonise their portfolios by 2050. [ClimateAction100+](http://www.climateaction100.org/) is a collection of hundreds of investors engaging the world’s most polluting companies to change their practices. Investors can also support needed policy change such as the [EU taxonomy](https://d8g8t13e9vf2o.cloudfront.net/Uploads/d/s/r/taxonomyinvestorbriefingpostdeal_612580.pdf), which requires investors to disclose the sustainability of their portfolios."
 question = "Further information"
-[[sections]]
-footer = ""
-template = "block-table"
-[[sections.header_columns]]
-column = "Producer"
-[[sections.header_columns]]
-column = "1988-2015 Scope 1-3 emissions (MtCO2e)"
-[[sections.rows]]
-label = "China (Coal)"
-[[sections.rows.columns]]
-column = "China (Coal)"
-[[sections.rows.columns]]
-column = "128,933"
-[[sections.rows]]
-label = "Saudi"
-[[sections.rows.columns]]
-column = "Saudi Aramco"
-[[sections.rows.columns]]
-column = "40,561"
-[[sections.rows]]
-label = "Gazprom OAO"
-[[sections.rows.columns]]
-column = "Gazprom OAO"
-[[sections.rows.columns]]
-column = "35,221"
-[[sections.rows]]
-columns = []
-label = ""
-[[sections]]
-content = "Source: Carbon Disclosure Project, 2017"
-template = "block-text"
 [[sections]]
 heading = "Bank lending practices"
 template = "block-heading"
