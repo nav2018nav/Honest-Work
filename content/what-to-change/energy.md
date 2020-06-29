@@ -30,34 +30,6 @@ question = "Some questions to start with"
 answer = "_What you need to know_ - For general information on climate change, see here \\[link to General\\]. Policy change to mitigate the effects of climate change is to some extent [inevitable](https://www.unpri.org/download?ac=9833); as physical disasters such as the 2019/20 [Australia fires](https://www.bbc.co.uk/news/world-australia-50951043) become more commonplace, inaction will become untenable. But the speed and strength of action is critical, and most energy companies are acting as obstacles. Not only does this mean worse climate change effects down the line, it also means that workers and communities dependent on fossil fuel extraction are more likely to suffer sudden losses of income under policy changes, rather than companies engaging in a managed decline in their extractive operations starting now.\n\n_The most urgent issue -_ If the world was to only burn all known fossil fuel reserves, that would already take the planet beyond 2 degrees of global warming, well beyond the[ 1.5 degrees](https://www.ipcc.ch/sr15/) limit needed to avoid some catastrophic consequences. Despite this, fossil fuel expansion continues - pages 4-5 of this [report](https://brightnow.org.uk/wp-content/uploads/2020/05/Church-Investments-in-Major-Oil-Companies-Bright-Now-Report-web.pdf) show how several companies are planning increases in oil and gas production. Fossil fuel companies need to [keep it in the ground](http://keepitintheground.org/).\n\n_What you can ask for -_ One necessary part of a credible climate plan is a minimum price for carbon emitted - see [here](http://www.lse.ac.uk/GranthamInstitute/faqs/what-is-a-carbon-price-and-why-do-we-need-one/) for a good explanation. Companies should publicly support a carbon price of at least $100 per tonne of CO2 in developed countries by 2030 at the latest, and likely much sooner. While many fossil fuel companies have backed a [carbon dividend plan](https://clcouncil.org/our-plan/), the proposed price ($40 per tonne) is too low to justify the roll-back of environmental standards they are seeking alongside it.\n\nA number of companies have declared ambitions to achieve net zero emissions by 2050. Such commitments are in theory laudable, but the devil is in the details of how net zero is defined and their plan to get there. This [report](https://www.transitionpathwayinitiative.org/tpi/publications/58.pdf?type=Publication) sets out how none of the current 2050 goals are aligned with the Paris Agreement, and what would need to change."
 question = "Further information"
 [[sections]]
-footer = ""
-template = "block-table"
-[[sections.header_columns]]
-column = "Producer"
-[[sections.header_columns]]
-column = "1988-2015 Scope 1-3 emissions (MtCO2e)"
-[[sections.rows]]
-label = "China (Coal)"
-[[sections.rows.columns]]
-column = "China (Coal)"
-[[sections.rows.columns]]
-column = "128,933"
-[[sections.rows]]
-label = "Saudi"
-[[sections.rows.columns]]
-column = "Saudi Aramco"
-[[sections.rows.columns]]
-column = "40,561"
-[[sections.rows]]
-label = "Gazprom OAO"
-[[sections.rows.columns]]
-column = "Gazprom OAO"
-[[sections.rows.columns]]
-column = "35,221"
-[[sections.rows]]
-columns = []
-label = ""
-[[sections]]
 heading = "Pollution and environmental degradation"
 template = "block-heading"
 [[sections]]
