@@ -37,9 +37,6 @@ column = "Producer"
 [[sections.header_columns]]
 column = "1988-2015 Scope 1-3 emissions (MtCO2e)"
 [[sections.rows]]
-columns = []
-label = "Top 10 Carbon Emitters, 1988-2015"
-[[sections.rows]]
 label = "China (Coal)"
 [[sections.rows.columns]]
 column = "China (Coal)"
