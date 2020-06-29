@@ -3,6 +3,7 @@ content = ""
 header_image = "/uploads/what-healthcare.jpg"
 password_protected = true
 show_sub_navigation = true
+text_alignment = ""
 title = "Healthcare"
 [menu.footer]
 parent = "What to change"
@@ -25,36 +26,5 @@ question = "Some questions to start with"
 [[sections.faq]]
 answer = "_What you need to know_ - Different countries around the world have particular needs for certain drugs and differing abilities to afford them; this is why [equitable pricing](https://accesstomedicinefoundation.org/access-to-medicine-index/2018-ranking/subranking/pricing) strategies for drugs is crucial. Yet even in the US -which, as a wealthy country, should be expected to pay higher drug prices than other countries - pays a multiple of the price in comparable countries. Americans spent $535 billion on prescription drugs in 2018, an [increase](https://www.americanprogress.org/issues/democracy/reports/2019/08/30/473911/big-pharma-reaps-profits-hurting-everyday-americans/) of 50% since 2010. The price of long-established drugs such as [insulin](https://www.nytimes.com/2019/01/18/opinion/cost-insurance-diabetes-insulin.html) has risen at a rate far greater than inflation, while the amount spent on [medical marketing](https://jamanetwork.com/journals/jama/fullarticle/2720029) has also increased substantially.\n\n_The most urgent issue -_ The patent system has been abused by companies for a long time; reform is desperately needed both legally and in companies’ practices. Priti Krishtel of I-MAK gives a TED talk on the topic [here](https://www.ted.com/talks/priti_krishtel_why_are_drug_prices_so_high_investigating_the_outdated_us_patent_system); for a deeper dive, check out this [report](https://www.i-mak.org/overpatented-overpriced-excessive-pharmaceutical-patenting-extending-monopolies-driving-drug-prices/)."
 question = "Further information"
-[[sections]]
-footer = ""
-template = "block-table"
-[[sections.header_columns]]
-column = "Producer"
-[[sections.header_columns]]
-column = "1988-2015 Scope 1-3 emissions (MtCO2e)"
-[[sections.rows]]
-label = "China (Coal)"
-[[sections.rows.columns]]
-column = "China (Coal)"
-[[sections.rows.columns]]
-column = "128,933"
-[[sections.rows]]
-label = "Saudi"
-[[sections.rows.columns]]
-column = "Saudi Aramco"
-[[sections.rows.columns]]
-column = "40,561"
-[[sections.rows]]
-label = "Gazprom OAO"
-[[sections.rows.columns]]
-column = "Gazprom OAO"
-[[sections.rows.columns]]
-column = "35,221"
-[[sections.rows]]
-columns = []
-label = ""
-[[sections]]
-content = "Source: Carbon Disclosure Project, 2017"
-template = "block-text"
 
 +++
