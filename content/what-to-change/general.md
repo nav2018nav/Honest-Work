@@ -3,6 +3,7 @@ content = ""
 header_image = "/uploads/home-change-doorway.png"
 password_protected = true
 show_sub_navigation = true
+text_alignment = ""
 title = "The change you can make"
 [menu.footer]
 name = "What to change"
@@ -36,6 +37,9 @@ column = "Producer"
 [[sections.header_columns]]
 column = "1988-2015 Scope 1-3 emissions (MtCO2e)"
 [[sections.rows]]
+columns = []
+label = "Top 10 Carbon Emitters, 1988-2015"
+[[sections.rows]]
 label = "China (Coal)"
 [[sections.rows.columns]]
 column = "China (Coal)"
@@ -53,6 +57,10 @@ label = "Gazprom OAO"
 column = "Gazprom OAO"
 [[sections.rows.columns]]
 column = "35,221"
+[[sections.rows]]
+label = "National Iranian Oil Co"
+[[sections.rows.columns]]
+column = "20,505"
 [[sections]]
 heading = "Human Rights"
 template = "block-heading"
