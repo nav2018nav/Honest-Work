@@ -3,6 +3,7 @@ content = ""
 header_image = "/uploads/what-tech.jpg"
 password_protected = true
 show_sub_navigation = true
+text_alignment = ""
 title = "Technology"
 [menu.footer]
 parent = "What to change"
@@ -28,34 +29,6 @@ question = "Some questions to start with"
 [[sections.faq]]
 answer = "_What you need to know_ - The Ranking Digital Rights (RDR) project has a detailed [chapter ](https://rankingdigitalrights.org/index2019/report/privacy/)on privacy, the various challenges attached to it and some recommendations for company action. For an alternative take, [Amnesty International](https://www.amnesty.org/en/documents/pol30/1404/2019/en/) looks specifically at Facebook and Google and the risks of their current approach to privacy.\n\n  \n_Who are the big contributors_ - RDR produces an annual [ranking](https://rankingdigitalrights.org/index2019/) of 24 large technology companies from around the world on their approach to privacy. In addition, Amazon’s Rekognition software has drawn significant [concern](https://www.aclunc.org/blog/amazon-teams-law-enforcement-deploy-dangerous-new-face-recognition-technology) around privacy issues."
 question = "Further information"
-[[sections]]
-footer = ""
-template = "block-table"
-[[sections.header_columns]]
-column = "Producer"
-[[sections.header_columns]]
-column = "1988-2015 Scope 1-3 emissions (MtCO2e)"
-[[sections.rows]]
-label = "China (Coal)"
-[[sections.rows.columns]]
-column = "China (Coal)"
-[[sections.rows.columns]]
-column = "128,933"
-[[sections.rows]]
-label = "Saudi"
-[[sections.rows.columns]]
-column = "Saudi Aramco"
-[[sections.rows.columns]]
-column = "40,561"
-[[sections.rows]]
-label = "Gazprom OAO"
-[[sections.rows.columns]]
-column = "Gazprom OAO"
-[[sections.rows.columns]]
-column = "35,221"
-[[sections.rows]]
-columns = []
-label = ""
 [[sections]]
 heading = "Content moderation"
 template = "block-heading"
