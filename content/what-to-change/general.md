@@ -35,31 +35,55 @@ template = "block-table"
 [[sections.header_columns]]
 column = "Producer"
 [[sections.header_columns]]
-column = "1988-2015 Scope 1-3 emissions (MtCO2e)"
+column = "1988-2015 Scope 1-3 emissions (% of world's total)"
 [[sections.rows]]
 label = "China (Coal)"
 [[sections.rows.columns]]
 column = "China (Coal)"
 [[sections.rows.columns]]
-column = "128,933"
+column = "14.3"
 [[sections.rows]]
 label = "Saudi"
 [[sections.rows.columns]]
 column = "Saudi Aramco"
 [[sections.rows.columns]]
-column = "40,561"
+column = "4.5"
 [[sections.rows]]
 label = "Gazprom OAO"
 [[sections.rows.columns]]
 column = "Gazprom OAO"
 [[sections.rows.columns]]
-column = "35,221"
+column = "3.9"
 [[sections.rows]]
 label = "National Iranian Oil Co"
 [[sections.rows.columns]]
 column = "National Iranian Oil Co"
 [[sections.rows.columns]]
-column = "20,505"
+column = "2.5"
+[[sections.rows]]
+label = ""
+[[sections.rows.columns]]
+column = "ExxonMobil Corp"
+[[sections.rows.columns]]
+column = "2.0"
+[[sections.rows]]
+label = ""
+[[sections.rows.columns]]
+column = "Coal India"
+[[sections.rows.columns]]
+column = "1.9"
+[[sections.rows]]
+columns = []
+label = ""
+[[sections.rows]]
+columns = []
+label = ""
+[[sections.rows]]
+columns = []
+label = ""
+[[sections.rows]]
+columns = []
+label = ""
 [[sections]]
 heading = "Human Rights"
 template = "block-heading"
