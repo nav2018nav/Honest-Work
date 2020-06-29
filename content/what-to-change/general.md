@@ -61,29 +61,41 @@ column = "National Iranian Oil Co"
 [[sections.rows.columns]]
 column = "2.5"
 [[sections.rows]]
-label = ""
+label = "Exxon"
 [[sections.rows.columns]]
 column = "ExxonMobil Corp"
 [[sections.rows.columns]]
 column = "2.0"
 [[sections.rows]]
-label = ""
+label = "Coal India"
 [[sections.rows.columns]]
 column = "Coal India"
 [[sections.rows.columns]]
 column = "1.9"
 [[sections.rows]]
-columns = []
-label = ""
+label = "Pemex"
+[[sections.rows.columns]]
+column = "Petroleos Mexicanos (Pemex)"
+[[sections.rows.columns]]
+column = "1.9"
 [[sections.rows]]
-columns = []
-label = ""
+label = "Russia (Coal)"
+[[sections.rows.columns]]
+column = "Russia (Coal)"
+[[sections.rows.columns]]
+column = "1.9"
 [[sections.rows]]
-columns = []
-label = ""
+label = "Shell"
+[[sections.rows.columns]]
+column = "Royal Dutch Shell PLC"
+[[sections.rows.columns]]
+column = "1.7"
 [[sections.rows]]
-columns = []
-label = ""
+label = "CNPC"
+[[sections.rows.columns]]
+column = "China National Petroleum Corp (CNPC)"
+[[sections.rows.columns]]
+column = "1.6"
 [[sections]]
 heading = "Human Rights"
 template = "block-heading"
