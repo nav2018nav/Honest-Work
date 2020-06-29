@@ -3,6 +3,7 @@ content = ""
 header_image = "/uploads/What - Consumer goods.jpg"
 password_protected = true
 show_sub_navigation = true
+text_alignment = ""
 title = "Consumer goods"
 [menu.footer]
 parent = "What to change"
@@ -25,34 +26,6 @@ question = "Some questions to start with"
 [[sections.faq]]
 answer = "_Fashion -_ Documentary “[The True Cost](https://www.youtube.com/watch?v=mJUQR2oBJv4)” provides a good introduction to some of the issues within the fashion industry. Fashion Revolution has a [manifesto](https://www.fashionrevolution.org/manifesto/) for how the fashion industry needs to change (which workers can sign), and produces a transparency [ranking](https://www.fashionrevolution.org/about/transparency/) of the world’s 250 largest fashion brands every year. KnowTheChain also produces a [ranking](https://knowthechain.org/benchmarks/comparison_tool/6/), focused on actual company behaviour, rather than transparency alone.\n\n_Food and beverages_ - These supply chains cut across human rights, environmental degradation and animal welfare issues. [Fairtrade](https://www.fairtrade.net/issue) explains these issues within a range of these supply chains, while the [BHRRC](https://www.business-humanrights.org/en/search-topics) tackles issues including fish and wine. BBFAW compares business practices on animal welfare in an annual [report](https://bbfaw.com/publications/)."
 question = "Further information"
-[[sections]]
-footer = "Source: Carbon Disclosure Project, 2017"
-template = "block-table"
-[[sections.header_columns]]
-column = "Producer"
-[[sections.header_columns]]
-column = "1988-2015 Scope 1-3 emissions (MtCO2e)"
-[[sections.rows]]
-label = "China (Coal)"
-[[sections.rows.columns]]
-column = "China (Coal)"
-[[sections.rows.columns]]
-column = "128,933"
-[[sections.rows]]
-label = "Saudi"
-[[sections.rows.columns]]
-column = "Saudi Aramco"
-[[sections.rows.columns]]
-column = "40,561"
-[[sections.rows]]
-label = "Gazprom OAO"
-[[sections.rows.columns]]
-column = "Gazprom OAO"
-[[sections.rows.columns]]
-column = "35,221"
-[[sections.rows]]
-columns = []
-label = ""
 [[sections]]
 heading = "Durability and Waste"
 template = "block-heading"
