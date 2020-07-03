@@ -1,12 +1,8 @@
----
-hero_image: "/uploads/about-how-0-banner.jpg"
-hero_title: Honest Work
-hero_sub_title: Do you work for a company? Then you can change the world
-title: Honest Work
-show_sub_navigation: false
-header_image: "/uploads/home_team.jpg"
-content: ''
-sections: []
-password_protected: true
++++
+content = "This website is password protected. \n\nIf you'd like access, please contact emmet@honestwork.org"
+header_image = ""
+sections = []
+show_sub_navigation = false
+title = "Coming soon"
 
----
++++
