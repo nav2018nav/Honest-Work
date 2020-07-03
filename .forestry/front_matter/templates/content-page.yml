@@ -63,13 +63,13 @@ fields:
       path: 
   label: Text alignment
 pages:
-- content/_index.md
 - content/about/about-honest-work.md
 - content/about/contact-us.md
 - content/about/faq.md
 - content/about/how-it-works.md
 - content/coming-soon.md
 - content/donate.md
+- content/home.md
 - content/join.md
 - content/the-risks/how-to-protect-yourself.md
 - content/the-risks/the-risks.md
