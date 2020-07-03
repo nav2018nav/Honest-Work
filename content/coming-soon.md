@@ -5,6 +5,6 @@ password_protected = false
 sections = []
 show_sub_navigation = false
 text_alignment = ""
-title = "Coming soon"
+title = "Password Protected"
 
 +++
