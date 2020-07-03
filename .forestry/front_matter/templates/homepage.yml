@@ -25,5 +25,3 @@ fields:
 - name: password_protected
   type: boolean
   label: Password protected
-pages:
-- content/_index.md
