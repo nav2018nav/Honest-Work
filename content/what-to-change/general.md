@@ -100,6 +100,9 @@ column = "1.6"
 heading = "Human Rights"
 template = "block-heading"
 [[sections]]
+image = "/uploads/what-to-change-human-rights.jpg"
+template = "block-image"
+[[sections]]
 content = "We live in a globalised world, where the products we buy, or our employers buy, have often travelled a long way before they make it to you. Along the way, they may have caused or contributed to human rights abuses, environmental degradation and other negative outcomes, either directly or through their suppliers.\n\nRespecting and protecting human rights needs to be a minimum expectation of the companies we work for. To do this, companies should be able to trace the origins of each component part of their products and assure that no human rights breaches took place at any point during the production process."
 template = "block-text"
 [[sections]]
@@ -129,6 +132,9 @@ question = "Further information"
 [[sections]]
 heading = "Political Donations and Lobbying"
 template = "block-heading"
+[[sections]]
+image = ""
+template = "block-image"
 [[sections]]
 content = "Excessive corporate influence over decision-making in politics is a serious problem in many regions of the world. Companies, either directly or through trade associations that they are a member of, donate money to politicians who they perceive as likely to favour their interests (or to push them to do so). Frequently, donations and lobbying activities run counter to the declared beliefs of those same companies - for example, companies that are climate champions in public but privately donate funds to climate deniers or lobby to water down public interest regulations.\n\nThere is a question whether corporate money has any place in the political system at all, but there can be little doubt that there is too much of it there at the moment. In the US, the top 10 donors alone in the 2018 election cycle contributed almost half a billion dollars. Had that money been in the hands of workers, political donations may have flowed to politicians more representative of the interests of workers as a whole, rather than those seen to operate in the interests of the company as defined by a minority of executives at the top.\n\nThis is not about influencing whether money flows to liberal or conservative parties; this is about eliminating the ability of companies to undermine the public good and decide the outcomes of elections."
 template = "block-text"
