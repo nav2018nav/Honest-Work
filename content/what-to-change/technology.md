@@ -33,6 +33,9 @@ question = "Further information"
 heading = "Content moderation"
 template = "block-heading"
 [[sections]]
+image = "/uploads/what-tech-content-moderation.jpg"
+template = "block-image"
+[[sections]]
 content = "The internet has given “anyone in the world the power to share anything with anyone”. While the enormous benefits of this should not be forgotten, it has led to a host of problems as well, including giving a platform to disinformation and disturbing content.\n\nThere are no simple solutions to these problems. While highly inappropriate content naturally needs to be policed and taken down, there is a clear [human cost](https://www.rottentomatoes.com/m/the_cleaners) to those responsible for this task. There are also free speech concerns, as something may be provocative and controversial without meriting censorship. Disinformation is another major issue, as social media sites in particular have become hotbeds of fake news, and have led to a situation where different tribes have completely different versions of reality due to the information they see online.\n\nAt a minimum, companies need to have robust processes in place to ensure these decisions are taken properly. Having teams of content moderators with mere seconds to review flagged posts does not meet this bar. Many of the companies involved are highly profitable and worth billions; they need to invest resources proportionate to the problem they have helped create."
 template = "block-text"
 [[sections]]
@@ -62,6 +65,9 @@ question = "Further information"
 [[sections]]
 heading = "Anti-competitive practices"
 template = "block-heading"
+[[sections]]
+image = ""
+template = "block-image"
 [[sections]]
 content = "Big tech companies occupy a dominant position in many markets, with search, shopping and social media obvious examples. While that position has enabled them to deliver savings to consumers, it has also enabled them to undermine competition by using their platforms to favour their products over others’; collect and hoard data that, were it more freely available, could be used by other companies to deliver improved services and public goods; and ape or acquire start-ups that pose the smallest threat to their dominance.\n\nThis is primarily an issue that regulation should be stepping in to handle, and some tech companies have received 10-figure fines for anti-competitive behaviour. But by the time policymakers step in irreparable damage has already been done, smaller competitors have been put out of business. Tech companies need to keep their greed in check and not act like a [rapacious AI](https://www.buzzfeednews.com/article/tedchiang/the-real-danger-to-civilization-isnt-ai-its-runaway) programme bent on taking over the world."
 template = "block-text"
