@@ -1,6 +1,6 @@
 +++
 content = ""
-header_image = "/uploads/home-change-doorway.png"
+header_image = "/uploads/home-change-doorway-2.png"
 password_protected = true
 show_sub_navigation = true
 text_alignment = ""
