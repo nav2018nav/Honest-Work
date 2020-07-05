@@ -33,6 +33,9 @@ question = "Further information"
 heading = "Pollution and environmental degradation"
 template = "block-heading"
 [[sections]]
+image = "/uploads/what-energy-pollution.jpg"
+template = "block-image"
+[[sections]]
 content = "The negative environmental impacts of energy companies have not been limited to climate change. The burning of fossil fuels causes significant air pollution, a leading cause of death in many parts of the world. Chemicals from coal have leaked into groundwater and polluted drinking supplies. Renewable energy sources have also caused their own set of negative impacts, with hydropower dams having led to biodiversity loss, flooding and damaging fish populations."
 template = "block-text"
 [[sections]]
