@@ -33,6 +33,9 @@ question = "Further information"
 heading = "Bank lending practices"
 template = "block-heading"
 [[sections]]
+image = "/uploads/what-finance-lending.jpg"
+template = "block-image"
+[[sections]]
 content = "Many projects can’t take place without bank financing. Many fossil fuel exploration projects in particular depend on bank financing, and thus banks have a much more direct and contributing role to fossil fuel projects than other actors.\n\n35 global banks have granted $2.7 trillion in financing to fossil fuel companies since the Paris Agreement, which seeks to limit global warming. Few banks assess whether they are causing or contributing to human rights breaches. If banks were less indifferent to how their money was used, companies and projects that threatened to harm the public good would struggle to get off the ground."
 template = "block-text"
 [[sections]]
