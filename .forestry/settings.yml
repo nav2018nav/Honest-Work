@@ -12,8 +12,9 @@ sections:
   create: all
   match: "**/*"
   templates:
-  - homepage
+  - coming-soon-page
   - content-page
+  - homepage
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
