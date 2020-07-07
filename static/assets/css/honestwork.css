@@ -17,7 +17,16 @@
   font-size:85%;
 }
 
+.u-card-header > h5 > button {
+  font-size:70%;
+}
+
 .img-fluid {
     margin: 0 auto;
     display: block;
+}
+
+.block-text {
+  color: #77838f;
+  line-height: 1.7;
 }

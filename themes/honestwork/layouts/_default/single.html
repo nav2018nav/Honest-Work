@@ -24,7 +24,7 @@
       {{ if .Params.content }}
       <article class="row mb-4">
         <div class="col-12">
-          {{.Params.content | markdownify}}
+          {{ partial "markdown" (dict "context" . "markdown" .Params.content) }}
         </div>
       </article>
       {{end}}
@@ -43,7 +43,7 @@
 
         {{ if (eq .template "block-text") }}
         <div class="col-12 {{.template}}">
-          {{.content | markdownify}}
+          {{ partial "markdown" (dict "context" . "markdown" .content) }}
         </div>
         {{end}}
 
@@ -120,7 +120,7 @@
                 <div id="basicsCollapse{{$faqPointer}}" class="collapse" aria-labelledby="basicsHeading{{$faqPointer}}"
                   data-parent="#basicsAccordion-{{$sectionNumber}}">
                   <div class="card-body u-card-body">
-                    {{.answer | markdownify}}
+                    {{ partial "markdown" (dict "context" . "markdown" .answer) }}
                   </div>
                 </div>
               </div>
