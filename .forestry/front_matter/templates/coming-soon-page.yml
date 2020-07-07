@@ -1,6 +1,15 @@
 ---
 label: Coming soon page
 hide_body: true
-fields: []
+fields:
+- name: content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Content
 pages:
 - content/home.md
