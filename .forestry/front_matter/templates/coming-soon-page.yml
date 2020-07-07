@@ -2,3 +2,5 @@
 label: Coming soon page
 hide_body: true
 fields: []
+pages:
+- content/home.md
