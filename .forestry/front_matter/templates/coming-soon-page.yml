@@ -12,4 +12,4 @@ fields:
       format: markdown
   label: Content
 pages:
-- content/home.md
+- content/_index.md

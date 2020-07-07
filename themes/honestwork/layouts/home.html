@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class="dzsparallaxer auto-init height-is-based-on-content use-loading mode-scroll"
+  data-options='{direction: "normal"}'>
+  <div class="divimage dzsparallaxer--target" style="height: 130%; background-image: url({{.Params.hero_image}});">
+  </div>
+  <div class="container text-center u-space-4">
+    <div class="w-lg-50 mx-auto mb-3">
+      <h1 class="display-3 font-size-48--md-down text-white font-weight-bold">{{.Params.hero_title}}</h1>
+    </div>
+    <div class="w-lg-50 mx-auto mb-5">
+      <h2 class="display-5 font-size-32--md-down text-white font-weight-bold">{{.Params.hero_sub_title}}</h1>
+    </div>
+    <a class="btn text-primary u-btn-white u-btn-wide transition-3d-hover" href="/donate">
+      Donate
+    </a>
+    <a class="btn text-primary u-btn-white u-btn-wide transition-3d-hover" href="/join">
+      Join
+    </a>
+  </div>
+</div>
+{{ end }}
