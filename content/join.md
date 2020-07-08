@@ -17,8 +17,6 @@ sections:
     } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity:
     0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=jgzE1yl2&utm_source=typeform.com-01E52RX4TYTQRVQW9EQKFFBC0P-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN"
     style="color: #999" target="_blank">Typeform</a> </div>'
-- template: block-text
-  content: "    <body>Tree</body>"
 header_image: "/uploads/about-how-0-banner-2.jpg"
 content: Some getting started content
 show_sub_navigation: false
