@@ -132,50 +132,9 @@
 
         {{ if (eq .template "block-registration") }}
         <div class="w-60 mx-auto {{.template}}">
-          <form id="blockForm-{{$sectionNumber}}" class="js-validate js-form-message"
-            action="https://formspree.io/xjvabvek" method="POST">
-            {{ range $index, $element := .fields }}
-            <div class="form-group text-center">
-              <label class="h6 small d-block text-uppercase" for="exampleInputEmail1">{{.}}</label>
-              <input name="{{. | lower}}" type="text" class="form-control" placeholder="Enter {{. | lower}}" required />
-            </div>
-            {{end}}
-            <div class="form-group">
-              <button type="submit" class="btn btn-block btn-primary u-btn-primary transition-3d-hover">Submit</button>
-            </div>
-          </form>
-          <div id="blockFormThankYou-{{$sectionNumber}}" class="alert alert-success d-none" role="alert">
-            {{ .thank_you_message }}
-          </div>
-          <div id="blockFormError-{{$sectionNumber}}" class="alert alert-danger d-none" role="alert">
-            An error occurred, please try again
-          </div>
-          <script type="text/javascript">
-            function submit(ev) {
-              ev.preventDefault();
-              $('#blockFormError').addClass('d-none');
-              const form = ev.target;
-              const data = new FormData(form);
-              data.append('form', 'registration');
-              const xhr = new XMLHttpRequest();
-              xhr.open(form.method, form.action);
-              xhr.setRequestHeader("Accept", "application/json");
-              xhr.onreadystatechange = () => {
-                if (xhr.readyState !== XMLHttpRequest.DONE) {
-                  return;
-                }
-                if (xhr.status === 200) {
-                  $('#blockForm-{{$sectionNumber}}').hide();
-                  $('#blockFormThankYou-{{$sectionNumber}}').removeClass('d-none');
-                } else {
-                  $('#blockFormError-{{$sectionNumber}}').removeClass('d-none');
-                }
-              };
-              xhr.send(data);
-            }
-            const form = document.getElementById('blockForm-{{$sectionNumber}}');
-            form.onsubmit = submit;
-          </script>
+          <a class="typeform-share button btn btn-sm btn-primary u-btn-primary transition-3d-hover"
+            href="https://form.typeform.com/to/HcjEVbnN" data-mode="popup" target="_blank">Join </a>
+          <script> (function () {var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm_share", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) {js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q)} })() </script>
         </div>
         {{end}}
 
