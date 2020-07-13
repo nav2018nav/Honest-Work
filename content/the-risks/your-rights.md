@@ -26,7 +26,7 @@ sections:
     * There is safety in numbers.
 
     Honest Work prioritises the security of our communities. We ask new members to provide proof of their current employer to ensure that we are preserving a ‘workers only’ space. We also are designing our communities with anonymity in mind.
-header_image: ''
+header_image: "/uploads/rights.jpg"
 content: ''
 password_protected: true
 text_alignment: left
