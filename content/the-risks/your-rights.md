@@ -23,7 +23,7 @@ sections:
 
     * While employees generally have a right to take industrial action on matters related to the terms and conditions of their employment provided that the correct procedures have been followed, there is no evidence that this right would extend to advocacy relating to the environmental and social practices of their employer. This is an emerging area and should not be considered traditional “industrial action”, and so caution should be exercised when choosing the tactics to engage companies.
     * Organising for workplace advocacy generally should not take place during company time, on company property or using company equipment or email addresses.
-    * There is safety in numbers.
+    * There is safety in numbers. The more workers that join together, the more protected you will be (and the more likely you will be to achieve the aims of your campaign). The most common way of banding together with workers at your company and beyond is by joining a trade union.
 
     Honest Work prioritises the security of our communities. We ask new members to provide proof of their current employer to ensure that we are preserving a ‘workers only’ space. We also are designing our communities with anonymity in mind.
 header_image: "/uploads/rights.jpg"
