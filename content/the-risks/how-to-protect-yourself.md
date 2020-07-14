@@ -1,10 +1,11 @@
 ---
-title: How to protect yourself
+title: Joining a trade union
 show_sub_navigation: true
 sections: []
-header_image: ''
+header_image: "/uploads/trade-union.jpg"
 content: ''
 password_protected: true
+text_alignment: ''
 menu:
   main:
     weight: 2
