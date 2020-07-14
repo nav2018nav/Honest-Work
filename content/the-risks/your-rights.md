@@ -6,7 +6,7 @@ sections:
   content: |-
     When engaging in any form of workplace advocacy, it is important to be aware of your rights, the scope of activities that are legally protected and how to minimise the risks you face by speaking up, and what to do in the case of retaliation by your employer.
 
-    Engaging in strikes or walkouts in particular may not always be protected. While the right to strike is an internationally recognised human right, not all legal regimes grant striking workers decent protections, and many of those that do require specific procedures to be followed.
+    Workers must be aware that engaging in workplace advocacy is not risk free. Participating in strikes or walkouts in particular may not always be protected. While the right to strike is an internationally recognised human right, not all legal regimes grant striking workers decent protections, and many of those that do require specific procedures to be followed.
 
     We strongly encourage you to research the legal situation in your country or jurisdiction, which can vary enormously.
 
