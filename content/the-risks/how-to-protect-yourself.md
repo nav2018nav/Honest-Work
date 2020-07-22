@@ -27,6 +27,6 @@ menu:
     parent: The risks
   footer:
     weight: 2
-    parent: The risks
+    parent: How to change
 
 ---

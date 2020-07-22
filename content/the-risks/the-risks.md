@@ -7,6 +7,7 @@ content: ''
 password_protected: true
 menu:
   footer:
+    name: How to change
     weight: 3
   main:
     weight: 3
