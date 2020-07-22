@@ -33,7 +33,7 @@ text_alignment: left
 menu:
   main:
     weight: 1
-    parent: The risks
+    parent: How to change
   footer:
     weight: 1
     parent: How to change

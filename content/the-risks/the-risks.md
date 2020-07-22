@@ -10,6 +10,7 @@ menu:
     name: How to change
     weight: 3
   main:
+    name: How to change
     weight: 3
 
 ---
