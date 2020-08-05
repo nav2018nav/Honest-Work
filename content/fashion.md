@@ -8,6 +8,6 @@ password_protected = false
 sections = []
 show_sub_navigation = false
 text_alignment = ""
-title = "Fasion workers"
+title = "Fashion workers"
 
 +++
