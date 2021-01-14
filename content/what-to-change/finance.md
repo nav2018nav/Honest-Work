@@ -47,8 +47,5 @@ question = "Some questions to start with"
 [[sections.faq]]
 answer = "_What you need to know -_ RAN [tracks](https://www.ran.org/bankingonclimatechange2020/) bank finance for fossil fuel over time. [Greenpeace](https://www.greenpeace.org/international/press-release/28243/greenpeace-report-davos-financial-players-pump-us1-4-trillion-into-fossil-fuels/) has shown how many of the world’s biggest banks continue to funnel money into fossil fuels despite public statements that they will help combat climate change. BankTrack has also produced [research](https://www.banktrack.org/campaign/banks_and_human_rights) on the role of banks in relation to human rights.\n\n_The most urgent issue -_ If the world was to only burn all known fossil fuel reserves, that would already take the planet beyond 2 degrees of global warming, well beyond the [1.5 degrees](https://www.ipcc.ch/sr15/) limit needed to avoid some catastrophic consequences. Despite this, fossil fuel expansion continues. Banks should not finance the expansion of fossil fuel extraction or infrastructure, whether via project finance (direct financing for a fossil fuel asset) or general corporate support (financing provided to a company overall), for companies expanding fossil fuels."
 question = "Further information"
-[[sections]]
-heading = "Facilitating corruption"
-template = "block-heading"
 
 +++
