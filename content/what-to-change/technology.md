@@ -87,8 +87,10 @@ template = "block-heading"
 content = "An increasing number of decisions are being taken or influenced by input from algorithms, from the online advertisements you see to criminal sentencing and parole decisions. These algorithms are generally trained on large amounts of data, which has led to algorithms encoding and perpetuating the disadvantages already faced by certain groups, particularly along the lines of gender and race.\n\nThe companies behind these algorithms need to stop building the failures of the past into the infrastructure of the present and future. Companies must dedicate resources to ensure that algorithms are not producing inequitable outcomes for at-risk groups, and open up these \"black boxes\" to external scrutiny."
 template = "block-text"
 [[sections]]
-faq = []
 template = "block-faq"
-title = ""
+title = "Some questions to start with"
+[[sections.faq]]
+answer = "* Are there processes in place to test whether algorithms or AI services developed by your company are producing different outcomes for at-risk groups?\n* Is there third-party research into into issues with algorithmic bias in your field? Has your company addressed any issues identified?"
+question = "Some questions to start with"
 
 +++
