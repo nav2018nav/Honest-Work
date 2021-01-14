@@ -80,5 +80,15 @@ question = "Some questions to start with"
 [[sections.faq]]
 answer = "_What you need to know -_ This is a multi-faceted problem; the form it takes can depend on the type of company involved. For the very biggest companies, Scott Galloway has [set out](https://www.esquire.com/news-politics/a15895746/bust-big-tech-silicon-valley/) many of these reasons and has called for them to be broken up. Specific practices include companies’ approaches to gathering and hoarding [data](https://www.economist.com/briefing/2017/05/06/data-is-giving-rise-to-a-new-economy); copying competitors’ products and then [privileging](https://www.nytimes.com/2019/12/15/technology/amazon-aws-cloud-competition.html) the new product on their platform; introducing [switching costs](https://www.investopedia.com/terms/s/switchingcosts.asp) to prevent customers from easily changing service providers.\n\n_What you can ask for_ - Where it would not interfere with users’ privacy, openly sharing data can both create a more level playing field and lead to much more innovation, as knowledge flowing from data would not be restricted to those companies that generate the data. Allowing data portability, such that users can easily export their playlists, social network connections, etc to another service would similarly encourage competition and improve consumer welfare."
 question = "Further information"
+[[sections]]
+heading = "Bias"
+template = "block-heading"
+[[sections]]
+content = "An increasing number of decisions are being taken or influenced by input from algorithms, from the online advertisements you see to criminal sentencing and parole decisions. These algorithms are generally trained on large amounts of data, which has led to algorithms encoding and perpetuating the disadvantages already faced by certain groups, particularly along the lines of gender and race.\n\nThe companies behind these algorithms need to stop building the failures of the past into the infrastructure of the present and future. Companies must dedicate resources to ensure that algorithms are not producing inequitable outcomes for at-risk groups, and open up these \"black boxes\" to external scrutiny."
+template = "block-text"
+[[sections]]
+faq = []
+template = "block-faq"
+title = ""
 
 +++
