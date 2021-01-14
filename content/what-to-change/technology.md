@@ -88,9 +88,12 @@ content = "An increasing number of decisions are being taken or influenced by in
 template = "block-text"
 [[sections]]
 template = "block-faq"
-title = "Some questions to start with"
+title = ""
 [[sections.faq]]
 answer = "* Are there processes in place to test whether algorithms or AI services developed by your company are producing different outcomes for at-risk groups?\n* Is there third-party research into into issues with algorithmic bias in your field? Has your company addressed any issues identified?"
 question = "Some questions to start with"
+[[sections.faq]]
+answer = "_What you need to know -_ There is a wealth of research on how algorithmic bias can lead to inequitable outcomes in different settings - [advertising](), [criminal sentencing](), [financial services](), [recruitment](https://www.weforum.org/agenda/2019/05/ai-assisted-recruitment-is-biased-heres-how-to-beat-it/).\n\n_What to ask for -_ Transparency needs to be a minimum requirement to ensure that other parties are able to access the datasets used to train algorithms and the decisions they are producing to detect and prevent instances of bias. "
+question = "Further information"
 
 +++
