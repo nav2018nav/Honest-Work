@@ -36,7 +36,7 @@ template = "block-heading"
 image = "/uploads/what-to-change-human-rights.jpg"
 template = "block-image"
 [[sections]]
-content = "We live in a globalised world, where the products we buy, or our employers buy, have often travelled a long way before they make it to you. Along the way, they may have caused or contributed to human rights abuses, environmental degradation and other negative outcomes, either directly or through their suppliers.\n\nRespecting and protecting human rights needs to be a minimum expectation of the companies we work for. To do this, companies should be able to trace the origins of each component part of their products and assure that no human rights breaches took place at any point during the production process."
+content = "We live in a globalised world, where the products we buy, or our employers buy, have often travelled a long way before they make it to you. Along the way, they may have caused or contributed to human rights abuses, either directly or through their suppliers.\n\nRespecting and protecting human rights needs to be a minimum expectation of the companies we work for. To do this, companies should be able to trace the origins of each component part of their products and assure that no human rights breaches took place at any point during the production process."
 template = "block-text"
 [[sections]]
 template = "block-faq"
