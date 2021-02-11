@@ -24,7 +24,7 @@ template = "block-text"
 template = "block-faq"
 title = ""
 [[sections.faq]]
-answer = "* How clearly does your company communicate with data subjects on how their data will be used? Are data subjects able to effectively limit sharing of their data?\n* What is your company’s policy on sharing data with third parties, including governments?\n* Are your companies’ policies different in other jurisdictions?"
+answer = "* How clearly does your company communicate with data subjects on how their data will be used? Are data subjects able to effectively limit sharing of their data?\n* What is your company’s policy on sharing data with third parties, including governments?\n* Are your companies’ policies different in jurisdictions where legal protections are weaker?"
 question = "Some questions to start with"
 [[sections.faq]]
 answer = "_What you need to know_ - The Ranking Digital Rights (RDR) project has a detailed [chapter ](https://rankingdigitalrights.org/index2019/report/privacy/)on privacy, the various challenges attached to it and some recommendations for company action. For an alternative take, [Amnesty International](https://www.amnesty.org/en/documents/pol30/1404/2019/en/) looks specifically at Facebook and Google and the risks of their current approach to privacy.\n\n  \n_Who are the big contributors_ - RDR produces an annual [ranking](https://rankingdigitalrights.org/index2019/) of 24 large technology companies from around the world on their approach to privacy. In addition, Amazon’s Rekognition software has drawn significant [concern](https://www.aclunc.org/blog/amazon-teams-law-enforcement-deploy-dangerous-new-face-recognition-technology) around privacy issues."
