@@ -49,6 +49,7 @@ sections:
 - template: block-text
   content: 'Finally: you make a change. You help build a better world.'
 password_protected: true
+text_alignment: ''
 menu:
   main:
     weight: 1
@@ -56,5 +57,6 @@ menu:
   footer:
     weight: 1
     parent: About
+draft: true
 
 ---

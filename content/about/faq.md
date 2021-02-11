@@ -15,6 +15,7 @@ sections:
 header_image: ''
 content: ''
 password_protected: true
+text_alignment: ''
 menu:
   footer:
     weight: 2
@@ -22,5 +23,6 @@ menu:
   main:
     weight: 2
     parent: About
+draft: true
 
 ---
