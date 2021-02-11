@@ -1,5 +1,5 @@
 ---
-header_image: "/uploads/About - We need a change.jpg"
+header_image: "/uploads/about-we-need-a-change-1.jpg"
 title: About Honest Work
 content: ''
 show_sub_navigation: true
