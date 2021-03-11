@@ -1,6 +1,6 @@
 +++
 content = ""
-header_image = ""
+header_image = "/uploads/how-employees-changing.jpg"
 password_protected = false
 show_sub_navigation = true
 text_alignment = ""
