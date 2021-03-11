@@ -1,6 +1,6 @@
 +++
 content = ""
-header_image = "/uploads/success-stories-ibm-letter.PNG"
+header_image = "/uploads/how-employees-changing.jpg"
 password_protected = false
 show_sub_navigation = true
 text_alignment = ""
