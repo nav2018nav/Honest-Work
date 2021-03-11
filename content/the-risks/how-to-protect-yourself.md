@@ -23,10 +23,10 @@ password_protected: true
 text_alignment: ''
 menu:
   main:
-    weight: 2
+    weight: 3
     parent: How to change
   footer:
-    weight: 2
+    weight: 3
     parent: How to change
 
 ---

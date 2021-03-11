@@ -31,11 +31,11 @@ content: ''
 password_protected: true
 text_alignment: left
 menu:
-  main:
-    weight: 1
-    parent: How to change
   footer:
-    weight: 1
+    weight: 2
+    parent: How to change
+  main:
+    weight: 2
     parent: How to change
 
 ---

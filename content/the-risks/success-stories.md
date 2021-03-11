@@ -5,6 +5,12 @@ password_protected = false
 show_sub_navigation = true
 text_alignment = ""
 title = "Employees already changing the world"
+[menu.footer]
+parent = "How to change"
+weight = 1
+[menu.main]
+parent = "How to change"
+weight = 1
 [[sections]]
 content = "Workers banding together to change the impact their company has on the world is not new; it’s something they have been doing for decades at least. Workers around the world protested their companies’ involvement in apartheid South Africa. In 1979, IBM Workers United wrote to their company’s shareholders criticising the supply of computers to the South African government. In 1984, one retail worker in Ireland refusing to handle South African goods led to a three-year strike, culminating in the Irish government banning the import and sale of South African goods."
 template = "block-text"
