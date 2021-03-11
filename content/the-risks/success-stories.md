@@ -4,7 +4,7 @@ header_image = ""
 password_protected = false
 show_sub_navigation = true
 text_alignment = ""
-title = "Employees changing the world"
+title = "Workers changing the world"
 [menu.footer]
 parent = "How to change"
 weight = 1
