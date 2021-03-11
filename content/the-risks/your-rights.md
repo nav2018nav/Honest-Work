@@ -17,7 +17,7 @@ sections:
     * UK government: [Taking part in industrial actions and strikes](https://www.gov.uk/industrial-action-strikes/your-employment-rights-during-industrial-action)
     * UK Unison Trade Union: [Industrial action, Disputes and grievances](https://www.unison.org.uk/get-help/knowledge/disputes-grievances/industrial-action/)
     * US National Labour Relations Board: [The right to strike](https://www.nlrb.gov/strikes)
-    * US Coworker: [Your rights as a petition creator](https://home.coworker.org/resources/your-rights-as-a-petition-creator/)
+    * [Workplace Fairness](https://www.workplacefairness.org/_blank) (US)
 
     Here are some key points to bear in mind:
 
