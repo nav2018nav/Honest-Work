@@ -11,7 +11,7 @@ sections:
   content: |-
     Honest Work is founded on the belief that most people, if given the choice, would prefer to do the right thing.
 
-    In our workplaces, that can seem like a luxury that’s not always afforded to us. We have to work to live, and it sometimes feels that truly good corporate citizens are few and far between. Particularly if you want to work for big international companies, it can seem difficult to find ones that aren’t contributing to global problems in some way, be it climate change, human rights abuses or tax evasion.
+    In our workplaces, that can seem like a luxury that’s not always afforded to us. We have to work to live, and it sometimes feels that truly good corporate citizens are few and far between. Particularly if you want to work for big international companies, it can seem difficult to find ones that aren’t contributing to global problems in some way, be it climate change, human rights abuses or aggressive tax avoidance.
 
     A big reason for this is that corporate decision-making is primarily set by senior management and shareholders. These groups often have an extreme focus on profitability, and are wealthy enough to avoid dealing with the negative consequences of that focus. These companies would likely be run in a more humane way if workers had more of a say.
 
