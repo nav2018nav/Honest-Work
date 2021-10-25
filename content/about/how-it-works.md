@@ -49,10 +49,10 @@ sections:
   - "/uploads/about-how-8-strike-1.png"
   - "/uploads/about-how-7-letter-cropped-1.png"
 - template: block-text
-  content: Once you have your idea, you can start collectively pushing for change.
-    There are hundreds of ways to do this - you might write to management or the board
-    of directors, prepare a petition, even go on strike. We’ll try and help you find
-    the strategy that works for you.
+  content: Once you have your idea and some colleagues onside, you can start collectively
+    pushing for change. There are a range of ways to do this - you might raise the
+    issue in internal meetings, write to management or the board of directors, unionise,
+    even go on strike. We can try and help you find the strategy that works for you.
 - template: block-image
   image: "/uploads/about-how-10-green-shoots-1.png"
 - template: block-text
