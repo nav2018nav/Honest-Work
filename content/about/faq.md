@@ -1,5 +1,5 @@
 ---
-title: FAQ
+title: What is employee activism?
 show_sub_navigation: true
 sections:
 - template: block-faq
@@ -23,6 +23,5 @@ menu:
   main:
     weight: 2
     parent: About
-draft: true
 
 ---
