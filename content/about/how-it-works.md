@@ -38,9 +38,8 @@ sections:
     Our community will try to do the same. If you join \[link - Get Started\] Honest Work, you’ll be connected with any other workers at your company who, like you, have said they want to push management to do better. If you're worried about being recognised you can keep your name to yourself.
 
     Together, you can talk about what your company needs to change and how to go about making that change happen.
-- template: block-text
-  content: Together, you can talk about what your company needs to change and how
-    to go about making that change happen.
+
+    If you need some ideas, you can check out our Issues page \[link - What to change, General\] for some of the most pressing problems many companies are contributing to, and some rankings of the worst performers.
 - template: block-text
   content: If you need some ideas, you can check out our Issues page \[link - What
     to change, General\] for some of the most pressing problems many companies are
