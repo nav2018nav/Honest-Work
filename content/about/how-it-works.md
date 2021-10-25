@@ -11,8 +11,6 @@ sections:
     At the least it might be an opportunity for emotional support, and to get ideas and inspiration for how others are seeking change in their workplaces. And if any of your colleagues join we'll connect you.
 
     This will be a space for workers only - no senior management, no HR. We'll seek to verify your identity to keep this a safe workers' space. But you can keep your identity hidden from everyone else if you wish.
-
-    Here's how it will work:
 - template: block-image
   image: "/uploads/how-it-works-you.jpg"
 - template: block-text
