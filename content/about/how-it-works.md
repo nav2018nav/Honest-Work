@@ -40,10 +40,6 @@ sections:
     Together, you can talk about what your company needs to change and how to go about making that change happen.
 
     If you need some ideas, you can check out our Issues page \[link - What to change, General\] for some of the most pressing problems many companies are contributing to, and some rankings of the worst performers.
-- template: block-text
-  content: If you need some ideas, you can check out our Issues page \[link - What
-    to change, General\] for some of the most pressing problems many companies are
-    contributing to, and some rankings of the worst performers.
 - template: block-image-gallery
   images:
   - "/uploads/about-how-9-petition-transparent-1.png"
@@ -54,10 +50,6 @@ sections:
     pushing for change. There are a range of ways to do this - you might raise the
     issue in internal meetings, write to management or the board of directors, unionise,
     even go on strike. We can try and help you find the strategy that works for you.
-- template: block-image
-  image: "/uploads/about-how-10-green-shoots-1.png"
-- template: block-text
-  content: 'Finally: you make a change. You help build a better world.'
 password_protected: true
 text_alignment: ''
 menu:
