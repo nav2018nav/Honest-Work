@@ -32,10 +32,10 @@ sections:
 - template: block-image
   image: "/uploads/about-how-4-org-chart-connected-1.png"
 - template: block-text
-  content: 'If you join \[link - Get Started\] Honest Work, you’ll be connected with
-    other workers at your company who, like you, have said they want to push management
-    to do better. Everything’s anonymous: you don’t have to share your name and they
-    don’t have to share yours.'
+  content: |-
+    Many companies have committees, employee networks or green teams working on issues you care about that any worker can join - this can be a good place to start meeting like-minded colleagues.
+
+    Our community will try to do the same. If you join \[link - Get Started\] Honest Work, you’ll be connected with any other workers at your company who, like you, have said they want to push management to do better. If you're worried about being recognised you can keep your name to yourself.
 - template: block-text
   content: Together, you can talk about what your company needs to change and how
     to go about making that change happen.
