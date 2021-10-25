@@ -18,10 +18,10 @@ password_protected: true
 text_alignment: ''
 menu:
   footer:
-    weight: 2
+    weight: 1
     parent: About
   main:
-    weight: 2
+    weight: 1
     parent: About
 
 ---

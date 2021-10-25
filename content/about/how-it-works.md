@@ -61,10 +61,10 @@ password_protected: true
 text_alignment: ''
 menu:
   main:
-    weight: 1
+    weight: 2
     parent: About
   footer:
-    weight: 1
+    weight: 2
     parent: About
 
 ---
