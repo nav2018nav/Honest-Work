@@ -6,11 +6,11 @@ sections:
   content: |-
     When engaging in any form of workplace advocacy, it is important to be aware of your rights, the scope of activities that are legally protected and how to minimise the risks you face by speaking up, and what to do in the case of retaliation by your employer.
 
-    Workers must be aware that engaging in workplace advocacy is not risk free. Participating in strikes or walkouts in particular may not always be protected. While the right to strike is an internationally recognised human right, not all legal regimes grant striking workers decent protections, and many of those that do require specific procedures to be followed.
+    Workers must be aware that engaging in workplace advocacy is not risk-free. Participating in strikes or walkouts in particular are only protected under particular circumstances. While the right to strike is an internationally recognised human right, not all countries' legal systems grant striking workers decent protections, and many of those that do require specific procedures to be followed.
 
     We strongly encourage you to research the legal situation in your country or jurisdiction, which can vary enormously.
 
-    Here are some relevant resources to help:
+    Here are some relevant resources to help, which will be expanded on over time:
 
     * Australia government: [Industrial action](https://www.fairwork.gov.au/how-we-will-help/templates-and-guides/fact-sheets/rights-and-obligations/industrial-action)
     * Australian Unions: [Industrial action](https://www.australianunions.org.au/industrial_action_factsheet#:\~:text=In%20Australia%20today%20industrial%20action,union%20and%20change%20the%20rules.)
@@ -25,7 +25,7 @@ sections:
     * Organising for workplace advocacy generally should not take place during company time, on company property or using company equipment or email addresses.
     * There is safety in numbers. The more workers that join together, the more protected you will be (and the more likely you will be to achieve the aims of your campaign). The most common way of banding together with workers at your company and beyond is by joining a trade union.
 
-    Honest Work prioritises the security of our communities. We ask new members to provide proof of their current employer to ensure that we are preserving a ‘workers only’ space. We also are designing our communities with anonymity in mind.
+    For Honest Work online community, security is paramount. We will privately verify new members' identities to ensure that we are preserving a ‘workers only’ space. We also are designing our communities with anonymity in mind.
 header_image: "/uploads/rights.jpg"
 content: ''
 password_protected: true
