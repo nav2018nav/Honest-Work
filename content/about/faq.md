@@ -16,12 +16,5 @@ header_image: ''
 content: ''
 password_protected: true
 text_alignment: ''
-menu:
-  footer:
-    weight: 1
-    parent: About
-  main:
-    weight: 1
-    parent: About
 
 ---

@@ -52,10 +52,10 @@ password_protected: true
 text_alignment: ''
 menu:
   main:
-    weight: 2
+    weight: 1
     parent: About
   footer:
-    weight: 2
+    weight: 1
     parent: About
 
 ---
