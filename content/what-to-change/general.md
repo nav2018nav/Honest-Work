@@ -12,7 +12,7 @@ weight = 2
 name = "What to change"
 weight = 2
 [[sections]]
-content = "In today’s hyperconnected world, decisions made by companies and their workers can have major effects on communities at home and around the globe.\n\nBelow are some issues that are common to many large multinational companies today, with resources that can help you understand how your company is performing. On the bar to the left you can find some more tips based on specific sectors."
+content = "In today’s hyperconnected world, decisions made by companies and their workers can have major effects on communities at home and around the globe.\n\nBelow are some issues that are common to many large multinational companies today, with resources that can help you understand how your company is performing. On the bar to the left you can find some more tips based on specific sectors.\n\nDon't see your company mentioned anywhere? Consider going through your company's annual report. Most of these reports include a section on sustainability which is often heavy on marketing but can give you an idea of areas where the company is having its largest impacts. Annual reports also must include major risk factors facing the company, including from litigation, which can reveal controversial practices."
 template = "block-text"
 [[sections]]
 heading = "Climate Change"
