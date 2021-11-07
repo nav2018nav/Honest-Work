@@ -35,9 +35,9 @@ sections:
 
     Other measures workers may consider include:
 
-    * Request a town hall:
-    * Employee survey: Request
-    * Walkout or work to rule/go-slow:
+    * **Employee survey:** Request management to send out a survey to all employees to understand their views on a topic in aggregate. Employees should be involved in the design of such a survey. Where management is unwilling to undertake such a survey, workers may consider distributing one anonymously.
+    * **Request a town hall:** This can create a more deliberative space for workers and management to discuss how the company is approaching an issue and come closer to an agreement on a path forward. These are most effective when employees are not just allowed to pose questions but are allocated time to present counter-views in more detail.
+    * **Walkout or work to rule/go-slow:** One of the most direct ways in which workers can express their dissent is by collectively walking off the job, or performing only the [minimum](https://en.wikipedia.org/wiki/Work-to-rule) work required under their contract. Workers should be cognisant that such action is legally protected only under certain circumstances **\[link\]**.
 
     Undertaking a single action without a broader plan is unlikely to cause a company to act on worker concerns. Don’t treat actions as “one and done”; workers should maintain momentum by taking firmer actions in the absence of progress from the company.
 header_image: ''
