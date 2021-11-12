@@ -1,5 +1,12 @@
 .u-info-v1 {
   border: 1px solid #42b9f6;
+  background: #42b9f6;
+  color: #fff;
+}
+.u-info-v1.active-item {
+  border: 1px solid #42b9f6;
+  background: #fff;
+  /* color: #fff !important; */
 }
 
 #navBar > ul > li > a {
@@ -30,3 +37,10 @@
   color: #77838f;
   line-height: 1.7;
 }
+
+.mb-70 {margin-bottom: 70px;}
+
+.text-center #heading_border {margin: 0 auto;}
+
+#formkeep-embed {}
+#formkeep-embed body{color: #77838f;}

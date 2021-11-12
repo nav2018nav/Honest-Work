@@ -7,7 +7,8 @@
   <div class="divimage dzsparallaxer--target" style="height: 130%; background-image: url('{{.Params.header_image}}');">
   </div>
   <div class="container text-center u-space-4">
-    <div class="w-lg-50 mx-auto mb-3">
+    
+    <div class="w-lg-50 mx-auto mb-3 {{ if eq .URL "/home/" }}w-lg-80 {{ end }}">
       <h1 class="display-3 font-size-48--md-down text-white font-weight-bold"
         style="text-shadow: 0px 0px 15px rgba(0,0,0,1);">
         {{.Params.title}}
@@ -37,7 +38,7 @@
         {{ if (eq .template "block-heading") }}
         <div class="col-12 {{.template}}">
           <h2>{{.heading}}</h2>
-          <div style="width:100px; height:2px; background-color:#42b9f4;"></div>
+          <div id="heading_border" style="width:100px; height:2px; background-color:#42b9f4;"></div>
         </div>
         {{end}}
 
@@ -45,6 +46,43 @@
         <div class="col-12 {{.template}}">
           {{ partial "markdown" (dict "context" . "markdown" .content) }}
         </div>
+        {{end}}
+        
+        {{ if .show_form }}
+        <div style="margin: 0 auto;">
+          <form action="https://www.paypal.com/donate" method="post" target="_top">
+            <input type="hidden" name="business" value="WHX2U57X4RRBS" />
+            <input type="hidden" name="no_recurring" value="0" />
+            <input type="hidden" name="item_name" value="While we're getting set up you can donate to a personal account. Alternatively support workers here: https://coworkerfund.org/" />
+            <input type="hidden" name="currency_code" value="GBP" />
+            <input type="image" src="https://pics.paypal.com/00/s/MjVmMTRlNzktZGVjYS00MjNkLTg5OTMtOTU1NGUzN2IxODZh/file.PNG" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+            <img alt="" border="0" src="https://www.paypal.com/en_IE/i/scr/pixel.gif" width="1" height="1" />
+            </form>
+        </div>
+        {{end}}
+
+        {{ if .join_us }}
+        <div class="col-md-8 offset-md-2">
+          <div id="formkeep-embed" data-formkeep-url="https://formkeep.com/p/095b67c6cc2ed12b85fb86fefbfdf026?embedded=1"></div>
+          <script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
+          <script type="text/javascript" src="https://formkeep-production-herokuapp-com.global.ssl.fastly.net/formkeep-embed.js"></script>
+        </div>
+
+        {{end}}
+
+        {{ if (eq .template "home-alt-sec") }}
+        {{ range $i, $el := .sections }}
+        <div class="row align-items-center text-center {{if not (modBool $i 2)}} flex-row-reverse {{ end }} mb-70">
+          <div class="col-md-6">
+            <h2>{{ .sec_title }}</h2>
+            {{ partial "markdown" (dict "context" . "markdown" .content) }}
+            <a class="btn btn-sm btn-primary" href="{{ .button_link }}">Read More about it</a>
+          </div>
+          <div class="col-md-6">
+            <img class="img-fluid" src="{{ .image }}" alt="">
+          </div>
+        </div>
+        {{ end }}
         {{end}}
 
         {{ if (eq .template "block-image") }}
@@ -132,9 +170,7 @@
 
         {{ if (eq .template "block-registration") }}
         <div class="w-60 mx-auto {{.template}}">
-          <a class="typeform-share button btn btn-sm btn-primary u-btn-primary transition-3d-hover"
-            href="https://form.typeform.com/to/HcjEVbnN" data-mode="popup" target="_blank">Join </a>
-          <script> (function () {var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm_share", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) {js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q)} })() </script>
+          
         </div>
         {{end}}
 
@@ -152,7 +188,7 @@
           {{ range .Site.Menus.main }}
           {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
           <li class="mb-3">
-            <a class="u-info-v1 p-4" href="{{ .URL }}">
+            <a class="u-info-v1 p-4 {{ if $currentPage.IsMenuCurrent "main" . }}active-item{{ end }}" href="{{ .URL }}">
               <span class="row justify-content-sm-between align-items-sm-center">
                 <span class="col-9 mb-2 mb-sm-0 {{ if $currentPage.IsMenuCurrent "main" . }}text-primary{{ end }}">
                   {{ .Name }}
@@ -165,7 +201,7 @@
           </li>
           {{ range .Children }}
           <li class="mb-3">
-            <a class="u-info-v1 p-4" href="{{ .URL }}">
+            <a class="u-info-v1 p-4 {{ if $currentPage.IsMenuCurrent "main" . }}active-item{{ end }}" href="{{ .URL }}" href="{{ .URL }}">
               <span class="row justify-content-sm-between align-items-sm-center">
                 <span class="col-9 mb-2 mb-sm-0 {{ if $currentPage.IsMenuCurrent "main" . }}text-primary{{ end }}">
                   {{ .Name }}

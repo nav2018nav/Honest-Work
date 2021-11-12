@@ -59,3 +59,30 @@
 <script src="/assets/js/components/hs.scroll-nav.js"></script>
 <script src="/assets/js/components/hs.go-to.js"></script>
 <script src="/assets/js/main.js"></script>
+
+
+<!-- Get notified when the form is submitted, add your own code below: -->
+<script>
+  const formkeepEmbed = document.querySelector('#formkeep-embed')
+  
+  formkeepEmbed.addEventListener('formkeep-embed:submitting', _event => {
+  console.log('Submitting form...')
+  })
+  
+  formkeepEmbed.addEventListener('formkeep-embed:submitted', _event => {
+  console.log('Submitted form...')
+  })
+  </script>
+
+<!-- Get notified when the form is submitted, add your own code below: -->
+<script>
+  const formkeepEmbed = document.querySelector('#formkeep-embed')
+  
+  formkeepEmbed.addEventListener('formkeep-embed:submitting', _event => {
+  console.log('Submitting form...')
+  })
+  
+  formkeepEmbed.addEventListener('formkeep-embed:submitted', _event => {
+  console.log('Submitted form...')
+  })
+  </script>
