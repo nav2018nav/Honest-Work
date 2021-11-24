@@ -25,7 +25,7 @@ sections:
     * Organising for workplace advocacy generally should not take place during company time, on company property or using company equipment or email addresses.
     * There is safety in numbers. The more workers that join together, the more protected you will be (and the more likely you will be to achieve the aims of your campaign). The most common way of banding together with workers at your company and beyond is by joining a trade union.
 
-    For Honest Work online community, security is paramount. We will privately verify new members' identities to ensure that we are preserving a ‘workers only’ space. We also are designing our communities with anonymity in mind.
+    For Honest Work's [online community](https://www.honestwork.org/about/how-it-works/), security is paramount. We will privately verify new members' identities to ensure that we are preserving a ‘workers only’ space, while preserving anonymity.
 header_image: "/uploads/rights.jpg"
 content: ''
 password_protected: true

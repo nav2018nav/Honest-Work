@@ -1,5 +1,5 @@
 ---
-title: How to change
+title: How to make a change
 show_sub_navigation: true
 sections:
 - template: block-text
@@ -20,6 +20,8 @@ sections:
     Bringing colleagues on board should be an ongoing step. The more colleagues you have on your side, the more credible and powerful you all will be.
 - template: block-heading
   heading: Raise the issue in group settings
+- template: block-image
+  image: "/uploads/felicia-buitenwerf-qs_zkak27jk-unsplash-1.jpg"
 - template: block-text
   content: |-
     Try to get this issue on more colleagues’ radars, including more senior decision-makers. Tteam, department-wide or even company-wide meetings can be suitable venues to raise questions, as can internal online discussion forums.
@@ -40,14 +42,45 @@ sections:
     * **Walkout or work to rule/go-slow:** One of the most direct ways in which workers can express their dissent is by collectively walking off the job, or performing only the [minimum](https://en.wikipedia.org/wiki/Work-to-rule) work required under their contract. Workers should be cognisant that such action is legally protected only under certain circumstances **\[link\]**.
 
     Undertaking a single action without a broader plan is unlikely to cause a company to act on worker concerns. Don’t treat actions as “one and done”; workers should maintain momentum by taking firmer actions in the absence of progress from the company.
-header_image: ''
+- template: block-heading
+  heading: Going public
+- template: block-text
+  content: |-
+    The growing number of media reports of employee activism, public letters and whistleblowing can make it seem that going public is the default way in which workers should push their companies to change. However, it depends.
+
+    Keeping employee advocacy internal, at least initially, can communicate to management that your goal is to make positive change rather than to shame the company. It reduces the risk of retaliation. It can also make management more cooperative in a bid to avoid the reputational damage of workers’ concerns becoming public knowledge
+
+    However, if after a reasonable period there are still few signs of progress it may be time to consider going public. Companies are keener than ever to show they are doing well on environmental and social issues to customers and investors; evidence that employees disagree with that assessment can be a powerful catalyst for change. [The Tech Worker Handbook](https://techworkerhandbook.org/media/) gives detailed advice on how workers can work with the media to bring attention to an issue. \[insert image?\]
+
+    Beyond the media, dissatisfied employees may alert prospective employees about poor ethical practices at their workplaces through review websites such as [Glassdoor](https://www.glassdoor.co.uk/index.htm).
+- template: block-heading
+  heading: Reach out to company stakeholders
+- template: block-text
+  content: |-
+    Many of workers’ concerns about their companies’ impacts will be shared by other groups with whom workers can make common cause. Workers can increase their influence by contacting and collaborating with other groups with influence over the company.
+
+    * **Investors**: Research who are the top shareholders of your company and consider getting in touch. Many investors engage with senior management at companies they invest in to improve their environmental and social performance. Some workers have [collaborated](https://www.protocol.com/workplace/shareholder-proposals-workers) with investors on shareholder proposals.
+    * **Policymakers:** Workers have filed whistleblower [complaints](https://www.nytimes.com/2021/10/26/technology/facebook-sec-complaints.html) with regulatory agencies, have responded to public policy [consultations](https://www.nbcnews.com/news/all/amazon-workers-protest-proposal-raise-bar-shareholder-resolutions-n1129216) that affect their company.
+    * Workers have also targeted speakers at company events, groups that their company is [sponsoring](https://www.bloomberg.com/news/articles/2019-06-26/google-workers-petition-sf-pride-to-exclude-company-from-parade), and their company’s [customers](https://progressivegrocer.com/ufcw-staging-protests-harris-teeters-ploy-organize-smithfield-plant-workers) to increase the pressure on companies to meet worker demands.
+- template: block-heading
+  heading: Join a union
+- template: block-image
+  image: "/uploads/manny-becerra-gtpk-wt1qoy-unsplash-1.jpg"
+- template: block-text
+  content: |-
+    At any stage in the process above, if it’s a motivating issue for a sufficient number of employees, consider joining a trade union \[**link**\]. Unions can advise on tactics for influencing management at your workplace, help protect you from retaliation, and can act as a medium to show collective worker strength.
+
+    Many unions are unaccustomed to helping workers with environmental and social issues with respect to their employers - ask about their experience in this area and how they can support you with your specific goals.
+header_image: "/uploads/austin-distel-wd1lrb9oeeo-unsplash-1.jpg"
 content: ''
 password_protected: true
 text_alignment: ''
 menu:
   footer:
+    name: How to change
     weight: 3
   main:
+    name: How to change
     weight: 3
 
 ---
