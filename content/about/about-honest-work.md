@@ -1,5 +1,5 @@
 ---
-header_image: "/uploads/6a09303b-f405-455b-8209-6c21db01f232.jpg"
+header_image: "/uploads/quotefancy-28659-3840x2160-1-1.jpg"
 title: " "
 content: ''
 show_sub_navigation: true
