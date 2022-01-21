@@ -1,5 +1,5 @@
 ---
-header_image: "/uploads/about-we-need-a-change-1.jpg"
+header_image: "/uploads/6a09303b-f405-455b-8209-6c21db01f232.jpg"
 title: " "
 content: ''
 show_sub_navigation: true
