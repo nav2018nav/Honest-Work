@@ -5,8 +5,8 @@ content: ''
 show_sub_navigation: true
 sections:
 - template: block-heading
-  heading: "“The Only Thing Necessary for the Triumph of Evil is that Good Men Do
-    Nothing”"
+  heading: '"Never doubt that a small group of thoughtful, committed citizens can
+    change the world. Indeed, it is the only thing that ever has"'
 - template: block-text
   content: |-
     Honest Work is founded on the belief that most people, if given the choice, would prefer to do the right thing.
@@ -23,10 +23,10 @@ sections:
 password_protected: true
 text_alignment: ''
 menu:
-  footer:
+  main:
     name: About
     weight: 1
-  main:
+  footer:
     name: About
     weight: 1
 
