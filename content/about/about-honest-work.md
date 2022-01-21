@@ -4,9 +4,6 @@ title: " "
 content: ''
 show_sub_navigation: true
 sections:
-- template: block-heading
-  heading: '"Never doubt that a small group of thoughtful, committed citizens can
-    change the world. Indeed, it is the only thing that ever has"'
 - template: block-text
   content: |-
     Honest Work is founded on the belief that most people, if given the choice, would prefer to do the right thing.
