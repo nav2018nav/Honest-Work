@@ -17,7 +17,7 @@ sections:
 
     Of course, few enough companies are prepared to give their workers that power, and that’s where Honest Work comes in. We want to help you connect with like-minded colleagues at your company and beyond to change your workplaces for the better and improve the impact companies have on the world.
 
-    We've put together a hub of relevant [information](https://honestwork.org/what-to-change/general/) and resources around how your company might be contributing to some of the problems in the world today. We'll be producing a monthly newsletter on the latest in employee activism, with tips and opportunities to make a difference; subscribe below. We're building an online community for workers who want to make a difference at their company; you can join here **\[LINK\]**.
+    We've put together a hub of relevant [information](https://honestwork.org/what-to-change/general/) and resources around how your company might be contributing to some of the problems in the world today. We'll be producing a monthly newsletter on the latest in employee activism, with tips and opportunities to make a difference; subscribe below. We're building an online community for workers who want to make a difference at their company; you can join [here](https://honestwork.org/join/).
 
     When you’re just one worker at a company that employs thousands, it can seem impossible to change things. But chances are you’re not alone, and together you can make your company, your industry, the world, a better place.
 password_protected: true
