@@ -1,6 +1,7 @@
 ---
 header_image: "/uploads/about-we-need-a-change-1.jpg"
-title: About Honest Work
+title: '"Never doubt that a small group of thoughtful, committed citizens can change
+  the world. Indeed, it is the only thing that ever has."'
 content: ''
 show_sub_navigation: true
 sections:
