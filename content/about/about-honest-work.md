@@ -1,5 +1,5 @@
 ---
-header_image: "/uploads/705984a5-3740-417a-bf15-2cda2c075be0.jpg"
+header_image: "/uploads/705984a5-3740-417a-bf15-2cda2c075be0-1.jpg"
 title: " "
 content: ''
 show_sub_navigation: true
