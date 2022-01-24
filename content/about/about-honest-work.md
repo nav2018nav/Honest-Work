@@ -16,15 +16,15 @@ sections:
     to commit to cutting their emissions, stop whitewashing the reputations of controversial
     clients, and stop stocking dangerous weapons in retailers. \n\nHonest Work has
     been set up to help more workers change their companies for the better. Here you
-    can find information and resources on how your company may be contributing to
-    global problems and what they can do to change. You can learn how to go about
-    advocating for change internally and getting colleagues on board. You can join
-    an online community of fellow workers for support, advice and learning. And there’ll
-    be a monthly newsletter on the latest in employee activism, with tips and opportunities
-    to make a difference; subscribe below. \n\nWhen you’re just one worker at a company
-    that employs thousands, it can seem impossible to change things. But chances are
-    you’re not alone, and by coming together you can make your company, your industry
-    and the world a better place."
+    can: \\[**_LINKS\\]_**\n\n* find information and resources on how your company
+    may be contributing to global problems and what they can do to change\n* learn
+    how to go about advocating for change internally and getting colleagues on board
+    \n* join an online community of fellow workers for support, advice and learning
+    \n* subscribe below to a monthly newsletter on the latest in employee activism,
+    with tips and opportunities to make a difference \n\nWhen you’re just one worker
+    at a company that employs thousands, it can seem impossible to change things.
+    But chances are you’re not alone, and by coming together you can make your company,
+    your industry and the world a better place."
 password_protected: true
 text_alignment: ''
 menu:
