@@ -5,18 +5,26 @@ content: ''
 show_sub_navigation: true
 sections:
 - template: block-text
-  content: |-
-    Honest Work is founded on the belief that most people, if given the choice, would prefer to do the right thing.
-
-    In our workplaces, that can seem like a luxury that’s not always afforded to us. We have to work to live, and it sometimes feels that truly good corporate citizens are few and far between. Particularly if you want to work for big international companies, it can seem difficult to find ones that aren’t contributing to global problems in some way, be it climate change, human rights abuses or aggressive tax avoidance.
-
-    A big reason for this is that corporate decision-making is primarily set by senior management and shareholders. These groups often have an extreme focus on profitability, and are wealthy enough to avoid dealing with the negative consequences of that focus. These companies would likely be run in a more humane way if workers had more of a say.
-
-    Of course, few enough companies are prepared to give their workers that power, and that’s where Honest Work comes in. We want to help you connect with like-minded colleagues at your company and beyond to change your workplaces for the better and improve the impact companies have on the world.
-
-    We've put together a hub of relevant [information](https://honestwork.org/what-to-change/general/) and resources around how your company might be contributing to some of the problems in the world today. We'll be producing a monthly newsletter on the latest in employee activism, with tips and opportunities to make a difference; subscribe below. We're building an online community for workers who want to make a difference at their company; you can join [here](https://honestwork.org/join/).
-
-    When you’re just one worker at a company that employs thousands, it can seem impossible to change things. But chances are you’re not alone, and together you can make your company, your industry and the world a better place.
+  content: "Many of us grow up wanting to make the world a better place. \n\nThat’s
+    not always easy, especially in that place where we spend so much of our time -
+    the workplace. It can be hard to find employers that live up to our values, with
+    so many companies contributing to global problems in some way, be it climate change,
+    human rights abuses or aggressive tax avoidance. And so we feel we have little
+    choice but to get on with things. \n\nYet things are starting to change. Workers
+    in every industry are increasingly coming together and pushing the companies they
+    work for to do better. The last few years have seen workers get their companies
+    to commit to cutting their emissions, stop whitewashing the reputations of controversial
+    clients, and stop stocking dangerous weapons in retailers. \n\nHonest Work has
+    been set up to help more workers change their companies for the better. Here you
+    can find information and resources on how your company may be contributing to
+    global problems and what they can do to change. You can learn how to go about
+    advocating for change internally and getting colleagues on board. You can join
+    an online community of fellow workers for support, advice and learning. And there’ll
+    be a monthly newsletter on the latest in employee activism, with tips and opportunities
+    to make a difference; subscribe below. \n\nWhen you’re just one worker at a company
+    that employs thousands, it can seem impossible to change things. But chances are
+    you’re not alone, and by coming together you can make your company, your industry
+    and the world a better place."
 password_protected: true
 text_alignment: ''
 menu:
