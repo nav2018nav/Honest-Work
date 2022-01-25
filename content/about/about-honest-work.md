@@ -8,7 +8,7 @@ sections:
   content: |-
     Many of us grow up wanting to make the world a better place.
 
-    That’s not always easy, especially in that place where we spend so much of our time - the workplace. It can be hard to find employers that live up to our values, with so many companies contributing to global problems in some way, be it climate change, human rights abuses or aggressive tax avoidance. And so we feel we have little choice but to get on with things.
+    That’s not always easy, especially in that place where we spend so much of our time: the workplace. It can be hard to find employers that live up to our values with so many companies contributing to global problems in some way, be it climate change, human rights abuses or aggressive tax avoidance. And so we feel we have little choice but to get on with things.
 
     Yet that's starting to change. Workers in every industry are increasingly coming together and pushing the companies they work for to do better. The last few years have seen workers get their companies to commit to cutting their emissions, stop whitewashing the reputations of controversial clients, and stop stocking dangerous weapons in retailers.
 
