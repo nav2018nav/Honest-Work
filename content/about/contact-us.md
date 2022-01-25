@@ -14,7 +14,7 @@ sections:
     <script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
     <script type="text/javascript" src="https://formkeep-production-herokuapp-com.global.ssl.fastly.net/formkeep-embed.js"></script>
 text_alignment: center
-header_image: ''
+header_image: "/uploads/about-contact.jpg"
 content: ''
 password_protected: false
 menu:
