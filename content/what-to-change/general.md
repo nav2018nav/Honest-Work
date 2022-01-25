@@ -12,7 +12,7 @@ weight = 2
 name = "What to change"
 weight = 2
 [[sections]]
-content = "In today’s hyperconnected world, decisions made by companies and their workers can have major effects on communities at home and around the globe.\n\nBelow are some issues that are common to many large multinational companies today, with resources that can help you understand how your company is performing. On the bar to the left you can find some more tips based on specific sectors.\n\nDon't see your company mentioned anywhere? Consider going through your company's annual report. Most of these reports include a section on sustainability which is often heavy on marketing but can give you an idea of areas where the company is having its largest impacts. Annual reports also must include major risk factors facing the company, including from litigation, which can reveal controversial practices."
+content = "In today’s hyperconnected world, decisions made by companies and their workers can have major effects on communities at home and around the globe.\n\nBelow are some issues that are common to many large multinational companies today, with resources that can help you understand how your company is performing. On the bar to the left you can find some more tips based on specific sectors."
 template = "block-text"
 [[sections]]
 heading = "Climate Change"
@@ -95,5 +95,11 @@ question = "Some questions to start with"
 [[sections.faq]]
 answer = "_What you need to know_ - The idea that a company’s sole purpose is to make profits is summarised in an [article](https://www.nytimes.com/1970/09/13/archives/article-15-no-title.html) by economist Milton Friedman in 1970. It has led to a situation where companies are in a position to solve many of the issues that we face while remaining profitable, but choose greater short-term profits instead. If you want to dive deep into the data of the overall impact your company might be having, check out Harvard's [Impact-Weighted Accounts](https://www.hbs.edu/impact-weighted-accounts/Pages/default.aspx) project.\n\n_What can you ask for_ - Over 3,000 companies in over 70 countries have certified as “[B Corps](https://bcorporation.net/)”, which is evidence of having met the highest standards in environmental and social performance."
 question = "Further information"
+[[sections]]
+heading = "Still looking?"
+template = "block-heading"
+[[sections]]
+content = ""
+template = "block-text"
 
 +++
