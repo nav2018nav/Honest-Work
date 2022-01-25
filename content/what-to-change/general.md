@@ -99,7 +99,7 @@ question = "Further information"
 heading = "Still looking?"
 template = "block-heading"
 [[sections]]
-content = ""
+content = "Don't think these are the most relevant issues for your company?\n\nIf your company publishes an annual report - particularly if you work at a large public company - consider going through it. Most of these reports include a section on sustainability which is often heavy on marketing but can give you an idea of areas where the company is having its largest impacts. Annual reports also must include major risk factors facing the company, including from litigation, which can reveal controversial practices."
 template = "block-text"
 
 +++
