@@ -23,6 +23,4 @@ sections:
         content: |-
           Add some text here about employee activism. Add some text here about employee activism. Add some text here about employee activism. Add some text here about employee activism. 
         button_link: "https://google.com"
-password_protected: true
-
 ---
