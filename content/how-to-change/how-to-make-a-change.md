@@ -5,6 +5,9 @@ password_protected = false
 show_sub_navigation = true
 text_alignment = ""
 title = "How to make a change"
+[menu.main]
+name = "How to change"
+weight = 3
 [[sections]]
 content = "Once you’ve identified a [change](https://www.honestwork.org/what-to-change/general/) you’d like to try and make at your company, where do you begin?\n\nBelow is a quick step-by-step guide to engaging in workplace advocacy around the kinds of environmental and social issues discussed here. We’ll add more over time. Note that these are only general tips; context is everything. Company cultures differ, some issues are more sensitive than others, so think carefully about the particular aspects of your workplace when seeking to make change. You also need to think carefully about the risks **\\[link\\]** of speaking up."
 template = "block-text"

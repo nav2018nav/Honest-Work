@@ -76,9 +76,6 @@ content: ''
 password_protected: true
 text_alignment: ''
 menu:
-  main:
-    name: How to change
-    weight: 3
   footer:
     name: How to change
     weight: 3

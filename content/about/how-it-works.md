@@ -51,10 +51,10 @@ sections:
 password_protected: true
 text_alignment: ''
 menu:
-  main:
+  footer:
     weight: 1
     parent: About
-  footer:
+  main:
     weight: 1
     parent: About
 

@@ -34,8 +34,5 @@ menu:
   footer:
     weight: 2
     parent: How to change
-  main:
-    weight: 2
-    parent: How to change
 
 ---
