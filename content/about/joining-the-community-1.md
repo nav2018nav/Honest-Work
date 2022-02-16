@@ -36,5 +36,8 @@ template = "block-text"
 [[sections]]
 images = ["/uploads/about-how-7-letter-cropped-1.png", "/uploads/about-how-8-strike-1.png", "/uploads/about-how-9-petition-transparent-1.png"]
 template = "block-image-gallery"
+[[sections]]
+content = "Once you have your idea and some colleagues onside, you can start collectively pushing for change. There are a range of ways to do this - you might raise the issue in internal meetings, write to management or the board of directors, unionise, even go on strike. We can try and help you find the strategy that works for you."
+template = "block-text"
 
 +++
