@@ -1,5 +1,5 @@
 ---
-title: Joining a trade union
+title: Joining a trade unionX
 show_sub_navigation: true
 sections:
 - template: block-text
@@ -22,10 +22,10 @@ content: ''
 password_protected: true
 text_alignment: ''
 menu:
-  main:
+  footer:
     weight: 3
     parent: How to change
-  footer:
+  main:
     weight: 3
     parent: How to change
 
