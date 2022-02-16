@@ -1,5 +1,5 @@
 ---
-title: How to make a change
+title: How to make a changeX
 show_sub_navigation: true
 sections:
 - template: block-text
@@ -76,10 +76,10 @@ content: ''
 password_protected: true
 text_alignment: ''
 menu:
-  footer:
+  main:
     name: How to change
     weight: 3
-  main:
+  footer:
     name: How to change
     weight: 3
 
