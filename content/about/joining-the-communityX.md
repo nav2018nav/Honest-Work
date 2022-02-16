@@ -50,12 +50,5 @@ sections:
     even go on strike. We can try and help you find the strategy that works for you.
 password_protected: true
 text_alignment: ''
-menu:
-  footer:
-    weight: 1
-    parent: About
-  main:
-    weight: 1
-    parent: About
 
 ---
