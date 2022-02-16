@@ -1,5 +1,5 @@
 ---
-title: Your rights
+title: Your rightsX
 show_sub_navigation: true
 sections:
 - template: block-text
