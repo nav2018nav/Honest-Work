@@ -1,7 +1,7 @@
 ---
 header_image: "/uploads/about-how-0-banner-2.jpg"
 show_sub_navigation: true
-title: Joining the community
+title: Joining the communityX
 content: ''
 sections:
 - template: block-text
