@@ -1,7 +1,6 @@
 +++
 content = ""
-draft = true
-header_image = ""
+header_image = "/uploads/rights.jpg"
 password_protected = false
 show_sub_navigation = true
 text_alignment = ""
