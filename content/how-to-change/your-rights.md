@@ -5,6 +5,9 @@ password_protected = false
 show_sub_navigation = true
 text_alignment = ""
 title = "Your rights"
+[menu.footer]
+parent = "How to change"
+weight = 2
 [menu.main]
 parent = "How to change"
 weight = 2

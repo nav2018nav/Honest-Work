@@ -21,9 +21,5 @@ header_image: "/uploads/trade-union.jpg"
 content: ''
 password_protected: true
 text_alignment: ''
-menu:
-  footer:
-    weight: 3
-    parent: How to change
 
 ---

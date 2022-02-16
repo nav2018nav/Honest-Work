@@ -30,9 +30,5 @@ header_image: "/uploads/rights.jpg"
 content: ''
 password_protected: true
 text_alignment: left
-menu:
-  footer:
-    weight: 2
-    parent: How to change
 
 ---

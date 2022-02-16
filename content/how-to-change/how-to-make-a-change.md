@@ -5,6 +5,9 @@ password_protected = false
 show_sub_navigation = true
 text_alignment = ""
 title = "How to make a change"
+[menu.footer]
+name = "How to change"
+weight = 3
 [menu.main]
 name = "How to change"
 weight = 3

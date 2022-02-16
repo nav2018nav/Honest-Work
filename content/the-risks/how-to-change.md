@@ -75,9 +75,5 @@ header_image: "/uploads/austin-distel-wd1lrb9oeeo-unsplash-1.jpg"
 content: ''
 password_protected: true
 text_alignment: ''
-menu:
-  footer:
-    name: How to change
-    weight: 3
 
 ---
