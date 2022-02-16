@@ -33,5 +33,8 @@ template = "block-image"
 [[sections]]
 content = "Many companies have committees, employee networks or green teams working on issues you care about that any worker can join - this can be a good place to start meeting like-minded colleagues.\n\nOur community will try to do the same. If you join \\[link - Get Started\\] Honest Work, you’ll be connected with any other workers at your company who, like you, have said they want to push management to do better. If you’re worried about being recognised you can keep your name to yourself.\n\nTogether, you can talk about what your company needs to change and how to go about making that change happen.\n\nIf you need some ideas, you can check out our Issues page \\[link - What to change, General\\] for some of the most pressing problems many companies are contributing to, and some rankings of the worst performers."
 template = "block-text"
+[[sections]]
+images = ["/uploads/about-how-7-letter-cropped-1.png", "/uploads/about-how-8-strike-1.png", "/uploads/about-how-9-petition-transparent-1.png"]
+template = "block-image-gallery"
 
 +++
