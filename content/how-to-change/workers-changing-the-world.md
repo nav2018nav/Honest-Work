@@ -6,7 +6,6 @@ show_sub_navigation = true
 text_alignment = ""
 title = "Workers changing the world"
 [menu.footer]
-name = "Workers changing the worldX"
 parent = "How to change"
 weight = 1
 [menu.main]
