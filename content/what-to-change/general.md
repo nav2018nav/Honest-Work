@@ -12,7 +12,7 @@ weight = 2
 name = "What to change"
 weight = 2
 [[sections]]
-content = "In today’s hyperconnected world, decisions made by companies and their workers can have major effects on communities at home and around the globe.\n\nBelow are some issues that are common to many companies today, with resources that can help you understand how your company is performing. On the bar to the left you can find some more information based on specific sectors."
+content = "In today’s hyperconnected world, decisions made by companies and their workers can have major effects on communities at home and around the globe.\n\n    Below are some issues that are common to many companies today, with resources that can help you understand how your company is performing. On the bar to the left <a href=\"www.honestwork.org>general</a> you can find some more information based on specific sectors."
 template = "block-text"
 [[sections]]
 heading = "Climate Change"
