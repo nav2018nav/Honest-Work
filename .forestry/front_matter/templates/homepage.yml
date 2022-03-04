@@ -26,4 +26,5 @@ fields:
   type: boolean
   label: Password protected
 pages:
+- content/homepage-i.md
 - content/homepage.md
