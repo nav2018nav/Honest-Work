@@ -27,3 +27,4 @@ fields:
   label: Password protected
 pages:
 - content/homepage.md
+- content/test-home-page.md
