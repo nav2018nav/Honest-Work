@@ -25,6 +25,12 @@ fields:
 - name: password_protected
   type: boolean
   label: Password protected
+- name: template1
+  type: include
+  config: {}
+  template: coming-soon-page
+  label: template1
+  description: template1
 pages:
 - content/homepage.md
 - content/test/test-page.md
